@@ -1,4 +1,4 @@
-name: MIO-BTN-CI
+name: MIO-BTN-CI/CD
 
 on: 
   push:
