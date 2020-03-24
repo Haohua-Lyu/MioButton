@@ -1,4 +1,4 @@
-name: FBK-BTN-CI
+name: MIO-BTN-CI
 
 on: 
   push:
@@ -15,19 +15,14 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - name: Run Install
+    - name: Install Dependencies
       run: npm install
-    - name: Run Build
+    - name: Generate Static Site
       run: npm run build
         
-    - name: Deploy to Coding.net branch
-      working-directory: dist
-      run: |
-        git init
-        git config user.name "GitHub Actions Bot"
-        git config user.email "copperion@outlook.com"
-        git add --all .
-        git commit -m "Deploy from GitHub: $GITHUB_SHA"
-        git push --force --quiet "https://CcoRMLeNqi:${{ secrets.CODING_TOKEN }}@e.coding.net/copperion/fubuki-button.git" master:master
-
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.ACTIONS_TOKEN }}
+        publish_dir: ./dist
     
