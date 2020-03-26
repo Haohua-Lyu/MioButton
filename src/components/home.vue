@@ -33,9 +33,9 @@
 <style lang="scss" scoped>
 .cate-header{
     background-color: rgba(255, 122, 124, 0.404);
-    border: 1px solid rgba(221, 221, 221, 0.5);
-    border-radius: 10px;
-    text-align: center;
+    border: 2px solid rgba(199, 53, 52, 0.5);
+    border-radius: 15px;
+    text-align: left;
     font-size: 20px;
     margin-bottom: 12px;
 }

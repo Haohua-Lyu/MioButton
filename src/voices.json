@@ -3,135 +3,120 @@
         {
             "categoryName": "actmoe",
             "categoryDescription": {
-                "zh-CN": "萌",
-                "en-US": "Moe",
-                "ja-JP": "もえ"
+                "zh-CN": "可爱",
+                "ja-JP": "かわいい"
             },
             "voiceList": [
                 {
-                    "name": "f-032",
-                    "path": "f-032.mp3",
+                    "name": "mio-032",
+                    "path": "mio-032.mp3",
                     "description": {
-                        "zh-CN": "(自我介绍)我叫白上吹雪,是只狐狸!",
-                        "en-US": "(Self-intro)I'm Shirakami Fubuki, a fox!",
-                        "ja-JP": "白上フブキの自己紹介"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-002",
-                    "path": "f-002.mp3",
+                    "name": "mio-002",
+                    "path": "mio-002.mp3",
                     "description": {
-                        "zh-CN": "amuamuamu(吃)",
-                        "en-US": "amuamuamu(eating)",
-                        "ja-JP": "あむあむ"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-005",
-                    "path": "f-005.mp3",
+                    "name": "mio-005",
+                    "path": "mio-005.mp3",
                     "description": {
-                        "zh-CN": "布依布依布依(模仿)",
-                        "en-US": "bui-bui-bui(imitate)",
-                        "ja-JP": "イブの真似"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-006",
-                    "path": "f-006.mp3",
+                    "name": "mio-006",
+                    "path": "mio-006.mp3",
                     "description": {
-                        "zh-CN": "皮卡丘Pika(模仿)",
-                        "en-US": "pika-pikachu(imitate)",
-                        "ja-JP": "ピカチュウの真似"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-012",
-                    "path": "f-012.mp3",
+                    "name": "mio-012",
+                    "path": "mio-012.mp3",
                     "description": {
-                        "zh-CN": "种子种子(模仿妙蛙种子)",
-                        "en-US": "Bulbasaur(imitate)",
-                        "ja-JP": "フシギダネの真似"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-007",
-                    "path": "f-007.mp3",
+                    "name": "mio-007",
+                    "path": "mio-007.mp3",
                     "description": {
-                        "zh-CN": "狐言乱语绕口令1",
-                        "en-US": "Tongue twister 1",
-                        "ja-JP": "早口ことば1"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-008",
-                    "path": "f-008.mp3",
+                    "name": "mio-008",
+                    "path": "mio-008.mp3",
                     "description": {
-                        "zh-CN": "狐言乱语绕口令2(中文)",
-                        "en-US": "Tongue twister 2(Chinese)",
-                        "ja-JP": "早口ことば2"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-033",
-                    "path": "f-033.mp3",
+                    "name": "mio-033",
+                    "path": "mio-033.mp3",
                     "description": {
-                        "zh-CN": "(哈欠)好想睡觉啊",
-                        "en-US": "(yawn)I wanna sleep",
-                        "ja-JP": "(あくび)眠りたい"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-036",
-                    "path": "f-036.mp3",
+                    "name": "mio-036",
+                    "path": "mio-036.mp3",
                     "description": {
-                        "zh-CN": "打哈欠",
-                        "en-US": "Yawn",
-                        "ja-JP": "あくび"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-047",
-                    "path": "f-047.mp3",
+                    "name": "mio-047",
+                    "path": "mio-047.mp3",
                     "description": {
-                        "zh-CN": "咕努努",
-                        "en-US": "Gununu",
-                        "ja-JP": "ぐるるるるるる"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-048",
-                    "path": "f-048.mp3",
+                    "name": "mio-048",
+                    "path": "mio-048.mp3",
                     "description": {
-                        "zh-CN": "嗨呀!哎呀!哎哎哎",
-                        "en-US": "Ooooooooops!",
-                        "ja-JP": "あや!"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-050",
-                    "path": "f-050.mp3",
+                    "name": "mio-050",
+                    "path": "mio-050.mp3",
                     "description": {
-                        "zh-CN": "狐言乱语绕口令3",
-                        "en-US": "Tongue twister 3",
-                        "ja-JP": "早口ことば3"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-055",
-                    "path": "f-055.mp3",
+                    "name": "mio-055",
+                    "path": "mio-055.mp3",
                     "description": {
-                        "zh-CN": "想被狐狸治愈一下吗",
-                        "en-US": "Want to be cured by fox?",
-                        "ja-JP": "狐にいやされませんか？"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-057",
-                    "path": "f-057.mp3",
+                    "name": "mio-057",
+                    "path": "mio-057.mp3",
                     "description": {
-                        "zh-CN": "ko~ko~da~yo~",
-                        "en-US": "ko~ko~da~yo~",
-                        "ja-JP": "こ～こ～だ～よ～☆"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 }
             ]
@@ -140,89 +125,79 @@
             "categoryName": "nakigoe",
             "categoryDescription": {
                 "zh-CN": "叫声",
-                "en-US": "Roaring",
                 "ja-JP": "鳴き声"
             },
             "voiceList": [
                 {
-                    "name": "f-001",
-                    "path": "f-001.mp3",
+                    "name": "mio-001",
+                    "path": "mio-001.mp3",
                     "description": {
-                        "zh-CN": "kon-nya-nya-kon~",
-                        "en-US": "kon-nya-nya-kon~",
-                        "ja-JP": "kon-nya-nya-kon~"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-003",
-                    "path": "f-003.mp3",
+                    "name": "mio-003",
+                    "path": "mio-003.mp3",
                     "description": {
-                        "zh-CN": "咪~",
-                        "en-US": "mi~",
-                        "ja-JP": "にゃ"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-004",
-                    "path": "f-004.mp3",
+                    "name": "mio-004",
+                    "path": "mio-004.mp3",
                     "description": {
-                        "zh-CN": "嗯~konkonkonkon汪汪~汪汪konkon狐~",
-                        "en-US": "en~konkonkonkon-fox",
-                        "ja-JP": "うん～こんこん～こんこん狐!"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-042",
-                    "path": "f-042.mp3",
+                    "name": "mio-042",
+                    "path": "mio-042.mp3",
                     "description": {
-                        "zh-CN": "biu~哈!",
-                        "en-US": "biu~ha~",
-                        "ja-JP": "びょう～はっ!"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-043",
-                    "path": "f-043.mp3",
+                    "name": "mio-043",
+                    "path": "mio-043.mp3",
                     "description": {
-                        "zh-CN": "coya~~~n",
-                        "en-US": "coya~~~n",
-                        "ja-JP": "こやーーん"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-044",
-                    "path": "f-044.mp3",
+                    "name": "mio-044",
+                    "path": "mio-044.mp3",
                     "description": {
-                        "zh-CN": "啊(xN), fo(x6), fo~x, fo-fo~x",
-                        "en-US": "Ah(xN), fo(x6), fo~x, fo-fo~x",
-                        "ja-JP": "あっああ!フォウ..!フォウ..!フォウクス!"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-045",
-                    "path": "f-045.mp3",
+                    "name": "mio-045",
+                    "path": "mio-045.mp3",
                     "description": {
-                        "zh-CN": "大楚兴陈胜王(中文),kon~",
-                        "en-US": "大楚兴陈胜王(Fox barking in an ancient Chinese story), kon~",
-                        "ja-JP": "大楚兴陈胜王(だちゅうしんちんせいおう/中国の古い物語の狐の鳴声),kon~"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-051",
-                    "path": "f-051.mp3",
+                    "name": "mio-051",
+                    "path": "mio-051.mp3",
                     "description": {
-                        "zh-CN": "啾啾啾",
-                        "en-US": "Juu~juu~juu",
-                        "ja-JP": "ちゅうちゅう"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-064",
-                    "path": "f-064.mp3",
+                    "name": "mio-064",
+                    "path": "mio-064.mp3",
                     "description": {
-                        "zh-CN": "恐怖游戏破功狐(音量注意,心脏病患者慎入)",
-                        "en-US": "Scrared by horror game(ATTENTION LOUD)",
-                        "ja-JP": "ホラゲーに驚いたフブキちゃん(音量は大きいですよ)"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 }
             ]
@@ -231,143 +206,127 @@
           "categoryName": "common",
           "categoryDescription": {
             "zh-CN": "通用",
-            "en-US": "Common",
             "ja-JP": "通常"
           },
           "voiceList": [
             {
-                "name": "f-017",
-                "path": "f-017.mp3",
+                "name": "mio-017",
+                "path": "mio-017.mp3",
                 "description": {
-                    "zh-CN": "不是猫,不是猫啦,真是的",
-                    "en-US": "I'm not cat. Really!",
-                    "ja-JP": "猫じゃないよ!もう!"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-018",
-                "path": "f-018.mp3",
+                "name": "mio-018",
+                "path": "mio-018.mp3",
                 "description": {
-                    "zh-CN": "不是猫!",
-                    "en-US": "Not CAT!",
-                    "ja-JP": "猫じゃない!"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-019",
-                "path": "f-019.mp3",
+                "name": "mio-019",
+                "path": "mio-019.mp3",
                 "description": {
-                    "zh-CN": "(傲娇)才不要弄错了啊,人家才不会喜欢大家呢",
-                    "en-US": "Don't get it wrong, I won't like everyone of u",
-                    "ja-JP": "ツンデレ"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-022",
-                "path": "f-022.mp3",
+                "name": "mio-022",
+                "path": "mio-022.mp3",
                 "description": {
-                    "zh-CN": "是狐狸!",
-                    "en-US": "I'm FOX!",
-                    "ja-JP": "狐じゃい!"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-023",
-                "path": "f-023.mp3",
+                "name": "mio-023",
+                "path": "mio-023.mp3",
                 "description": {
-                    "zh-CN": "我...我...最喜欢...大家了!嗯!我爱你!",
-                    "en-US": "I...I like all of u most! Yes! I Love U!",
-                    "ja-JP": "みなんのことは大好き!!あいしている!"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-024",
-                "path": "f-024.mp3",
+                "name": "mio-024",
+                "path": "mio-024.mp3",
                 "description": {
-                    "zh-CN": "我爱你!我爱你可以嘛",
-                    "en-US": "I Love U! (Chinese)",
-                    "ja-JP": "あいしている!"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-025",
-                "path": "f-025.mp3",
+                "name": "mio-025",
+                "path": "mio-025.mp3",
                 "description": {
-                    "zh-CN": "我不是猫咪,系狐狸(中文)",
-                    "en-US": "I'm fox no cat(Chinese)",
-                    "ja-JP": "猫ではない、狐!(中国語)"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-029",
-                "path": "f-029.mp3",
+                "name": "mio-029",
+                "path": "mio-029.mp3",
                 "description": {
-                    "zh-CN": "怎么看都是狐狸,嗯",
-                    "en-US": "Fox anyway! Hum",
-                    "ja-JP": "どう見ても狐!うん!"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-030",
-                "path": "f-030.mp3",
+                "name": "mio-030",
+                "path": "mio-030.mp3",
                 "description": {
-                    "zh-CN": "这是什么东西呢？能吃么",
-                    "en-US": "What's this? Can I eat?",
-                    "ja-JP": "これはなんですか？食べるの？"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-039",
-                "path": "f-039.mp3",
+                "name": "mio-039",
+                "path": "mio-039.mp3",
                 "description": {
-                    "zh-CN": "是狐狸nya(xN)",
-                    "en-US": "I'm fox nya~(xN)",
-                    "ja-JP": "狐じゃいにゃ!(xN)"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-041",
-                "path": "f-041.mp3",
+                "name": "mio-041",
+                "path": "mio-041.mp3",
                 "description": {
-                    "zh-CN": "嘻嘻,是故意的哟",
-                    "en-US": "Hee hee, I did it on purpose",
-                    "ja-JP": "わざとですよ!"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-046",
-                "path": "f-046.mp3",
+                "name": "mio-046",
+                "path": "mio-046.mp3",
                 "description": {
-                    "zh-CN": "等着你哦,指挥官",
-                    "en-US": "Waiting for U, Commander",
-                    "ja-JP": "待てますよ~指揮官～"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-056",
-                "path": "f-056.mp3",
+                "name": "mio-056",
+                "path": "mio-056.mp3",
                 "description": {
-                    "zh-CN": "要开始咯",
-                    "en-US": "It's about to START!",
-                    "ja-JP": "行きます!"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-058",
-                "path": "f-058.mp3",
+                "name": "mio-058",
+                "path": "mio-058.mp3",
                 "description": {
-                    "zh-CN": "(小黑)鼓起干劲来啊笨蛋",
-                    "en-US": "(Koro-Chan)Come on!Baka",
-                    "ja-JP": "(黒様)元気出してよ、ばか"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-060",
-                "path": "f-060.mp3",
+                "name": "mio-060",
+                "path": "mio-060.mp3",
                 "description": {
-                    "zh-CN": "诶怎么了怎么了",
-                    "en-US": "What's going on?",
-                    "ja-JP": "えぇ?なんだ!?なんだ、なんだ、本当"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             }
           ]
@@ -376,62 +335,55 @@
           "categoryName": "greeting",
           "categoryDescription": {
             "zh-CN": "打招呼",
-            "en-US": "Greeting",
             "ja-JP": "挨拶"
           },
           "voiceList": [
             {
-                "name": "f-013",
-                "path": "f-013.mp3",
+                "name": "mio-013",
+                "path": "mio-013.mp3",
                 "description": {
-                    "zh-CN": "大家晚好狐",
-                    "en-US": "Everybody good evening!",
-                    "ja-JP": "こんばん狐!"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-014",
-                "path": "f-014.mp3",
+                "name": "mio-014",
+                "path": "mio-014.mp3",
                 "description": {
-                    "zh-CN": "出来~出来~出来!(中文)",
-                    "en-US": "Come out!(Chinese)",
-                    "ja-JP": "出てこい!(中国語)"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-031",
-                "path": "f-031.mp3",
+                "name": "mio-031",
+                "path": "mio-031.mp3",
                 "description": {
-                    "zh-CN": "自闭雪喵喵给大家拜年啦(中文)",
-                    "en-US": "Cat wish everyone a Happy New Year(Chinese)",
-                    "ja-JP": "猫年あけましておめでとう～(中国語)"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-038",
-                "path": "f-038.mp3",
+                "name": "mio-038",
+                "path": "mio-038.mp3",
                 "description": {
-                    "zh-CN": "你好 你好 好~好~好~(中文)",
-                    "en-US": "Hello Hello(Chinese)",
-                    "ja-JP": "こんにちは!~(中国語)"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-040",
-                "path": "f-040.mp3",
+                "name": "mio-040",
+                "path": "mio-040.mp3",
                 "description": {
-                    "zh-CN": "我是白上吹雪",
-                    "en-US": "I'm Shirakami Fubuki",
-                    "ja-JP": "白上フブキです"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-059",
-                "path": "f-059.mp3",
+                "name": "mio-059",
+                "path": "mio-059.mp3",
                 "description": {
-                    "zh-CN": "Bilibili的大家 新年快乐(中文)",
-                    "en-US": "Everyone in Bilibili happy new year(Chinese)",
-                    "ja-JP": "ビリビリの皆さん!新年あけましておめでとう!(中国語)"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             }
           ]
@@ -440,107 +392,95 @@
           "categoryName": "modal",
           "categoryDescription": {
             "zh-CN": "语气",
-            "en-US": "Modal",
             "ja-JP": "モーダル"
           },
           "voiceList": [
             {
-                "name": "f-009",
-                "path": "f-009.mp3",
+                "name": "mio-009",
+                "path": "mio-009.mp3",
                 "description": {
-                    "zh-CN": "嗯嗯嗯~嘿嘿嘿嘿",
-                    "en-US": "Hmm~hey hey(laughter)",
-                    "ja-JP": "うん~えへへ"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-010",
-                "path": "f-010.mp3",
+                "name": "mio-010",
+                "path": "mio-010.mp3",
                 "description": {
-                    "zh-CN": "啊好可爱!哇哇哇!",
-                    "en-US": "Ah so cute! Wow!",
-                    "ja-JP": "あ!かわいい!わい!"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-011",
-                "path": "f-011.mp3",
+                "name": "mio-011",
+                "path": "mio-011.mp3",
                 "description": {
-                    "zh-CN": "啊是这个!是这个!这个xN",
-                    "en-US": "Ah it's this! this one!(xN)",
-                    "ja-JP": "これだ!これだ!"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-016",
-                "path": "f-016.mp3",
+                "name": "mio-016",
+                "path": "mio-016.mp3",
                 "description": {
-                    "zh-CN": "啊我死啦(中文)",
-                    "en-US": "AWSL(Chinese)",
-                    "ja-JP": "AWSL"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-020",
-                "path": "f-020.mp3",
+                "name": "mio-020",
+                "path": "mio-020.mp3",
                 "description": {
-                    "zh-CN": "好~好~(中文)",
-                    "en-US": "OK~OK~(Chinese)",
-                    "ja-JP": "こんにちは～こんにちは!(中国語)"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-026",
-                "path": "f-026.mp3",
+                "name": "mio-026",
+                "path": "mio-026.mp3",
                 "description": {
-                    "zh-CN": "谢谢~谢谢(中文)",
-                    "en-US": "Thank you~(Chinese)",
-                    "ja-JP": "ありがどう!(中国語)"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-035",
-                "path": "f-035.mp3",
+                "name": "mio-035",
+                "path": "mio-035.mp3",
                 "description": {
-                    "zh-CN": "u-mua(双声道kiss)",
-                    "en-US": "u-mua(Kiss)",
-                    "ja-JP": "u-mua(なげキス)"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-037",
-                "path": "f-037.mp3",
+                "name": "mio-037",
+                "path": "mio-037.mp3",
                 "description": {
-                    "zh-CN": "可恶,好不甘心nya,好过分nya,什么nya这是",
-                    "en-US": "I can not be reconciled nya. A bit overkill nya!",
-                    "ja-JP": "クソ!悔しい!悔しいにゃ!なんにゃこれ!やんにゃこれにゃ!"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-052",
-                "path": "f-052.mp3",
+                "name": "mio-052",
+                "path": "mio-052.mp3",
                 "description": {
-                    "zh-CN": "就是这样",
-                    "en-US": "That's it",
-                    "ja-JP": "そうなんですよ～"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-053",
-                "path": "f-053.mp3",
+                "name": "mio-053",
+                "path": "mio-053.mp3",
                 "description": {
-                    "zh-CN": "太好啦!成功啦!poi~",
-                    "en-US": "Great!Success!Poi~",
-                    "ja-JP": "やった!やりました!poi~"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-054",
-                "path": "f-054.mp3",
+                "name": "mio-054",
+                "path": "mio-054.mp3",
                 "description": {
-                    "zh-CN": "晚安咯~",
-                    "en-US": "Good night~",
-                    "ja-JP": "おやすみなさい"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             }
           ]
@@ -548,54 +488,48 @@
         {
             "categoryName": "sing",
             "categoryDescription": {
-              "zh-CN": "狐歌",
-              "en-US": "Sing",
+              "zh-CN": "狼歌",
               "ja-JP": "歌う"
             },
             "voiceList": [
                 {
-                    "name": "f-034",
-                    "path": "f-034.mp3",
+                    "name": "mio-034",
+                    "path": "mio-034.mp3",
                     "description": {
-                        "zh-CN": "もっふもふ DE よいのじゃよ TV ver",
-                        "en-US": "もっふもふ DE よいのじゃよ TV ver",
-                        "ja-JP": "もっふもふ DE よいのじゃよ TV ver"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-049",
-                    "path": "f-049.mp3",
+                    "name": "mio-049",
+                    "path": "mio-049.mp3",
                     "description": {
-                        "zh-CN": "狐乐器1",
-                        "en-US": "FOX Music 1",
-                        "ja-JP": "きつね楽器1"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-061",
-                    "path": "f-061.mp3",
+                    "name": "mio-061",
+                    "path": "mio-061.mp3",
                     "description": {
-                        "zh-CN": "狐乐器2-Im. Scatman",
-                        "en-US": "FOX Music 2-Im. Scatman",
-                        "ja-JP": "きつね楽器2-Im. Scatman"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-062",
-                    "path": "f-062.mp3",
+                    "name": "mio-062",
+                    "path": "mio-062.mp3",
                     "description": {
-                        "zh-CN": "狐乐器3",
-                        "en-US": "FOX Music 3",
-                        "ja-JP": "きつね楽器3"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 },
                 {
-                    "name": "f-063",
-                    "path": "f-063.mp3",
+                    "name": "mio-063",
+                    "path": "mio-063.mp3",
                     "description": {
-                        "zh-CN": "狐乐器4-Witch Doctor",
-                        "en-US": "FOX Music 4-Witch Doctor",
-                        "ja-JP": "きつね楽器4-Witch Doctor"
+                        "zh-CN": "敬请期待",
+                        "ja-JP": "しばらくお待ちください"
                     }
                 }
             ]
@@ -604,44 +538,39 @@
           "categoryName": "other",
           "categoryDescription": {
             "zh-CN": "其他",
-            "en-US": "Other",
             "ja-JP": "その他"
           },
           "voiceList": [
             {
-                "name": "f-021",
-                "path": "f-021.mp3",
+                "name": "mio-021",
+                "path": "mio-021.mp3",
                 "description": {
-                    "zh-CN": "马自立酱!哇!嗅嗅!好香!",
-                    "en-US": "Matsuri Chan! Wow! Let me smell!",
-                    "ja-JP": "まつりちゃん!わい!スンスン!いい匂い!"
+                    "zh-CN": "敬请期待!",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-015",
-                "path": "f-015.mp3",
+                "name": "mio-015",
+                "path": "mio-015.mp3",
                 "description": {
-                    "zh-CN": "AMT-阿夸麻吉天使",
-                    "en-US": "AMT-Aqua is angel",
-                    "ja-JP": "AMT-あくあまじ天使"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-027",
-                "path": "f-027.mp3",
+                "name": "mio-027",
+                "path": "mio-027.mp3",
                 "description": {
-                    "zh-CN": "新年快乐耶!新年快乐!(中文)",
-                    "en-US": "Happy New Year!(Chinese)",
-                    "ja-JP": "あけましておめでとう～(中国語)"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
-                "name": "f-028",
-                "path": "f-028.mp3",
+                "name": "mio-028",
+                "path": "mio-028.mp3",
                 "description": {
-                    "zh-CN": "玉米~玉米~玉米con(中文)",
-                    "en-US": "Corn~Corn~(Chinese)",
-                    "ja-JP": "こーん、こーん(中国語)"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             }
           ]
