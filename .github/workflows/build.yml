@@ -20,9 +20,11 @@ jobs:
     - name: Generate Static Site
       run: npm run build
         
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        github_token: ${{ secrets.ACTIONS_TOKEN }}
-        publish_dir: ./dist
+        ACCESS_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
+        BRANCH: master
+        FOLDER: dist
+        REPOSITORY_NAME: MioButton/miobutton.github.io
     
