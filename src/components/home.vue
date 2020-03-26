@@ -35,7 +35,7 @@
     background-color: rgba(255, 122, 124, 0.404);
     border: 2px solid rgba(199, 53, 52, 0.5);
     border-radius: 15px;
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     margin-bottom: 12px;
 }
