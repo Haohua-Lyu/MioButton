@@ -3,8 +3,8 @@
         {
             "categoryName": "actmoe",
             "categoryDescription": {
-                "zh-CN": "可爱",
-                "ja-JP": "かわいい"
+                "zh-CN": "  可爱",
+                "ja-JP": "  かわいい"
             },
             "voiceList": [
                 {
@@ -124,8 +124,8 @@
         {
             "categoryName": "nakigoe",
             "categoryDescription": {
-                "zh-CN": "叫声",
-                "ja-JP": "鳴き声"
+                "zh-CN": "  叫声",
+                "ja-JP": "  鳴き声"
             },
             "voiceList": [
                 {
@@ -205,8 +205,8 @@
         {
           "categoryName": "common",
           "categoryDescription": {
-            "zh-CN": "通用",
-            "ja-JP": "通常"
+            "zh-CN": "  通用",
+            "ja-JP": "  通常"
           },
           "voiceList": [
             {
@@ -334,8 +334,8 @@
         {
           "categoryName": "greeting",
           "categoryDescription": {
-            "zh-CN": "打招呼",
-            "ja-JP": "挨拶"
+            "zh-CN": "  打招呼",
+            "ja-JP": "  挨拶"
           },
           "voiceList": [
             {
@@ -391,8 +391,8 @@
         {
           "categoryName": "modal",
           "categoryDescription": {
-            "zh-CN": "语气",
-            "ja-JP": "モーダル"
+            "zh-CN": "  语气",
+            "ja-JP": "  モーダル"
           },
           "voiceList": [
             {
@@ -488,8 +488,8 @@
         {
             "categoryName": "sing",
             "categoryDescription": {
-              "zh-CN": "狼歌",
-              "ja-JP": "歌う"
+              "zh-CN": "  狼歌",
+              "ja-JP": "  歌う"
             },
             "voiceList": [
                 {
@@ -537,8 +537,8 @@
         {
           "categoryName": "other",
           "categoryDescription": {
-            "zh-CN": "其他",
-            "ja-JP": "その他"
+            "zh-CN": "  其他",
+            "ja-JP": "  その他"
           },
           "voiceList": [
             {
