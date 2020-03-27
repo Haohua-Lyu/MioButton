@@ -8,11 +8,11 @@
             },
             "voiceList": [
                 {
-                    "name": "mio-055",
-                    "path": "mio-055.mp3",
+                    "name": "mio-1",
+                    "path": "mio-1.mp3",
                     "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
+                        "zh-CN": "呐呐呐",
+                        "ja-JP": "ナナナナナ"
                     }
                 },
                 {
