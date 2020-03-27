@@ -36,9 +36,9 @@
         </div>
         <footer class="footer">
             <div class="container-fluid footer-content">
-                <div class="pull-right">
-                    <div class="text-right"><a href="https://github.com/MioButton/MioButton" target="_blank">{{$t("info.toGithub")}} <img src="https://img.shields.io/github/stars/MioButton/MioButton.svg?style=social"/></a></div>
-                    <div class="text-right">{{$t("info.notOfficial")}}</div>
+                <div class="pull-center">
+                    <div class="text-center"><a href="https://github.com/MioButton/MioButton" target="_blank">{{$t("info.toGithub")}} <img src="https://img.shields.io/github/stars/MioButton/MioButton.svg?style=social"/></a></div>
+                    <div class="text-center">{{$t("info.notOfficial")}}</div>
                 </div>
                 <div class="pull-left">
                     <div>{{$t("info.audioStaff")}}</div>
