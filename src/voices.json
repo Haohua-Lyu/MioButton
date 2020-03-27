@@ -16,6 +16,38 @@
                     }
                 },
                 {
+                    "name": "mio-4",
+                    "path": "mio-4.mp3",
+                    "description": {
+                        "zh-CN": "古神AllRight Mio笑",
+                        "ja-JP": "NULL"
+                    }
+                },
+                {
+                    "name": "mio-5",
+                    "path": "mio-5.mp3",
+                    "description": {
+                        "zh-CN": "我肥肠开心(中文)",
+                        "ja-JP": "NULL"
+                    }
+                },
+                {
+                    "name": "mio-6",
+                    "path": "mio-6.mp3",
+                    "description": {
+                        "zh-CN": "谢↓谢↓(中文)",
+                        "ja-JP": "NULL"
+                    }
+                },
+                {
+                    "name": "mio-7",
+                    "path": "mio-7.mp3",
+                    "description": {
+                        "zh-CN": "可爱的笑声",
+                        "ja-JP": "NULL"
+                    }
+                },
+                {
                     "name": "mio-057",
                     "path": "mio-057.mp3",
                     "description": {
