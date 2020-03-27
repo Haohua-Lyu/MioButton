@@ -8,102 +8,6 @@
             },
             "voiceList": [
                 {
-                    "name": "mio-032",
-                    "path": "mio-032.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-002",
-                    "path": "mio-002.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-005",
-                    "path": "mio-005.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-006",
-                    "path": "mio-006.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-012",
-                    "path": "mio-012.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-007",
-                    "path": "mio-007.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-008",
-                    "path": "mio-008.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-033",
-                    "path": "mio-033.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-036",
-                    "path": "mio-036.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-047",
-                    "path": "mio-047.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-048",
-                    "path": "mio-048.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-050",
-                    "path": "mio-050.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
                     "name": "mio-055",
                     "path": "mio-055.mp3",
                     "description": {
@@ -128,62 +32,6 @@
                 "ja-JP": "鳴き声"
             },
             "voiceList": [
-                {
-                    "name": "mio-001",
-                    "path": "mio-001.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-003",
-                    "path": "mio-003.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-004",
-                    "path": "mio-004.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-042",
-                    "path": "mio-042.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-043",
-                    "path": "mio-043.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-044",
-                    "path": "mio-044.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-045",
-                    "path": "mio-045.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
                 {
                     "name": "mio-051",
                     "path": "mio-051.mp3",
@@ -210,110 +58,6 @@
           },
           "voiceList": [
             {
-                "name": "mio-017",
-                "path": "mio-017.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-018",
-                "path": "mio-018.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-019",
-                "path": "mio-019.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-022",
-                "path": "mio-022.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-023",
-                "path": "mio-023.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-024",
-                "path": "mio-024.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-025",
-                "path": "mio-025.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-029",
-                "path": "mio-029.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-030",
-                "path": "mio-030.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-039",
-                "path": "mio-039.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-041",
-                "path": "mio-041.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-046",
-                "path": "mio-046.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-056",
-                "path": "mio-056.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
                 "name": "mio-058",
                 "path": "mio-058.mp3",
                 "description": {
@@ -338,38 +82,6 @@
             "ja-JP": "挨拶"
           },
           "voiceList": [
-            {
-                "name": "mio-013",
-                "path": "mio-013.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-014",
-                "path": "mio-014.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-031",
-                "path": "mio-031.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-038",
-                "path": "mio-038.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
             {
                 "name": "mio-040",
                 "path": "mio-040.mp3",
@@ -396,78 +108,6 @@
           },
           "voiceList": [
             {
-                "name": "mio-009",
-                "path": "mio-009.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-010",
-                "path": "mio-010.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-011",
-                "path": "mio-011.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-016",
-                "path": "mio-016.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-020",
-                "path": "mio-020.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-026",
-                "path": "mio-026.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-035",
-                "path": "mio-035.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-037",
-                "path": "mio-037.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-052",
-                "path": "mio-052.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
                 "name": "mio-053",
                 "path": "mio-053.mp3",
                 "description": {
@@ -493,30 +133,6 @@
             },
             "voiceList": [
                 {
-                    "name": "mio-034",
-                    "path": "mio-034.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-049",
-                    "path": "mio-049.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
-                    "name": "mio-061",
-                    "path": "mio-061.mp3",
-                    "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
-                    }
-                },
-                {
                     "name": "mio-062",
                     "path": "mio-062.mp3",
                     "description": {
@@ -541,22 +157,6 @@
             "ja-JP": "その他"
           },
           "voiceList": [
-            {
-                "name": "mio-021",
-                "path": "mio-021.mp3",
-                "description": {
-                    "zh-CN": "敬请期待!",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
-            {
-                "name": "mio-015",
-                "path": "mio-015.mp3",
-                "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
-                }
-            },
             {
                 "name": "mio-027",
                 "path": "mio-027.mp3",
