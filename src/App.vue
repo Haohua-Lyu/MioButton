@@ -42,7 +42,7 @@
                 </div>
                 <div class="pull-left">
                     <div>{{$t("info.audioStaff")}}</div>
-                    <div>寒いもみじ雪 2020 <span style="color: rgba(0, 0, 0, 0.1)">Powered By Meowsound Idols</span></div>
+                    <div>寒いもみじ雪 2020 <span style="color: rgba(255, 149, 115, 0.1)">Powered By Meowsound Idols</span></div>
                 </div>
             </div>
         </footer>

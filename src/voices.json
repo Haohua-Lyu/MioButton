@@ -133,11 +133,11 @@
             },
             "voiceList": [
                 {
-                    "name": "mio-062",
-                    "path": "mio-062.mp3",
+                    "name": "mio-3",
+                    "path": "mio-3.mp3",
                     "description": {
-                        "zh-CN": "敬请期待",
-                        "ja-JP": "しばらくお待ちください"
+                        "zh-CN": "凛として咲く花の如く Cover by 大神澪",
+                        "ja-JP": "凛として咲く花の如く Cover by 大神ミオ"
                     }
                 },
                 {
