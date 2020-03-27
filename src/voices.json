@@ -58,11 +58,11 @@
           },
           "voiceList": [
             {
-                "name": "mio-2",
-                "path": "mio-2.mp3",
+                "name": "mio-060",
+                "path": "mio-060.mp3",
                 "description": {
-                    "zh-CN": "晚上好mion~我是大神澪~",
-                    "ja-JP": "こんばみおん~大神ミオです~"
+                    "zh-CN": "敬请期待",
+                    "ja-JP": "しばらくお待ちください"
                 }
             },
             {
@@ -83,11 +83,11 @@
           },
           "voiceList": [
             {
-                "name": "mio-040",
-                "path": "mio-040.mp3",
+                "name": "mio-2",
+                "path": "mio-2.mp3",
                 "description": {
-                    "zh-CN": "敬请期待",
-                    "ja-JP": "しばらくお待ちください"
+                    "zh-CN": "晚上好mion~我是大神澪~",
+                    "ja-JP": "こんばみおん~大神ミオです~"
                 }
             },
             {
