@@ -3,7 +3,7 @@ const zh_CN = {
         title: "狼按钮",
         info: "信息",
         null: "空",
-        audioStaff: "音频剪辑: 寒いもみじ雪 技术支持：孤单的铜离子 素材建议及提供(Bilibili昵称)：狐霞桑 & 澪家狐萝卜 & 伪面Joker & 究极救世内海",
+        audioStaff: "音频剪辑: 寒いもみじ雪 技术支持：孤单的铜离子 翻译：恐怖眼神 素材建议及提供(Bilibili昵称)：狐霞桑 & 澪家狐萝卜 & 伪面Joker & 究极救世内海",
         toGithub: "请在GitHub提出您的宝贵意见",
         notOfficial: "本站为爱好者作品，和hololive官方没有关联。上传的音频文件若有侵犯您的权益，请立即联系我们删除:samuimomijiyuki@qq.com",
         overlapTips: "叠加播放无法暂停，同时会创建大量线程，建议时不时刷新页面"
