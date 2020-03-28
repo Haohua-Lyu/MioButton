@@ -56,7 +56,7 @@ body{
 }
 .main-content{
     min-height: 100vh;
-    background-image: url('/resources/bg.jpg')
+    background-image: url('/resources/bg.jpg') no-repeat
 }
 .footer {
     width: 100%;
