@@ -20,6 +20,12 @@ Related Links:
 
 ## Special Thanks
 
+音频剪辑: 寒いもみじ雪
+
+翻译：恐怖眼神
+
+素材建议及提供(Bilibili昵称)：狐霞桑 & 澪家狐萝卜 & 伪面Joker & 究极救世内海
+
 This project is supported by MeowSound Idols.
 
 This project was greatly helped by [Lonely_ion](https://github.com/copperion)
