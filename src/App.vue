@@ -52,7 +52,7 @@
 <style lang="scss">
 @import "../node_modules/bootstrap/dist/css/bootstrap.css";
 body{
-    padding-top: 50px;
+    padding-top: 53px;
 }
 .main-content{
     min-height: 100vh;
