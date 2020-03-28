@@ -53,6 +53,10 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.css";
 body{
     padding-top: 70px;
+    background:url("../resources/bg.jpg") no-repeat;
+    background-size:cover;
+    width:10rem;
+    height:5rem;
 }
 .main-content{
     min-height: 100vh;
