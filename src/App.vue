@@ -70,6 +70,9 @@ body{
 .text-right{
     text-align: right;
 }
+.background{
+    background-image:url('../resources/bg.jpg')
+}
 </style>
 
 <script>
