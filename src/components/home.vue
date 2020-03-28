@@ -49,7 +49,7 @@
 .btn-new {
     color: #fff;
     background-color: rgba(199, 53, 52, 0.8);
-    border: 2px solid rgba(146, 221, 101 0.5);
+    border: 2px solid rgba(146, 221, 101, 0.5);
     border-radius: 15px;
 }
 .checkbox {
