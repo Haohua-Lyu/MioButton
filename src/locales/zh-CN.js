@@ -3,7 +3,7 @@ const zh_CN = {
         title: "狼按钮",
         info: "信息",
         null: "空",
-        audioStaff: "<span><a href=\"https://github.com/MioButton/MioButton/blob/master/README.md\">鸣谢</a></span>",
+        audioStaff: "鸣谢名单以及网站相关",
         toGithub: "请在GitHub提出您的宝贵意见",
         notOfficial: "本站为爱好者作品，和hololive官方没有关联。上传的音频文件若有侵犯您的权益，请立即联系我们删除:samuimomijiyuki@qq.com",
         overlapTips: "叠加播放无法暂停，同时会创建大量线程，建议时不时刷新页面"
