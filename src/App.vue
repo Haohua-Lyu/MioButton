@@ -65,7 +65,7 @@ body{
 }
 .footer-content {
     padding-top: 10px;
-    color: #f66;
+    color: #555;
 }
 .text-right{
     text-align: right;
