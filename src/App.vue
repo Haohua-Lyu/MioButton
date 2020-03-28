@@ -55,7 +55,7 @@ body{
     padding-top: 70px;
 }
 .main-content{
-    min-height: 100vh;
+    min-height: 110vh;
     background-image: url('/resources/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;

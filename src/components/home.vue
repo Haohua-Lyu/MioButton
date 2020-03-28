@@ -32,8 +32,8 @@
 
 <style lang="scss" scoped>
 .cate-header{
-    background-color: rgba(255, 122, 124, 0.404);
-    border: 2px solid rgba(199, 53, 52, 0.5);
+    background-color: rgba(255, 122, 124, 0.8);
+    border: 3px solid rgba(199, 53, 52, 0.5);
     border-radius: 15px;
     text-align: center;
     font-size: 20px;
@@ -48,8 +48,9 @@
 }
 .btn-new {
     color: #fff;
-    background-color: rgb(199, 53, 52);
-    border-color: rgb(146, 221, 101);
+    background-color: rgba(199, 53, 52, 0.8);
+    border: 2px solid rgba(146, 221, 101 0.5);
+    border-radius: 15px;
 }
 .checkbox {
     display: inline-block;
