@@ -69,7 +69,7 @@ body{
 }
 .footer-content {
     padding-top: 10px;
-    color: #666;
+    color: #f66;
 }
 .text-right{
     text-align: right;
