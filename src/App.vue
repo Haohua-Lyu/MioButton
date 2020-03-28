@@ -52,10 +52,10 @@
 <style lang="scss">
 @import "../node_modules/bootstrap/dist/css/bootstrap.css";
 body{
-    padding-top: 70px;
+    padding-top: 60px;
 }
 .main-content{
-    min-height: 110vh;
+    min-height: 100vh;
     background-image: url('/resources/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;

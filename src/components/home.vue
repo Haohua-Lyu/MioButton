@@ -36,6 +36,7 @@
     border: 3px solid rgba(199, 53, 52, 0.5);
     border-radius: 15px;
     text-align: center;
+    color: #fff
     font-size: 20px;
     margin-bottom: 12px;
 }
