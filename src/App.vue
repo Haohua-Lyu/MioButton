@@ -49,26 +49,6 @@
   </div>
 </template>
 
-<script>
-    import {mapActions, mapState, mapGetters} from 'vuex'
-    import backGroundImg from '../../resources/bg.png';
-    export default {
-        name: "resources",
-        data() {
-            return {
-              backGroundImg,
-              bg:{
-                background:`url(${backGroundImg})`,
-                backgroundSize:'100% 100%'
-              }
-            }
-        },
-        methods: {},
-        computed: {},
-        created() {
-        }
-    }
-</script>
 <style lang="scss">
 @import "../node_modules/bootstrap/dist/css/bootstrap.css";
 body{
