@@ -91,7 +91,7 @@
           "voiceList": [
             {
                 "name": "mio-060",
-                "path": "ミオボタン.mobileconfig",
+                "path": "mio-060.mp3",
                 "description": {
                     "zh-CN": "正在补充...",
                     "ja-JP": "更新しています..."
