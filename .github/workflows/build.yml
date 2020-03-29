@@ -20,11 +20,13 @@ jobs:
     - name: Generate Static Site
       run: npm run build
         
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
-        ACCESS_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
-        BRANCH: master
-        FOLDER: dist
-        REPOSITORY_NAME: MioButton/miobutton.github.io
+    - name: Deploy to Coding.net branch
+      working-directory: dist
+      run: |
+        git init
+        git config user.name "GitHub Actions Bot"
+        git config user.email "samuimomijiyuki@qq.com"
+        git add --all .
+        git commit -m "Deploy from GitHub: $GITHUB_SHA"
+        git push --force --quiet "https://COXIIIaLVD:${{ secrets.CODING_TOKEN }}@e.coding.net/miobutton/MioButton.github.io.git" master:master
     
