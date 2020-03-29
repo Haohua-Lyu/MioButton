@@ -24,7 +24,7 @@ Related Links:
 
 翻译：恐怖眼神
 
-素材建议及提供(Bilibili昵称)：狐霞桑 & 澪家狐萝卜 & 伪面Joker & 究极救世内海
+素材建议及提供(Bilibili昵称)：狐霞桑 & 澪家狐萝卜 & 伪面Joker & 究极救世内海 & 夜月赤
 
 This project is supported by MeowSound Idols.
 
