@@ -1,6 +1,6 @@
 # Ookami Mio button
 
-Mio Button [Click here to visit https://MioButton.github.io](https://MioButton.github.io)
+Mio Button [Click here to visit http://ookamimio.xyz](http://ookamimio.xyz)
 
 ![MIO-BTN-CI/CD](https://github.com/MioButton/MioButton/workflows/MIO-BTN-CI/CD/badge.svg)
 
