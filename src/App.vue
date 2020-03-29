@@ -43,7 +43,7 @@
                     <div class="text-left">{{$t("info.notOfficial")}}</div>
                 </div>
                 <div class="pull-left">
-                    <div class="text-left"><a href="http://miobutton.gitee.io/" target="_blank">{{$t("info.audioStaff")}}</a></div>
+                    <div class="text-left"><a href="https://miobutton.github.io/MioButton/" target="_blank">{{$t("info.audioStaff")}}</a></div>
                     <div>寒いもみじ雪 2020 <span style="color: rgba(0, 0, 0, 0.4)">Powered By Meowsound Idols</span></div>
                 </div>
             </div>
