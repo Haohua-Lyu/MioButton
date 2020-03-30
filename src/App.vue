@@ -19,6 +19,7 @@
                         <li><a href="https://twitter.com/ookamimio" target="_blank"><img src="resources/Twitter_Social_Icon_Circle_Color.png" height="18"/></a></li>
                         <li><a href="http://t.cn/A6ZtZRD2" target="_blank"><img src="resources/Android.png" height="18"/></a></li>
                         <li><a href="https://www.lanzous.com/iarrhef" target="_blank"><img src="resources/Apple.png" height="18"/></a></li>
+                        <li><a href="javascript:location.reload();" target="_blank"><img src="resources/Apple.png" height="18"/></a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
