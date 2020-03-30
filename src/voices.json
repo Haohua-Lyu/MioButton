@@ -89,6 +89,38 @@
                     }
                 },
                 {
+                    "name": "mio-12",
+                    "path": "mio-12.mp3",
+                    "description": {
+                        "zh-CN": "喵~",
+                        "ja-JP": "ニャア~"
+                    }
+                },
+                {
+                    "name": "mio-13",
+                    "path": "mio-13.mp3",
+                    "description": {
+                        "zh-CN": "咕噜咕噜~",
+                        "ja-JP": "ゴロゴロ~"
+                    }
+                },
+                {
+                    "name": "mio-14",
+                    "path": "mio-14.mp3",
+                    "description": {
+                        "zh-CN": "呱~",
+                        "ja-JP": "呱~"
+                    }
+                },
+                {
+                    "name": "mio-15",
+                    "path": "mio-15.mp3",
+                    "description": {
+                        "zh-CN": "汪~",
+                        "ja-JP": "ワン~"
+                    }
+                },
+                {
                     "name": "mio-064",
                     "path": "mio-064.mp3",
                     "description": {
@@ -97,23 +129,6 @@
                     }
                 }
             ]
-        },
-        {
-          "categoryName": "common",
-          "categoryDescription": {
-            "zh-CN": "通用",
-            "ja-JP": "通常"
-          },
-          "voiceList": [
-            {
-                "name": "mio-060",
-                "path": "mio-060.mp3",
-                "description": {
-                    "zh-CN": "正在补充...",
-                    "ja-JP": "更新しています..."
-                }
-            }
-          ]
         },
         {
           "categoryName": "greeting",
