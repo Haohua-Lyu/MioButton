@@ -3,18 +3,10 @@
         {
             "categoryName": "actmoe",
             "categoryDescription": {
-                "zh-CN": "可爱",
+                "zh-CN": "日常",
                 "ja-JP": "かわいい"
             },
             "voiceList": [
-                {
-                    "name": "mio-1",
-                    "path": "mio-1.mp3",
-                    "description": {
-                        "zh-CN": "呐呐呐",
-                        "ja-JP": "ナナナナナ"
-                    }
-                },
                 {
                     "name": "mio-4",
                     "path": "mio-4.mp3",
@@ -48,6 +40,14 @@
                     }
                 },
                 {
+                    "name": "mio-10",
+                    "path": "mio-10.mp3",
+                    "description": {
+                        "zh-CN": "Tiger时间",
+                        "ja-JP": "Tigerの時間"
+                    }
+                },
+                {
                     "name": "mio-057",
                     "path": "mio-057.mp3",
                     "description": {
@@ -64,6 +64,30 @@
                 "ja-JP": "鳴き声"
             },
             "voiceList": [
+                {
+                    "name": "mio-1",
+                    "path": "mio-1.mp3",
+                    "description": {
+                        "zh-CN": "呐呐呐",
+                        "ja-JP": "ナナナナナ"
+                    }
+                },
+                {
+                    "name": "mio-8",
+                    "path": "mio-8.mp3",
+                    "description": {
+                        "zh-CN": "啦啦啦（哭腔）",
+                        "ja-JP": "ラララ（泣いている）"
+                    }
+                },
+                {
+                    "name": "mio-11",
+                    "path": "mio-11.mp3",
+                    "description": {
+                        "zh-CN": "Kira~",
+                        "ja-JP": "Kira~"
+                    }
+                },
                 {
                     "name": "mio-064",
                     "path": "mio-064.mp3",
@@ -117,23 +141,6 @@
           ]
         },
         {
-          "categoryName": "modal",
-          "categoryDescription": {
-            "zh-CN": "语气",
-            "ja-JP": "モーダル"
-          },
-          "voiceList": [
-            {
-                "name": "mio-054",
-                "path": "mio-054.mp3",
-                "description": {
-                    "zh-CN": "正在补充...",
-                    "ja-JP": "更新しています..."
-                }
-            }
-          ]
-        },
-        {
             "categoryName": "sing",
             "categoryDescription": {
               "zh-CN": "狼歌",
@@ -146,6 +153,14 @@
                     "description": {
                         "zh-CN": "凛として咲く花の如く Cover by 大神澪",
                         "ja-JP": "凛として咲く花の如く Cover by 大神ミオ"
+                    }
+                },
+                {
+                    "name": "mio-9",
+                    "path": "mio-9.mp3",
+                    "description": {
+                        "zh-CN": "桑巴",
+                        "ja-JP": "サンバ"
                     }
                 },
                 {
