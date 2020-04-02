@@ -1,10 +1,10 @@
 ﻿{
     "voices": [
         {
-            "categoryName": "actmoe",
+            "categoryName": "daily",
             "categoryDescription": {
-                "zh-CN": "日常",
-                "ja-JP": "日常"
+                "zh-CN": "日常交流",
+                "ja-JP": "日常のコミュニケーション"
             },
             "voiceList": [
                 {
@@ -45,6 +45,22 @@
                     "description": {
                         "zh-CN": "Tiger时间",
                         "ja-JP": "Tigerの時間"
+                    }
+                },
+                {
+                    "name": "mio-17",
+                    "path": "mio-17.mp3",
+                    "description": {
+                        "zh-CN": "把大家干掉",
+                        "ja-JP": "みんなを殺す"
+                    }
+                },
+                {
+                    "name": "mio-18",
+                    "path": "mio-18.mp3",
+                    "description": {
+                        "zh-CN": "漆黑疾风 参上（帅哥音）",
+                        "ja-JP": "暗い速い風 を参照してください(ハンサムな声)"
                     }
                 },
                 {
@@ -121,6 +137,14 @@
                     }
                 },
                 {
+                    "name": "mio-16",
+                    "path": "mio-16.mp3",
+                    "description": {
+                        "zh-CN": "哔————卟",
+                        "ja-JP": "ビープ~"
+                    }
+                },
+                {
                     "name": "mio-064",
                     "path": "mio-064.mp3",
                     "description": {
@@ -129,6 +153,23 @@
                     }
                 }
             ]
+        },
+        {
+          "categoryName": "catchdolls",
+          "categoryDescription": {
+            "zh-CN": "抓娃娃合集",
+            "ja-JP": "クリップドールマシンのコレクション"
+          },
+          "voiceList": [
+            {
+                "name": "mio-028",
+                "path": "mio-028.mp3",
+                "description": {
+                    "zh-CN": "正在补充...",
+                    "ja-JP": "更新しています..."
+                }
+            }
+          ]
         },
         {
           "categoryName": "greeting",
@@ -156,7 +197,7 @@
           ]
         },
         {
-            "categoryName": "sing",
+            "categoryName": "song",
             "categoryDescription": {
               "zh-CN": "狼歌",
               "ja-JP": "歌う"

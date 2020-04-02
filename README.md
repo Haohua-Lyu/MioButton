@@ -12,7 +12,7 @@ Mio Button [http://ookamimio.xyz](http://ookamimio.xyz)
 
 ## 特别鸣谢/特別な感謝/Special Thanks
 
-音频剪辑/オーディオをクリップ: 寒いもみじ雪 & 夜月赤
+音频剪辑/オーディオをクリップ: 夜月赤 & 寒いもみじ雪
 
 翻译/翻訳担当：寒いもみじ雪 & 恐怖眼神
 
@@ -20,7 +20,7 @@ Mio Button [http://ookamimio.xyz](http://ookamimio.xyz)
 
 This project is supported by MeowSound Idols.
 
-This project was greatly helped by [Lonely_ion](https://github.com/copperion)
+This project was greatly helped by [Lonely_ion](https://github.com/lonelyion)
 
 This project is modified based on the [Aqua button](https://github.com/zyzsdy/aqua-button).
 
