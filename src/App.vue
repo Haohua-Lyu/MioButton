@@ -52,6 +52,11 @@
   </div>
 </template>
 
+<style type="text/css">
+    body {
+        -webkit-filter: grayscale(100%);
+    }
+</style>
 <style lang="scss">
 @import "../node_modules/bootstrap/dist/css/bootstrap.css";
 body{
