@@ -67,8 +67,6 @@ div.btnbg {
     left:0;
     top:0;
 }</style>
- </HEAD>
-
  <BODY>
 <canvas id="sakura"></canvas>
 <div class="btnbg">
@@ -872,11 +870,11 @@ function renderPointFlowers() {
     
     gl.enable(gl.DEPTH_TEST);
     gl.disable(gl.BLEND);
-}
+ }
 
-// effects
-//common util
-function createEffectProgram(vtxsrc, frgsrc, exunifs, exattrs) {
+ // effects
+ //common util
+ function createEffectProgram(vtxsrc, frgsrc, exunifs, exattrs) {
     var ret = {};
     var unifs = ['uResolution', 'uSrc', 'uDelta'];
     if(exunifs) {
@@ -904,15 +902,15 @@ function createEffectProgram(vtxsrc, frgsrc, exunifs, exattrs) {
     unuseShader(ret.program);
     
     return ret;
-}
+ }
 
-// basic usage
-// useEffect(prog, srctex({'texture':texid, 'dtxArray':(f32)[dtx, dty]})); //basic initialize
-// gl.uniform**(...); //additional uniforms
-// drawEffect()
-// unuseEffect(prog)
-// TEXTURE0 makes src
-function useEffect(fxobj, srctex) {
+ // basic usage
+ // useEffect(prog, srctex({'texture':texid, 'dtxArray':(f32)[dtx, dty]})); //basic initialize
+ // gl.uniform**(...); //additional uniforms
+ // drawEffect()
+ // unuseEffect(prog)
+ // TEXTURE0 makes src
+ function useEffect(fxobj, srctex) {
     var prog = fxobj.program;
     useShader(prog);
     gl.uniform3fv(prog.uniforms.uResolution, renderSpec.array);
@@ -924,18 +922,18 @@ function useEffect(fxobj, srctex) {
         gl.activeTexture(gl.TEXTURE0);
         gl.bindTexture(gl.TEXTURE_2D, srctex.texture);
     }
-}
-function drawEffect(fxobj) {
+ }
+ function drawEffect(fxobj) {
     gl.bindBuffer(gl.ARRAY_BUFFER, fxobj.buffer);
     gl.vertexAttribPointer(fxobj.program.attributes.aPosition, 2, gl.FLOAT, false, 0, 0);
     gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
-}
-function unuseEffect(fxobj) {
+ }
+ function unuseEffect(fxobj) {
     unuseShader(fxobj.program);
-}
+ }
 
-var effectLib = {};
-function createEffectLib() {
+ var effectLib = {};
+ function createEffectLib() {
     
     var vtxsrc, frgsrc;
     //common
@@ -957,16 +955,16 @@ function createEffectLib() {
     vtxsrc = document.getElementById("pp_final_vsh").textContent;
     frgsrc = document.getElementById("pp_final_fsh").textContent;
     effectLib.finalComp = createEffectProgram(vtxsrc, frgsrc, ['uBloom'], null);
-}
+ }
 
-// background
-function createBackground() {
+ // background
+ function createBackground() {
     //console.log("create background");
-}
-function initBackground() {
+ }
+ function initBackground() {
     //console.log("init background");
-}
-function renderBackground() {
+ }
+ function renderBackground() {
     gl.disable(gl.DEPTH_TEST);
     
     useEffect(effectLib.sceneBg, null);
@@ -975,18 +973,18 @@ function renderBackground() {
     unuseEffect(effectLib.sceneBg);
     
     gl.enable(gl.DEPTH_TEST);
-}
+ }
 
-// post process
-var postProcess = {};
-function createPostProcess() {
+ // post process
+ var postProcess = {};
+ function createPostProcess() {
     //console.log("create post process");
-}
-function initPostProcess() {
+ }
+ function initPostProcess() {
     //console.log("init post process");
-}
+ }
 
-function renderPostProcess() {
+ function renderPostProcess() {
     gl.enable(gl.TEXTURE_2D);
     gl.disable(gl.DEPTH_TEST);
     var bindRT = function (rt, isclear) {
@@ -1034,19 +1032,19 @@ function renderPostProcess() {
     unuseEffect(effectLib.finalComp);
     
     gl.enable(gl.DEPTH_TEST);
-}
+ }
 
-/////
-var SceneEnv = {};
-function createScene() {
+ /////
+ var SceneEnv = {};
+ function createScene() {
     createEffectLib();
     createBackground();
     createPointFlowers();
     createPostProcess();
     sceneStandBy = true;
-}
+ }
 
-function initScene() {
+ function initScene() {
     initBackground();
     initPointFlowers();
     initPostProcess();
@@ -1055,9 +1053,9 @@ function initScene() {
     camera.position.z = pointFlower.area.z + projection.nearfar[0];
     projection.angle = Math.atan2(pointFlower.area.y, camera.position.z + pointFlower.area.z) * 180.0 / Math.PI * 2.0;
     Matrix44.loadProjection(projection.matrix, renderSpec.aspect, projection.angle, projection.nearfar[0], projection.nearfar[1]);
-}
+ }
 
-function renderScene() {
+ function renderScene() {
     //draw
     Matrix44.loadLookAt(camera.matrix, camera.position, camera.lookat, camera.up);
     
@@ -1072,18 +1070,18 @@ function renderScene() {
     renderBackground();
     renderPointFlowers();
     renderPostProcess();
-}
+ }
 
-/////
-function onResize(e) {
+ /////
+ function onResize(e) {
     makeCanvasFullScreen(document.getElementById("sakura"));
     setViewports();
     if(sceneStandBy) {
         initScene();
     }
-}
+ }
 
-function setViewports() {
+ function setViewports() {
     renderSpec.setSize(gl.canvas.width, gl.canvas.height);
     
     gl.clearColor(0.2, 0.2, 0.5, 1.0);
@@ -1099,26 +1097,26 @@ function setViewports() {
     rtfunc('wFullRT1', renderSpec.width, renderSpec.height);
     rtfunc('wHalfRT0', renderSpec.halfWidth, renderSpec.halfHeight);
     rtfunc('wHalfRT1', renderSpec.halfWidth, renderSpec.halfHeight);
-}
+ }
 
-function render() {
+ function render() {
     renderScene();
-}
+ }
 
-var animating = true;
-function toggleAnimation(elm) {
+ var animating = true;
+ function toggleAnimation(elm) {
     animating ^= true;
     if(animating) animate();
     if(elm) {
         elm.innerHTML = animating? "Stop":"Start";
     }
-}
+ }
 
-function stepAnimation() {
+ function stepAnimation() {
     if(!animating) animate();
-}
+ }
 
-function animate() {
+ function animate() {
     var curdate = new Date();
     timeInfo.elapsed = (curdate - timeInfo.start) / 1000.0;
     timeInfo.delta = (curdate - timeInfo.prev) / 1000.0;
@@ -1126,18 +1124,18 @@ function animate() {
     
     if(animating) requestAnimationFrame(animate);
     render();
-}
+ }
 
-function makeCanvasFullScreen(canvas) {
+ function makeCanvasFullScreen(canvas) {
     var b = document.body;
 	var d = document.documentElement;
 	fullw = Math.max(b.clientWidth , b.scrollWidth, d.scrollWidth, d.clientWidth);
 	fullh = Math.max(b.clientHeight , b.scrollHeight, d.scrollHeight, d.clientHeight);
 	canvas.width = fullw;
 	canvas.height = fullh;
-}
+ }
 
-window.addEventListener('load', function(e) {
+ window.addEventListener('load', function(e) {
     var canvas = document.getElementById("sakura");
     try {
         makeCanvasFullScreen(canvas);
@@ -1157,15 +1155,14 @@ window.addEventListener('load', function(e) {
     timeInfo.start = new Date();
     timeInfo.prev = timeInfo.start;
     animate();
-});
+ });
 
-//set window.requestAnimationFrame
-(function (w, r) {
+ //set window.requestAnimationFrame
+ (function (w, r) {
     w['r'+r] = w['r'+r] || w['webkitR'+r] || w['mozR'+r] || w['msR'+r] || w['oR'+r] || function(c){ w.setTimeout(c, 1000 / 60); };
-})(window, 'equestAnimationFrame');
+ })(window, 'equestAnimationFrame');
   </script>
  </BODY>
-</HTML>
 
 <style type="text/css">
     body {
