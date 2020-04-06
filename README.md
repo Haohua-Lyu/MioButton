@@ -14,7 +14,7 @@ Mio Button [http://ookamimio.xyz](https://ookamimio.xyz)
 
 音频剪辑/オーディオクリップ担当: 夜月赤 & 寒いもみじ雪
 
-翻译/翻訳担当：恐怖眼神 & Soda & 寒いもみじ雪
+翻译/翻訳担当：Raphael丶丶 & AE曼珠沙华 & 恐怖眼神 & Soda & 寒いもみじ雪
 
 素材建议/リソース提案者(Bilibili昵称/ID)：狐霞桑 & 澪家狐萝卜 & 伪面Joker & 究极救世内海
 
