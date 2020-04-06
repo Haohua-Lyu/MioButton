@@ -13,10 +13,10 @@ const ja_JP = {
         close: "閉じる",
         copy: "コピー",
         control: "コントロール",
-        stopvoice: "再生停止",
+        stopvoice: "停止",
         randomplay: "ランダム",
         overlap: "声重なる可能",
-        autoplay: "とまらない",
+        autoplay: "自動放送",
         playing: "現在再生：",
         noplay: "再生なし"
     },

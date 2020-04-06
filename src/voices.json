@@ -12,7 +12,7 @@
                     "path": "mio-4.mp3",
                     "description": {
                         "zh-CN": "古神AllRight Mio笑",
-                        "ja-JP": "スバルのAll Rightおよびミオの笑う"
+                        "ja-JP": "スバルのAll Right　ミオの笑う声"
                     }
                 },
                 {
@@ -43,8 +43,8 @@
                     "name": "mio-10",
                     "path": "mio-10.mp3",
                     "description": {
-                        "zh-CN": "Tiger时间",
-                        "ja-JP": "Tigerの出番"
+                        "zh-CN": "Tiger帮大忙了",
+                        "ja-JP": "タイガー助かる"
                     }
                 },
                 {
@@ -64,6 +64,14 @@
                     }
                 },
                 {
+                    "name": "mio-1",
+                    "path": "mio-1.mp3",
+                    "description": {
+                        "zh-CN": "竟竟竟竟然",
+                        "ja-JP": "なななななんと"
+                    }
+                },
+                {
                     "name": "mio-057",
                     "path": "mio-057.mp3",
                     "description": {
@@ -80,14 +88,6 @@
                 "ja-JP": "鳴き声"
             },
             "voiceList": [
-                {
-                    "name": "mio-1",
-                    "path": "mio-1.mp3",
-                    "description": {
-                        "zh-CN": "呐呐呐",
-                        "ja-JP": "ナナナナナ"
-                    }
-                },
                 {
                     "name": "mio-8",
                     "path": "mio-8.mp3",
@@ -116,8 +116,8 @@
                     "name": "mio-13",
                     "path": "mio-13.mp3",
                     "description": {
-                        "zh-CN": "咕噜咕噜~",
-                        "ja-JP": "ゴロゴロ~"
+                        "zh-CN": "啊~~",
+                        "ja-JP": "アブルブルアーー"
                     }
                 },
                 {
@@ -140,8 +140,8 @@
                     "name": "mio-16",
                     "path": "mio-16.mp3",
                     "description": {
-                        "zh-CN": "哔————卟",
-                        "ja-JP": "ビープ~"
+                        "zh-CN": "遗忘光波",
+                        "ja-JP": "忘れるビーム"
                     }
                 },
                 {
@@ -200,7 +200,7 @@
             "categoryName": "song",
             "categoryDescription": {
               "zh-CN": "狼歌",
-              "ja-JP": "歌う"
+              "ja-JP": "ミオの歌"
             },
             "voiceList": [
                 {
