@@ -162,6 +162,54 @@
           },
           "voiceList": [
             {
+                "name": "mio-19",
+                "path": "mio-19.mp3",
+                "description": {
+                    "zh-CN": "啊啊啊拜托了",
+                    "ja-JP": "ア～～～～～、お願いします"
+                }
+            },
+            {
+                "name": "mio-20",
+                "path": "mio-20.mp3",
+                "description": {
+                    "zh-CN": "咕～～哈～～",
+                    "ja-JP": "グ～～ハ～～"
+                }
+            },
+            {
+                "name": "mio-21",
+                "path": "mio-21.mp3",
+                "description": {
+                    "zh-CN": "十分感谢，辛苦了",
+                    "ja-JP": "ありがとうございました！お疲れ様でした"
+                }
+            },
+            {
+                "name": "mio-22",
+                "path": "mio-22.mp3",
+                "description": {
+                    "zh-CN": "Moooo~",
+                    "ja-JP": "モ～～"
+                }
+            },
+            {
+                "name": "mio-23",
+                "path": "mio-23.mp3",
+                "description": {
+                    "zh-CN": "啊哈哈哈哈",
+                    "ja-JP": "アハハハハハハ"
+                }
+            },
+            {
+                "name": "mio-24",
+                "path": "mio-24.mp3",
+                "description": {
+                    "zh-CN": "咕喵",
+                    "ja-JP": "ぐにゃ"
+                }
+            },
+            {
                 "name": "mio-028",
                 "path": "mio-028.mp3",
                 "description": {
