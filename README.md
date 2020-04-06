@@ -12,11 +12,11 @@ Mio Button [http://ookamimio.xyz](https://ookamimio.xyz)
 
 ## 特别鸣谢/特別な感謝/Special Thanks
 
-音频剪辑/素材のアドバイス: 夜月赤 & 寒いもみじ雪
+音频剪辑/オーディオクリップ担当: 夜月赤 & 寒いもみじ雪
 
 翻译/翻訳担当：恐怖眼神 & Soda & 寒いもみじ雪
 
-素材建议/リソースの提案(Bilibili昵称/ニックネーム)：狐霞桑 & 澪家狐萝卜 & 伪面Joker & 究极救世内海
+素材建议/リソース提案者(Bilibili昵称/ID)：狐霞桑 & 澪家狐萝卜 & 伪面Joker & 究极救世内海
 
 This project is supported by MeowSound Idols.
 

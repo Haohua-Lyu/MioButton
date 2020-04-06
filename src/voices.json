@@ -4,7 +4,7 @@
             "categoryName": "daily",
             "categoryDescription": {
                 "zh-CN": "日常交流",
-                "ja-JP": "日常のコミュニケーション"
+                "ja-JP": "日常会話"
             },
             "voiceList": [
                 {
@@ -20,7 +20,7 @@
                     "path": "mio-5.mp3",
                     "description": {
                         "zh-CN": "我肥肠开心(中文)",
-                        "ja-JP": "私はとても嬉しい（中国語）"
+                        "ja-JP": "ウチはとても嬉しいです（中国語）"
                     }
                 },
                 {
@@ -52,7 +52,7 @@
                     "path": "mio-17.mp3",
                     "description": {
                         "zh-CN": "把大家干掉",
-                        "ja-JP": "みんなを倒す"
+                        "ja-JP": "全員ぶっちぎってやろうと思います"
                     }
                 },
                 {
@@ -76,7 +76,7 @@
                     "path": "mio-057.mp3",
                     "description": {
                         "zh-CN": "正在补充...",
-                        "ja-JP": "更新しています..."
+                        "ja-JP": "どんどん増えています..."
                     }
                 }
             ]
@@ -85,7 +85,7 @@
             "categoryName": "nakigoe",
             "categoryDescription": {
                 "zh-CN": "叫声",
-                "ja-JP": "鳴き声"
+                "ja-JP": "変な鳴き声"
             },
             "voiceList": [
                 {
@@ -93,7 +93,7 @@
                     "path": "mio-8.mp3",
                     "description": {
                         "zh-CN": "啦啦啦（哭腔）",
-                        "ja-JP": "ラララ（泣いている）"
+                        "ja-JP": "ラララ（涙声）"
                     }
                 },
                 {
@@ -149,7 +149,7 @@
                     "path": "mio-064.mp3",
                     "description": {
                         "zh-CN": "正在补充...",
-                        "ja-JP": "更新しています..."
+                        "ja-JP": "どんどん増えています..."
                     }
                 }
             ]
@@ -166,7 +166,7 @@
                 "path": "mio-028.mp3",
                 "description": {
                     "zh-CN": "正在补充...",
-                    "ja-JP": "更新しています..."
+                    "ja-JP": "どんどん増えています..."
                 }
             }
           ]
@@ -191,7 +191,7 @@
                 "path": "mio-059.mp3",
                 "description": {
                     "zh-CN": "正在补充...",
-                    "ja-JP": "更新しています..."
+                    "ja-JP": "どんどん増えています..."
                 }
             }
           ]
@@ -216,7 +216,7 @@
                     "path": "mio-9.mp3",
                     "description": {
                         "zh-CN": "桑巴",
-                        "ja-JP": "サンバ"
+                        "ja-JP": "すずめがサンバ"
                     }
                 },
                 {
@@ -224,7 +224,7 @@
                     "path": "mio-063.mp3",
                     "description": {
                         "zh-CN": "正在补充...",
-                        "ja-JP": "更新しています..."
+                        "ja-JP": "どんどん増えています..."
                     }
                 }
             ]
@@ -233,7 +233,7 @@
           "categoryName": "other",
           "categoryDescription": {
             "zh-CN": "其他",
-            "ja-JP": "その他"
+            "ja-JP": "ほか"
           },
           "voiceList": [
             {
@@ -241,7 +241,7 @@
                 "path": "mio-028.mp3",
                 "description": {
                     "zh-CN": "正在补充...",
-                    "ja-JP": "更新しています..."
+                    "ja-JP": "どんどん増えています..."
                 }
             }
           ]
