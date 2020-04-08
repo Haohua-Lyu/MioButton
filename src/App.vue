@@ -59,11 +59,6 @@ body{
 }
 .main-content{
     min-height: 100vh;
-    background-image: url('/resources/bg.jpg');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    -moz-background-size: cover;
 }
 .footer {
     width: 100%;
