@@ -59,7 +59,7 @@ body{
 }
 .main-content{
     min-height: 100vh;
-    color: #FFFDE0;
+    background-color: #FFFDE0;
 }
 .footer {
     width: 100%;
