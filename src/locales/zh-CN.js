@@ -14,8 +14,8 @@ const zh_CN = {
         copy: "复制",
         control: "操作控制",
         stopvoice: "停止",
-        randomplay: "随机选择(无法暂停)",
-        overlap: "音频重叠播放",
+        randomplay: "随机选择",
+        overlap: "重叠播放(无法暂停)",
         autoplay: "自动播放",
         playing: "正在播放：",
         noplay: "暂无播放"
