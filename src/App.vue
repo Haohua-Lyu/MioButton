@@ -60,7 +60,6 @@ body{
 .main-content{
     min-height: 100vh;
     background-image: url('/resources/bg.jpg');
-    background-size: cover;
 }
 .footer {
     width: 100%;
