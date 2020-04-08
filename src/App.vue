@@ -61,7 +61,7 @@ body{
     min-height: 100vh;
     background-image: url('/resources/bg.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 57%;
     -moz-background-size: 100% 100%;
 }
 .footer {
