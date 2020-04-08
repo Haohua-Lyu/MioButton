@@ -63,7 +63,7 @@ body{
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-origin: content-box;
+    -moz-background-size: 90% 90%;
 }
 .footer {
     width: 100%;
