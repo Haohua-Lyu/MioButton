@@ -9,7 +9,7 @@
                     <input class="checkbox" type="checkbox" v-model="overlapCheck">
                     <span>{{ $t("action.overlap") }}</span>
                 </button>
-                <button class="btn btn-info" :class="{ 'disabled': overlapCheck }" @click="autoPlay">
+                <button class="btn btn-info" :class="{ 'disabled': overlapCheck }" @click="autoPlay" @click="stopvoice">
                     <input class="checkbox" type="checkbox" v-model="autoCheck">
                     <span>{{ $t("action.autoplay") }}</span>
                 </button>
