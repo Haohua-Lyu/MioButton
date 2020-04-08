@@ -62,7 +62,7 @@ body{
     background-image: url('/resources/bg.jpg');
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto;
     -moz-background-size: 100% 100%;
 }
 .footer {
