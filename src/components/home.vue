@@ -44,7 +44,7 @@
 .cate-body{
     margin-bottom: 12px;
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 .cate-body button{
     margin: 5px;
