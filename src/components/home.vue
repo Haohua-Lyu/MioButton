@@ -5,7 +5,7 @@
             <div class="cate-body">
                 <button class="btn btn-info" @click="random">{{ $t("action.randomplay") }}</button>
                 <button class="btn btn-info" @click="stopPlay">{{$t("action.stopvoice") }}</button>
-                <button class="btn btn-info" :class="{ 'disabled': autoCheck,voiceEnd }" @click="overlap" :title="$t('info.overlapTips')">
+                <button class="btn btn-info" :class="{ 'disabled': autoCheck,pause }" @click="overlap" :title="$t('info.overlapTips')">
                     <input class="checkbox" type="checkbox" v-model="overlapCheck">
                     <span>{{ $t("action.overlap") }}</span>
                 </button>
