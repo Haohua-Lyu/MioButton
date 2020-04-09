@@ -58,7 +58,6 @@ body{
     padding-top: 281px;
 }
 .main-content{
-    margin-top: -230;
     min-height: 100vh;
     background-color: #FFFDE0;
     background-image: url(/resources/bg.jpg);
