@@ -3,7 +3,7 @@
         <style>
             img {
                 width: 50px;
-                height: 25px;
+                height: 50px;
             }
         </style>
         <div>
