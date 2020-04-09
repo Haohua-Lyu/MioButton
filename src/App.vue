@@ -59,6 +59,7 @@ body{
 }
 .main-content{
     min-height: 100vh;
+    margin-top: -240px;
     background-color: #FFFDE0;
     background-image: url(/resources/bg.jpg);
     background-repeat: no-repeat;
