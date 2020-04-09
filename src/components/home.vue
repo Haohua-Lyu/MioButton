@@ -1,15 +1,5 @@
 <template>
     <div class="container-fluid" >
-        <style>
-            img {
-                width: 50px;
-                height: 50px;
-            }
-        </style>
-        <div>
-            <div>
-                <img src="bg.jpg" alt="">
-            </div>
             <div class="cate-header">{{ $t("action.control")}}</div>
             <div class="cate-body">
                 <button class="btn btn-info" @click="random">{{ $t("action.randomplay") }}</button>
