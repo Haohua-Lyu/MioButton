@@ -1,12 +1,12 @@
 <template>
     <div class="container-fluid" >
+        <style>
+            img {
+                width: 100%;
+                height: auto;
+            }
+        </style>
         <div>
-            <style>
-                img {
-                    width: 100%;
-                    height: auto;
-                }
-            </style>
             <div>
                 <img src="bg.jpg" alt="">
             </div>
