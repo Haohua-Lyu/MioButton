@@ -38,7 +38,7 @@
     text-align: center;
     color: #fff;
     font-size: 20px;
-    margin-top: -230px;
+    margin-top: 12px;
     margin-bottom: 12px;
 }
 .cate-body{
