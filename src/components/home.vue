@@ -2,8 +2,8 @@
     <div class="container-fluid" >
         <style>
             img {
-                width: 100%;
-                height: auto;
+                width: 50px;
+                height: 25px;
             }
         </style>
         <div>
