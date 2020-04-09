@@ -39,7 +39,7 @@
     color: #fff;
     font-size: 20px;
     margin-top: 242px;
-    margin-bottom: -218px;
+    margin-bottom: 12px;
 }
 .cate-body{
     margin-bottom: 12px;
