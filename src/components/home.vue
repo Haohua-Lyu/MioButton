@@ -1,5 +1,6 @@
 <template>
     <div class="container-fluid" >
+        <div>
             <div class="cate-header">{{ $t("action.control")}}</div>
             <div class="cate-body">
                 <button class="btn btn-info" @click="random">{{ $t("action.randomplay") }}</button>
