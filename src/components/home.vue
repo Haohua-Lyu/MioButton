@@ -1,7 +1,15 @@
 <template>
     <div class="container-fluid" >
         <div>
-            <div style="background-image: url(/resources/bg.jpg);background-repeat: no-repeat;background-size: 100%;-moz-background-size: 100%;"></div>
+            <style>
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            </style>
+            <div>
+                <img src="bg.jpg" alt="">
+            </div>
             <div class="cate-header">{{ $t("action.control")}}</div>
             <div class="cate-body">
                 <button class="btn btn-info" @click="random">{{ $t("action.randomplay") }}</button>
