@@ -39,11 +39,13 @@
     color: #fff;
     font-size: 20px;
     margin-top: 12px;
+    padding-top: 240px;
     margin-bottom: 12px;
 }
 .cate-body{
-    margin-top: 12px;
+    margin-top: 252px;
     margin-bottom: 12px;
+    padding-top:240px;
     text-align: center;
     color: #000;
 }
