@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid" >
         <div>
-            <div class="topphoto"></div>
+            <div style="background-image: url(/resources/bg.jpg);background-repeat: no-repeat;background-size: 100%;-moz-background-size: 100%;"></div>
             <div class="cate-header">{{ $t("action.control")}}</div>
             <div class="cate-body">
                 <button class="btn btn-info" @click="random">{{ $t("action.randomplay") }}</button>
@@ -32,12 +32,6 @@
 </template>
 
 <style lang="scss" scoped>
-.topphoto{
-    background-image: url(/resources/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    -moz-background-size: 100%;
-}
 .cate-header{
     background-color: rgba(255, 122, 124, 0.8);
     border: 3px solid rgba(199, 53, 52, 0.5);
