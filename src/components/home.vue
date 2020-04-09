@@ -1,6 +1,7 @@
 <template>
     <div class="container-fluid" >
         <div>
+            <div class="title"><img src="/resources/bg.png" style="width:15%;height:auto;"/></div>
             <div class="cate-header">{{ $t("action.control")}}</div>
             <div class="cate-body">
                 <button class="btn btn-info" @click="random">{{ $t("action.randomplay") }}</button>
@@ -31,6 +32,10 @@
 </template>
 
 <style lang="scss" scoped>
+.title{
+    text-align: center;
+    margin-top: 12px;
+}
 .cate-header{
     background-color: rgba(255, 122, 124, 0.8);
     border: 3px solid rgba(199, 53, 52, 0.5);
