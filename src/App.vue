@@ -60,10 +60,6 @@ body{
 .main-content{
     min-height: 100vh;
     background-color: #FFFDE0;
-    background-image: url(/resources/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    -moz-background-size: 100%;
 }
 .footer {
     width: 100%;
