@@ -73,6 +73,7 @@ body{
 }
 .footer-content {
     padding-top: 10px;
+    padding-bottom: 10px;
     color: #555;
 }
 .text-right{

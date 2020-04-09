@@ -38,8 +38,8 @@
     text-align: center;
     color: #fff;
     font-size: 20px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 242px;
+    margin-bottom: -218px;
 }
 .cate-body{
     margin-bottom: 12px;
