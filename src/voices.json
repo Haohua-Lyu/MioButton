@@ -70,14 +70,6 @@
                         "zh-CN": "竟竟竟竟然",
                         "ja-JP": "なななななんと"
                     }
-                },
-                {
-                    "name": "mio-057",
-                    "path": "mio-057.mp3",
-                    "description": {
-                        "zh-CN": "正在补充...",
-                        "ja-JP": "どんどん増えています..."
-                    }
                 }
             ]
         },
@@ -143,14 +135,6 @@
                         "zh-CN": "遗忘光波",
                         "ja-JP": "忘れるビーム"
                     }
-                },
-                {
-                    "name": "mio-064",
-                    "path": "mio-064.mp3",
-                    "description": {
-                        "zh-CN": "正在补充...",
-                        "ja-JP": "どんどん増えています..."
-                    }
                 }
             ]
         },
@@ -208,14 +192,6 @@
                     "zh-CN": "咕喵",
                     "ja-JP": "ぐにゃ"
                 }
-            },
-            {
-                "name": "mio-028",
-                "path": "mio-028.mp3",
-                "description": {
-                    "zh-CN": "正在补充...",
-                    "ja-JP": "どんどん増えています..."
-                }
             }
           ]
         },
@@ -232,14 +208,6 @@
                 "description": {
                     "zh-CN": "晚上好mion~我是大神澪~",
                     "ja-JP": "こんばみおん~大神ミオです~"
-                }
-            },
-            {
-                "name": "mio-059",
-                "path": "mio-059.mp3",
-                "description": {
-                    "zh-CN": "正在补充...",
-                    "ja-JP": "どんどん増えています..."
                 }
             }
           ]
@@ -266,33 +234,8 @@
                         "zh-CN": "桑巴",
                         "ja-JP": "すずめがサンバ"
                     }
-                },
-                {
-                    "name": "mio-063",
-                    "path": "mio-063.mp3",
-                    "description": {
-                        "zh-CN": "正在补充...",
-                        "ja-JP": "どんどん増えています..."
-                    }
                 }
             ]
-        },
-        {
-          "categoryName": "other",
-          "categoryDescription": {
-            "zh-CN": "其他",
-            "ja-JP": "ほか"
-          },
-          "voiceList": [
-            {
-                "name": "mio-028",
-                "path": "mio-028.mp3",
-                "description": {
-                    "zh-CN": "正在补充...",
-                    "ja-JP": "どんどん増えています..."
-                }
-            }
-          ]
         }
     ]
 }

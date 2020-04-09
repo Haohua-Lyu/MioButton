@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid" >
         <div>
-            <div class="title"><img src="/resources/bg.png" style="width:15%;height:auto;"/></div>
+            <div class="title"><img src="/resources/bg.png" style="width:42%;height:auto;"/></div>
             <div class="cate-header">{{ $t("action.control")}}</div>
             <div class="cate-body">
                 <button class="btn btn-info" @click="random">{{ $t("action.randomplay") }}</button>
