@@ -64,6 +64,14 @@
                     }
                 },
                 {
+                    "name": "mio-27",
+                    "path": "mio-27.mp3",
+                    "description": {
+                        "zh-CN": "好！下一位~",
+                        "ja-JP": "はい!次のカタ〜"
+                    }
+                },
+                {
                     "name": "mio-1",
                     "path": "mio-1.mp3",
                     "description": {
@@ -159,14 +167,6 @@
                   "description": {
                       "zh-CN": "mooo~",
                       "ja-JP": "も～～～～～～"
-                  }
-              },
-              {
-                  "name": "mio-27",
-                  "path": "mio-27.mp3",
-                  "description": {
-                      "zh-CN": "好！下一位~",
-                      "ja-JP": "はい!次のカタ〜"
                   }
               },
               {
