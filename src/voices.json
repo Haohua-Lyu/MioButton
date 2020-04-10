@@ -139,10 +139,75 @@
             ]
         },
         {
+            "categoryName": "wolfcat",
+            "categoryDescription": {
+              "zh-CN": "狼和猫",
+              "ja-JP": "狼と彼女の猫"
+            },
+            "voiceList": [
+              {
+                  "name": "mio-25",
+                  "path": "mio-25.mp3",
+                  "description": {
+                      "zh-CN": "好疼！！",
+                      "ja-JP": "痛い～～"
+                  }
+              },
+              {
+                  "name": "mio-26",
+                  "path": "mio-26.mp3",
+                  "description": {
+                      "zh-CN": "mooo~",
+                      "ja-JP": "も～～～～～～"
+                  }
+              },
+              {
+                  "name": "mio-27",
+                  "path": "mio-27.mp3",
+                  "description": {
+                      "zh-CN": "好！下一位~",
+                      "ja-JP": "はい!次のカタ〜"
+                  }
+              },
+              {
+                  "name": "mio-28",
+                  "path": "mio-28.mp3",
+                  "description": {
+                      "zh-CN": "我要把你丢到走廊去",
+                      "ja-JP": "かじらない廊下に追い出すぞ、もう我慢ならなね"
+                  }
+              },
+              {
+                  "name": "mio-29",
+                  "path": "mio-29.mp3",
+                  "description": {
+                      "zh-CN": "再咬就把你丢出去",
+                      "ja-JP": "痛い～～"
+                  }
+              },
+              {
+                  "name": "mio-30",
+                  "path": "mio-30.mp3",
+                  "description": {
+                      "zh-CN": "啊啊啊啊！Tiger！",
+                      "ja-JP": "あああああ、たいが"
+                  }
+              },
+              {
+                  "name": "mio-31",
+                  "path": "mio-31.mp3",
+                  "description": {
+                      "zh-CN": "疼疼疼",
+                      "ja-JP": "痛い痛い痛い"
+                  }
+              }
+            ]
+          },
+        {
           "categoryName": "catchdolls",
           "categoryDescription": {
-            "zh-CN": "抓娃娃合集",
-            "ja-JP": "クリップドールマシンのコレクション"
+            "zh-CN": "抓娃娃",
+            "ja-JP": "人形を捕まえる"
           },
           "voiceList": [
             {
