@@ -1,6 +1,55 @@
 ﻿{
     "voices": [
         {
+            "categoryName": "cutewolf",
+            "categoryDescription": {
+              "zh-CN": "萝莉狼",
+              "ja-JP": "ロリミオ"
+            },
+            "voiceList": [
+              {
+                  "name": "mio-31",
+                  "path": "mio-31.mp4",
+                  "description": {
+                      "zh-CN": "那个...!啊！哈，哈啊被表扬了！好开心！哈、哈、哈哈哈",
+                      "ja-JP": "ええと...！あのう！ハ、ハハ！褒められてる！嬉しい！ハハハ..."
+                  }
+              },
+              {
+                  "name": "mio-32",
+                  "path": "mio-32.mp4",
+                  "description": {
+                      "zh-CN": "哇、哇哦—————哇嗷———！",
+                      "ja-JP": "わ、わおーーーーわおーーーん！"
+                  }
+              },
+              {
+                  "name": "mio-33",
+                  "path": "mio-33.mp4",
+                  "description": {
+                      "zh-CN": "呐—打喷嚏啦",
+                      "ja-JP": "ヒクシーーなぁーくしゃみでした"
+                  }
+              },
+              {
+                  "name": "mio-34",
+                  "path": "mio-34.mp4",
+                  "description": {
+                      "zh-CN": "咱呢！那个！把眼睛闭上的话...",
+                      "ja-JP": "うちね！おのね！あの、おめめね！ギューッてつぶてんねぇ..."
+                  }
+              },
+              {
+                  "name": "mio-35",
+                  "path": "mio-35.mp4",
+                  "description": {
+                      "zh-CN": "动物之森的不明音乐",
+                      "ja-JP": "あつ森の不明なトラック"
+                  }
+              }
+            ]
+        },
+        {
             "categoryName": "daily",
             "categoryDescription": {
                 "zh-CN": "狼之日常",
@@ -9,7 +58,7 @@
             "voiceList": [
                 {
                     "name": "mio-4",
-                    "path": "mio-4.mp3",
+                    "path": "mio-4.mp4",
                     "description": {
                         "zh-CN": "古神AllRight Mio笑",
                         "ja-JP": "スバルのAll Right　ミオの笑う声"
@@ -17,7 +66,7 @@
                 },
                 {
                     "name": "mio-5",
-                    "path": "mio-5.mp3",
+                    "path": "mio-5.mp4",
                     "description": {
                         "zh-CN": "我肥肠开心(中文)",
                         "ja-JP": "ウチはとても嬉しいです（中国語）"
@@ -25,7 +74,7 @@
                 },
                 {
                     "name": "mio-6",
-                    "path": "mio-6.mp3",
+                    "path": "mio-6.mp4",
                     "description": {
                         "zh-CN": "谢↓谢↓(中文)",
                         "ja-JP": "ありがとう（中国語）"
@@ -33,7 +82,7 @@
                 },
                 {
                     "name": "mio-7",
-                    "path": "mio-7.mp3",
+                    "path": "mio-7.mp4",
                     "description": {
                         "zh-CN": "可爱的笑声",
                         "ja-JP": "かわいい笑い声"
@@ -41,7 +90,7 @@
                 },
                 {
                     "name": "mio-10",
-                    "path": "mio-10.mp3",
+                    "path": "mio-10.mp4",
                     "description": {
                         "zh-CN": "Tiger帮大忙了",
                         "ja-JP": "タイガー助かる"
@@ -49,7 +98,7 @@
                 },
                 {
                     "name": "mio-17",
-                    "path": "mio-17.mp3",
+                    "path": "mio-17.mp4",
                     "description": {
                         "zh-CN": "把大家干掉",
                         "ja-JP": "全員ぶっちぎってやろうと思います"
@@ -57,7 +106,7 @@
                 },
                 {
                     "name": "mio-18",
-                    "path": "mio-18.mp3",
+                    "path": "mio-18.mp4",
                     "description": {
                         "zh-CN": "漆黑疾风 参上（帅哥音）",
                         "ja-JP": "漆黑の疾風 参上(イケメンボイス)"
@@ -65,7 +114,7 @@
                 },
                 {
                     "name": "mio-26",
-                    "path": "mio-26.mp3",
+                    "path": "mio-26.mp4",
                     "description": {
                         "zh-CN": "好！下一位~",
                         "ja-JP": "はい!次のカタ〜"
@@ -73,7 +122,7 @@
                 },
                 {
                     "name": "mio-1",
-                    "path": "mio-1.mp3",
+                    "path": "mio-1.mp4",
                     "description": {
                         "zh-CN": "竟竟竟竟然",
                         "ja-JP": "なななななんと"
@@ -90,7 +139,7 @@
             "voiceList": [
                 {
                     "name": "mio-8",
-                    "path": "mio-8.mp3",
+                    "path": "mio-8.mp4",
                     "description": {
                         "zh-CN": "啦啦啦（哭腔）",
                         "ja-JP": "ラララ（涙声）"
@@ -98,7 +147,7 @@
                 },
                 {
                     "name": "mio-11",
-                    "path": "mio-11.mp3",
+                    "path": "mio-11.mp4",
                     "description": {
                         "zh-CN": "Kira~",
                         "ja-JP": "Kira~"
@@ -106,7 +155,7 @@
                 },
                 {
                     "name": "mio-12",
-                    "path": "mio-12.mp3",
+                    "path": "mio-12.mp4",
                     "description": {
                         "zh-CN": "喵~",
                         "ja-JP": "ニャア~"
@@ -114,7 +163,7 @@
                 },
                 {
                     "name": "mio-13",
-                    "path": "mio-13.mp3",
+                    "path": "mio-13.mp4",
                     "description": {
                         "zh-CN": "啊~~",
                         "ja-JP": "アブルブルアーー"
@@ -122,7 +171,7 @@
                 },
                 {
                     "name": "mio-14",
-                    "path": "mio-14.mp3",
+                    "path": "mio-14.mp4",
                     "description": {
                         "zh-CN": "呱~",
                         "ja-JP": "呱~"
@@ -130,7 +179,7 @@
                 },
                 {
                     "name": "mio-15",
-                    "path": "mio-15.mp3",
+                    "path": "mio-15.mp4",
                     "description": {
                         "zh-CN": "汪~",
                         "ja-JP": "ワン~"
@@ -138,7 +187,7 @@
                 },
                 {
                     "name": "mio-16",
-                    "path": "mio-16.mp3",
+                    "path": "mio-16.mp4",
                     "description": {
                         "zh-CN": "遗忘光波",
                         "ja-JP": "忘れるビーム"
@@ -155,7 +204,7 @@
             "voiceList": [
               {
                   "name": "mio-25",
-                  "path": "mio-25.mp3",
+                  "path": "mio-25.mp4",
                   "description": {
                       "zh-CN": "mooo~",
                       "ja-JP": "も～～～～～～"
@@ -163,7 +212,7 @@
               },
               {
                   "name": "mio-27",
-                  "path": "mio-27.mp3",
+                  "path": "mio-27.mp4",
                   "description": {
                       "zh-CN": "我受不了了！我要把你丢到走廊上去",
                       "ja-JP": "廊下に追い出すぞ、もう我慢ならない"
@@ -171,7 +220,7 @@
               },
               {
                   "name": "mio-28",
-                  "path": "mio-28.mp3",
+                  "path": "mio-28.mp4",
                   "description": {
                       "zh-CN": "还咬的话就又把你扔到走廊上去哦",
                       "ja-JP": "またこうなことをしてると、もう一度廊下に追い出すぞ"
@@ -179,7 +228,7 @@
               },
               {
                   "name": "mio-29",
-                  "path": "mio-29.mp3",
+                  "path": "mio-29.mp4",
                   "description": {
                       "zh-CN": "啊啊啊啊！Tiger！",
                       "ja-JP": "あああああ、たいが"
@@ -187,7 +236,7 @@
               },
               {
                   "name": "mio-30",
-                  "path": "mio-30.mp3",
+                  "path": "mio-30.mp4",
                   "description": {
                       "zh-CN": "疼疼疼",
                       "ja-JP": "痛い痛い痛い"
@@ -204,7 +253,7 @@
           "voiceList": [
             {
                 "name": "mio-19",
-                "path": "mio-19.mp3",
+                "path": "mio-19.mp4",
                 "description": {
                     "zh-CN": "啊啊啊拜托了",
                     "ja-JP": "ア～～～～～、お願いします"
@@ -212,7 +261,7 @@
             },
             {
                 "name": "mio-20",
-                "path": "mio-20.mp3",
+                "path": "mio-20.mp4",
                 "description": {
                     "zh-CN": "咕～～哈～～",
                     "ja-JP": "グ～～ハ～～"
@@ -220,7 +269,7 @@
             },
             {
                 "name": "mio-21",
-                "path": "mio-21.mp3",
+                "path": "mio-21.mp4",
                 "description": {
                     "zh-CN": "十分感谢，辛苦了",
                     "ja-JP": "ありがとうございました！お疲れ様でした"
@@ -228,7 +277,7 @@
             },
             {
                 "name": "mio-22",
-                "path": "mio-22.mp3",
+                "path": "mio-22.mp4",
                 "description": {
                     "zh-CN": "Moooo~",
                     "ja-JP": "モ～～"
@@ -236,7 +285,7 @@
             },
             {
                 "name": "mio-23",
-                "path": "mio-23.mp3",
+                "path": "mio-23.mp4",
                 "description": {
                     "zh-CN": "啊哈哈哈哈",
                     "ja-JP": "アハハハハハハ"
@@ -244,7 +293,7 @@
             },
             {
                 "name": "mio-24",
-                "path": "mio-24.mp3",
+                "path": "mio-24.mp4",
                 "description": {
                     "zh-CN": "咕喵",
                     "ja-JP": "ぐにゃ"
@@ -261,7 +310,7 @@
           "voiceList": [
             {
                 "name": "mio-2",
-                "path": "mio-2.mp3",
+                "path": "mio-2.mp4",
                 "description": {
                     "zh-CN": "晚上好mion~我是大神澪~",
                     "ja-JP": "こんばみおん~大神ミオです~"
@@ -278,7 +327,7 @@
             "voiceList": [
                 {
                     "name": "mio-3",
-                    "path": "mio-3.mp3",
+                    "path": "mio-3.mp4",
                     "description": {
                         "zh-CN": "凛として咲く花の如く Cover by 大神澪",
                         "ja-JP": "凛として咲く花の如く Cover by 大神ミオ"
@@ -286,7 +335,7 @@
                 },
                 {
                     "name": "mio-9",
-                    "path": "mio-9.mp3",
+                    "path": "mio-9.mp4",
                     "description": {
                         "zh-CN": "桑巴",
                         "ja-JP": "すずめがサンバ"
