@@ -211,6 +211,22 @@
                   }
               },
               {
+                  "name": "mio-41",
+                  "path": "mio-41.mp4",
+                  "description": {
+                      "zh-CN": "光 速 败 北",
+                      "ja-JP": "突然の敗北"
+                  }
+              },
+              {
+                  "name": "mio-42",
+                  "path": "mio-42.mp4",
+                  "description": {
+                      "zh-CN": "狼喘",
+                      "ja-JP": "過呼吸"
+                  }
+              },
+              {
                   "name": "mio-27",
                   "path": "mio-27.mp4",
                   "description": {
@@ -240,6 +256,55 @@
                   "description": {
                       "zh-CN": "疼疼疼",
                       "ja-JP": "痛い痛い痛い"
+                  }
+              }
+            ]
+          },
+          {
+            "categoryName": "crowdmio",
+            "categoryDescription": {
+              "zh-CN": "人群模拟器",
+              "ja-JP": "群衆シュミレーター"
+            },
+            "voiceList": [
+              {
+                  "name": "mio-36",
+                  "path": "mio-36.mp4",
+                  "description": {
+                      "zh-CN": "好碍事啊！",
+                      "ja-JP": "お邪魔ですね"
+                  }
+              },
+              {
+                  "name": "mio-38",
+                  "path": "mio-38.mp4",
+                  "description": {
+                      "zh-CN": "啊啊啊啊",
+                      "ja-JP": "んなあああ"
+                  }
+              },
+              {
+                  "name": "mio-39",
+                  "path": "mio-39.mp4",
+                  "description": {
+                      "zh-CN": "吵死啦啊",
+                      "ja-JP": "うるせええええ―！"
+                  }
+              },
+              {
+                  "name": "mio-40",
+                  "path": "mio-40.mp4",
+                  "description": {
+                      "zh-CN": "我还什么都没做不是吗！",
+                      "ja-JP": "うちは何もしてないたろか！"
+                  }
+              },
+              {
+                  "name": "mio-37",
+                  "path": "mio-37.mp4",
+                  "description": {
+                      "zh-CN": "什么东西掉！掉下来啦啊啊！",
+                      "ja-JP": "何が落ち！落ちてきましたよおおああ"
                   }
               }
             ]
