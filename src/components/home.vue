@@ -60,6 +60,10 @@
     background-color: rgba(199, 53, 52, 0.8);
     border: 2px solid rgba(146, 221, 101, 0.5);
     border-radius: 15px;
+    max-width: 100%;
+    word-warp: break-word !important;
+    word-break: break-all !important;
+    white-space: normal !important;
 }
 .checkbox {
     display: inline-block;
