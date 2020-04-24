@@ -27,8 +27,8 @@
                   "name": "mio-33",
                   "path": "mio-33.mp4",
                   "description": {
-                      "zh-CN": "打喷嚏的萝莉狼",
-                      "ja-JP": "ロリミオのくしゃみ"
+                      "zh-CN": "打喷嚏",
+                      "ja-JP": "くしゃみ"
                   }
               },
               {
@@ -43,7 +43,7 @@
                   "name": "mio-35",
                   "path": "mio-35.mp4",
                   "description": {
-                      "zh-CN": "动物之森的不明音乐",
+                      "zh-CN": "动物之森的未知音乐",
                       "ja-JP": "あつ森の不明なトラック"
                   }
               }
@@ -207,7 +207,7 @@
                   "path": "mio-25.mp4",
                   "description": {
                       "zh-CN": "mooo~",
-                      "ja-JP": "も～～～～～～"
+                      "ja-JP": "も～～～"
                   }
               },
               {

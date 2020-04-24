@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid" >
         <div>
-            <div class="title"><img src="/resources/bg.png" style="width:13%;height:auto;"/></div>
+            <div class="title"><img src="/resources/bg.gif" style="width:13%;height:auto;"/></div>
             <div class="cate-header">{{ $t("action.control")}}</div>
             <div class="cate-body">
                 <button class="btn btn-info" @click="random">{{ $t("action.randomplay") }}</button>
@@ -34,9 +34,18 @@
 <style lang="scss" scoped>
 .title{
     text-align: center;
-    margin-top: 12px;
+    margin-top: 62px;
 }
-.cate-header{
+.btn-info{/*控制中心按钮*/
+    background-color: #FFACAC;/*背景颜色*/
+    border: 2px solid #FF9696;/*边框粗细以及颜色*/
+    border-radius: 17px;/*边框圆角*/
+}
+.btn-info:hover{/*控制中心按钮选定*/
+    background-color: #FF9696;/*背景颜色*/
+    border: 2px solid #FF7878;/*边框颜色和粗细*/
+}
+.cate-header{/*分类标题*/
     background-color: rgba(255, 122, 124, 0.8);
     border: 3px solid rgba(199, 53, 52, 0.5);
     border-radius: 15px;
@@ -50,7 +59,7 @@
     margin-top: 12px;
     margin-bottom: 12px;
     text-align: center;
-    color: #000;
+    color: #aaaaaa;
 }
 .cate-body button{
     margin: 5px;
@@ -58,12 +67,15 @@
 .btn-new {
     color: #fff;
     background-color: rgba(199, 53, 52, 0.8);
-    border: 2px solid rgba(146, 221, 101, 0.5);
+    border: 2px solid rgba(146, 221, 101, 0.8);
     border-radius: 15px;
     max-width: 100%;
     word-warp: break-word !important;
     word-break: break-all !important;
     white-space: normal !important;
+}
+.btn-new:focus{
+    color: rgba(255, 122, 124, 0.8);
 }
 .checkbox {
     display: inline-block;
