@@ -211,6 +211,14 @@
                   }
               },
               {
+                "name": "mio-43",
+                "path": "mio-43.mp4",
+                "description": {
+                    "zh-CN": "tiger的咆哮",
+                    "ja-JP": "tigerの鳴き声"
+                }
+              },
+              {
                   "name": "mio-41",
                   "path": "mio-41.mp4",
                   "description": {
@@ -256,6 +264,143 @@
                   "description": {
                       "zh-CN": "疼疼疼",
                       "ja-JP": "痛い痛い痛い"
+                  }
+              }
+            ]
+          },
+          {
+            "categoryName": "goosemio",
+            "categoryDescription": {
+              "zh-CN": "无名之鹅",
+              "ja-JP": "無題のガチョウ"
+            },
+            "voiceList": [
+              {
+                  "name": "mio-44",
+                  "path": "mio-44.mp4",
+                  "description": {
+                      "zh-CN": "呼——",
+                      "ja-JP": "ふうううううー"
+                  }
+              },
+              {
+                  "name": "mio-45",
+                  "path": "mio-45.mp4",
+                  "description": {
+                      "zh-CN": "嘿咻——嘿咻——",
+                      "ja-JP": "よいしょーよいしょー"
+                  }
+              },
+              {
+                  "name": "mio-46",
+                  "path": "mio-46.mp4",
+                  "description": {
+                      "zh-CN": "嘎嘎嘎",
+                      "ja-JP": "グアアーグアアーグアア"
+                  }
+              },
+              {
+                  "name": "mio-47",
+                  "path": "mio-47.mp4",
+                  "description": {
+                      "zh-CN": "有的嘛——！咻——呼呼嘿嘿嘿，欸",
+                      "ja-JP": "あるやんーシュウウウウーフフへへへーえっ"
+                  }
+              },
+              {
+                  "name": "mio-48",
+                  "path": "mio-48.mp4",
+                  "description": {
+                      "zh-CN": "来这边，来这边...啊，啊啊！别走啊！不要走啊啊啊哈哈哈哈，不要走啊～",
+                      "ja-JP": "こちで、こちです…あ、あぁ、行かないで！行かないでへへへぇ,行かないで…"
+                  }
+              },
+              {
+                  "name": "mio-49",
+                  "path": "mio-49.mp4",
+                  "description": {
+                      "zh-CN": "耶——————！卷心菜野餐——",
+                      "ja-JP": "いえええええええええい!キャビツピクニックーー"
+                  }
+              },
+              {
+                  "name": "mio-50",
+                  "path": "mio-50.mp4",
+                  "description": {
+                      "zh-CN": "请不要总这样怀疑咱好吗！咱也不是，总是在做这些的事的说！也没有一直在做这种事的说",
+                      "ja-JP": "いつも疑うのやめてもらうてもいいですかね！うちはて、別にね、いつもねなんか,ことじゃないからね、別に、なんかいつもそういうことしてるとかじゃないから"
+                  }
+              },
+              {
+                  "name": "mio-51",
+                  "path": "mio-51.mp4",
+                  "description": {
+                      "zh-CN": "啊呀呀呀呀呀呀噫",
+                      "ja-JP": "アヤヤヤヤヤヤヤヤヤヤイ"
+                  }
+              },
+              {
+                  "name": "mio-52",
+                  "path": "mio-52.mp4",
+                  "description": {
+                      "zh-CN": "wiiwii～",
+                      "ja-JP": "ウイウイウイウイーウイウイ"
+                  }
+              },
+              {
+                  "name": "mio-53",
+                  "path": "mio-53.mp4",
+                  "description": {
+                      "zh-CN": "一起玩呀！wiiwii～",
+                      "ja-JP": "一緒に遊ぼうぜ！ウイウイー"
+                  }
+              },
+              {
+                  "name": "mio-54",
+                  "path": "mio-54.mp4",
+                  "description": {
+                      "zh-CN": "哼～不过来的话就没办法了呢",
+                      "ja-JP": "ふん!こないならしょがないね"
+                  }
+              },
+              {
+                  "name": "mio-55",
+                  "path": "mio-55.mp4",
+                  "description": {
+                      "zh-CN": "瞧—啊，看啊，是厕纸哟——是厕纸哟看嘛看嘛看嘛——",
+                      "ja-JP": "ほぉーら、ほら、トイレットペーパーだよーートイレットペーパーだよほらほらほらほら〜"
+                  }
+              },
+              {
+                  "name": "mio-56",
+                  "path": "mio-56.mp4",
+                  "description": {
+                      "zh-CN": "再见—",
+                      "ja-JP": "さよならー"
+                  }
+              },
+              {
+                  "name": "mio-57",
+                  "path": "mio-57.mp4",
+                  "description": {
+                      "zh-CN": "这里也没有、嘿！嘿！你好鸭！你好哟！",
+                      "ja-JP": "てここてなくーはい!ハイハイハイハイ!こんにちは　こんにちはですよ"
+                  }
+              },
+              {
+                  "name": "mio-58",
+                  "path": "mio-58.mp4",
+                  "description": {
+                      "zh-CN": "看这得意的表情——w",
+                      "ja-JP": "見よこの誇らしげな顔ーーｗ"
+                  }
+              },
+              {
+                  "name": "mio-59",
+                  "path": "mio-59.mp4",
+                  "description": {
+                      "zh-CN": "那个，大姐姐的话呢",
+                      "ja-JP": "ね、あのね、お姉さんかね、"
                   }
               }
             ]
@@ -396,6 +541,14 @@
                     "description": {
                         "zh-CN": "凛として咲く花の如く Cover by 大神澪",
                         "ja-JP": "凛として咲く花の如く Cover by 大神ミオ"
+                    }
+                },
+                {
+                    "name": "mio-60",
+                    "path": "mio-60.mp4",
+                    "description": {
+                        "zh-CN": "Get Down Cover by 大神澪",
+                        "ja-JP": "Get Down Cover by 大神ミオ"
                     }
                 },
                 {

@@ -20,6 +20,10 @@
             </div>
             <audio id="player" @ended="voiceEnd(false)"></audio>
         </div>
+        <div class="cate-header">{{$t("action.adtitle")}}</div>
+        <div class="cate-body">
+            <button class="btn btn-info" onclick="window.open('https://www.bilibili.com/read/readlist/rl210208')">{{$t("action.ad")}}</button>
+        </div>
         <div v-for="category in voices" v-bind:key="category.categoryName">
             <div class="cate-header">{{ $t("voicecategory." + category.categoryName) }}</div>
             <div class="cate-body">
@@ -42,6 +46,10 @@
     border-radius: 17px;/*边框圆角*/
 }
 .btn-info:hover{/*控制中心按钮选定*/
+    background-color: #FF9696;/*背景颜色*/
+    border: 2px solid #FF7878;/*边框颜色和粗细*/
+}
+.btn-info:focus{/*控制中心按钮选定*/
     background-color: #FF9696;/*背景颜色*/
     border: 2px solid #FF7878;/*边框颜色和粗细*/
 }

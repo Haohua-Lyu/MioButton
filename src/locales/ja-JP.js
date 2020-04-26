@@ -18,11 +18,12 @@ const ja_JP = {
         overlap: "声重なる可能（止められない）",
         autoplay: "自動放送",
         playing: "現在再生：",
-        noplay: "再生なし"
+        noplay: "再生なし",
+        adtitle: "コラボレーションプロジェクト",
+        ad: "非公式翻訳と二次創作団体の週刊（中国語）"
     },
     lang: {
         'zh-CN': "简体中文",
-        'en-US': "English",
         'ja-JP': "日本語"
     }
 }

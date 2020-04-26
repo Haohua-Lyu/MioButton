@@ -18,7 +18,9 @@ const zh_CN = {
         overlap: "重叠播放(无法暂停)",
         autoplay: "自动播放",
         playing: "正在播放：",
-        noplay: "暂无播放"
+        noplay: "暂无播放",
+        adtitle: "联动项目",
+        ad: "澪雀之森的神社周报"
     },
     lang: {
         'zh-CN': "简体中文",

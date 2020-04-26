@@ -54,9 +54,6 @@
 
 <style lang="scss">
 @import "../node_modules/bootstrap/dist/css/bootstrap.css";
-body{
-    padding-top: 0px;
-}
 .main-content{ /*内容部分*/
     min-height: 100vh;
     background-color: #333333;
