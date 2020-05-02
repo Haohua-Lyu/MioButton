@@ -70,13 +70,13 @@
 }
 .btn-buttom-info:hover {
     color: #fff;
-    font-size: 1px;
+    font-size: 12px;
     background-color: rgba(4, 255, 0, 0.2);
     border-radius: 5px;
 }
 .btn-buttom-info:focus {
     color: #fff;
-    font-size: 1px;
+    font-size: 12px;
     background-color: rgba(4, 255, 0, 0.2);
     border-radius: 5px;
 }
