@@ -16,6 +16,22 @@
                   }
               },
               {
+                  "name": "mio-76",
+                  "path": "mio-76.mp3",
+                  "description": {
+                      "zh-CN": "咱才是大神澪呀",
+                      "ja-JP": "うちか大神ミオなんだよ"
+                  }
+              },
+              {
+                  "name": "mio-75",
+                  "path": "mio-75.mp3",
+                  "description": {
+                      "zh-CN": "幼狼喘",
+                      "ja-JP": "狼の喘息"
+                  }
+              },
+              {
                   "name": "mio-32",
                   "path": "mio-32.mp3",
                   "description": {
@@ -62,6 +78,22 @@
                     "description": {
                         "zh-CN": "古神AllRight Mio笑",
                         "ja-JP": "スバルのAll Right　ミオの笑う声"
+                    }
+                },
+                {
+                    "name": "mio-77",
+                    "path": "mio-77.mp3",
+                    "description": {
+                        "zh-CN": "狼饿了（请调高音量）",
+                        "ja-JP": "オオカミは空腹です(音量を上げてください)"
+                    }
+                },
+                {
+                    "name": "mio-67",
+                    "path": "mio-67.mp3",
+                    "description": {
+                        "zh-CN": "狼之本能",
+                        "ja-JP": "狼の本能"
                     }
                 },
                 {
@@ -151,6 +183,78 @@
                     "description": {
                         "zh-CN": "Kira~",
                         "ja-JP": "Kira~"
+                    }
+                },
+                {
+                    "name": "mio-65",
+                    "path": "mio-65.mp3",
+                    "description": {
+                        "zh-CN": "唔喔喔喔！",
+                        "ja-JP": "うおおお!"
+                    }
+                },
+                {
+                    "name": "mio-69",
+                    "path": "mio-69.mp3",
+                    "description": {
+                        "zh-CN": "欧拉啦啦啦!",
+                        "ja-JP": "おらららららら！"
+                    }
+                },
+                {
+                    "name": "mio-66",
+                    "path": "mio-66.mp3",
+                    "description": {
+                        "zh-CN": "好啦，好嘞——",
+                        "ja-JP": "はい！はーい！"
+                    }
+                },
+                {
+                    "name": "mio-68",
+                    "path": "mio-68.mp3",
+                    "description": {
+                        "zh-CN": "哇呜~",
+                        "ja-JP": "わううう~"
+                    }
+                },
+                {
+                    "name": "mio-71",
+                    "path": "mio-71.mp3",
+                    "description": {
+                        "zh-CN": "奇怪的叫声1",
+                        "ja-JP": "変な声1"
+                    }
+                },
+                {
+                    "name": "mio-72",
+                    "path": "mio-72.mp3",
+                    "description": {
+                        "zh-CN": "奇怪的声音2",
+                        "ja-JP": "変な声2"
+                    }
+                },
+                {
+                    "name": "mio-73",
+                    "path": "mio-73.mp3",
+                    "description": {
+                        "zh-CN": "奇怪的声音3",
+                        "ja-JP": "変な声3"
+                    }
+                },
+                {
+                    "name": "mio-64",
+                    "path": "mio-64.mp3",
+                    "description": {
+                        "zh-CN": "喵喵喵喵呜",
+                        "ja-JP": "にゃにゃにゃ～～～う"
+                    }
+                },
+                {
+                    "name": "mio-63",
+                    "path": "mio-63.mp3",
+                    "description": {
+                        "zh-CN": "来啦啦啦啦啦～",
+                        "ja-JP": "きっちゃちゃちゃちゃー"
                     }
                 },
                 {
@@ -519,6 +623,14 @@
           },
           "voiceList": [
             {
+                "name": "mio-74",
+                "path": "mio-74.mp3",
+                "description": {
+                    "zh-CN": "宇宙的大家晚上好",
+                    "ja-JP": "宇宙の皆さん、こんばんみぉーん"
+                }
+            },
+            {
                 "name": "mio-2",
                 "path": "mio-2.mp3",
                 "description": {
@@ -549,6 +661,46 @@
                     "description": {
                         "zh-CN": "Get Down Cover by 大神澪",
                         "ja-JP": "Get Down Cover by 大神ミオ"
+                    }
+                },
+                {
+                    "name": "mio-62",
+                    "path": "mio-62.mp3",
+                    "description": {
+                        "zh-CN": "ETERNAL BLAZE Cover by 大神澪",
+                        "ja-JP": "ETERNAL BLAZE Cover by 大神ミオ"
+                    }
+                },
+                {
+                    "name": "mio-70",
+                    "path": "mio-70.mp3",
+                    "description": {
+                        "zh-CN": "夜もすがら君想ふ Cover by 大神澪",
+                        "ja-JP": "夜もすがら君想ふ Cover by 大神ミオ"
+                    }
+                },
+                {
+                    "name": "mio-78",
+                    "path": "mio-78.mp3",
+                    "description": {
+                        "zh-CN": "血界战线 Cover by 大神澪",
+                        "ja-JP": "血界战线 Cover by 大神ミオ"
+                    }
+                },
+                {
+                    "name": "mio-79",
+                    "path": "mio-79.mp3",
+                    "description": {
+                        "zh-CN": "雪の華 Cover by 大神澪",
+                        "ja-JP": "雪の華 Cover by 大神ミオ"
+                    }
+                },
+                {
+                    "name": "mio-61",
+                    "path": "mio-61.mp3",
+                    "description": {
+                        "zh-CN": "CHE.R.RY Cover by 大神澪",
+                        "ja-JP": "CHE.R.RY Cover by 大神ミオ"
                     }
                 },
                 {
