@@ -44,6 +44,10 @@
     background-color: #FFACAC;/*背景颜色*/
     border: 2px solid #FF9696;/*边框粗细以及颜色*/
     border-radius: 17px;/*边框圆角*/
+    max-width: 100%;
+    word-warp: break-word !important;
+    word-break: break-all !important;
+    white-space: normal !important;
 }
 .btn-info:hover{/*控制中心按钮选定*/
     background-color: #FF9696;/*背景颜色*/
