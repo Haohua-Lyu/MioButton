@@ -19,7 +19,6 @@
                         <li><a href="https://twitter.com/ookamimio" target="_blank"><img src="resources/Twitter_Social_Icon_Circle_Color.png" height="20"/></a></li>
                         <li><a href="https://www.lanzous.com/ib3yeob" target="_blank"><img src="resources/Android.png" height="21.5"/></a></li>
                         <li><a href="https://www.lanzous.com/iarrhef" target="_blank"><img src="resources/Apple.png" height="21"/></a></li>
-                        <li><a href="javascript:location.reload();" target="_blank"><img src="resources/refresh.png" height="20"/></a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
@@ -39,8 +38,9 @@
         </div>
         <footer class="footer">
             <div class="container-fluid footer-content">
+                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" target="_blank" style="color: #eeeeee;text-decoration: none">Version 2.6.9</a></button>
                 <div class="pull-left">
-                    <div class="text-left"><a href="https://github.com/MioButton/MioButton" target="_blank">{{$t("info.toGithub")}} <img src="https://img.shields.io/github/stars/MioButton/MioButton.svg?style=social"/></a></div>
+                    <div class="text-left"><a href="https://github.com/MioButton/MioButton" target="_blank">{{$t("info.toGithub")}}</a></div>
                     <div class="text-left">{{$t("info.notOfficial")}}</div>
                 </div>
                 <div class="pull-left">
@@ -57,6 +57,28 @@
 .main-content{ /*内容部分*/
     min-height: 100vh;
     background-color: #333333;
+}
+.btn-buttom{
+    border: 0px;
+    padding: 1px 10px;
+}
+.btn-buttom-info {
+    color: #fff;
+    font-size: 1px;
+    background-color: rgba(4, 255, 0, 0.5);
+    border-radius: 5px;
+}
+.btn-buttom-info:hover {
+    color: #fff;
+    font-size: 1px;
+    background-color: rgba(4, 255, 0, 0.2);
+    border-radius: 5px;
+}
+.btn-buttom-info:focus {
+    color: #fff;
+    font-size: 1px;
+    background-color: rgba(4, 255, 0, 0.2);
+    border-radius: 5px;
 }
 .navbar{ 
     background-color: rgba(34,34,34,0.85);/*顶栏部分*/
