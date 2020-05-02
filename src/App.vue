@@ -64,7 +64,7 @@
 }
 .btn-buttom-info {
     color: #fff;
-    font-size: 1px;
+    font-size: 12px;
     background-color: rgba(4, 255, 0, 0.5);
     border-radius: 5px;
 }
