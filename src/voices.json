@@ -643,8 +643,8 @@
         {
             "categoryName": "song",
             "categoryDescription": {
-              "zh-CN": "狼歌",
-              "ja-JP": "ミオの歌"
+              "zh-CN": "狼歌 (功能暂停)",
+              "ja-JP": "ミオの歌 （機能が停止されました）"
             },
             "voiceList": [
                 {
