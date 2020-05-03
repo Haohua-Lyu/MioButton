@@ -38,7 +38,7 @@
         </div>
         <footer class="footer">
             <div class="container-fluid footer-content">
-                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" target="_blank" style="color: #eeeeee;text-decoration: none">Version 2.7.7</a></button>
+                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" target="_blank" style="color: #eeeeee;text-decoration: none">Version 2.7.8</a></button>
                 <div class="pull-left">
                     <div class="text-left"><a href="https://github.com/MioButton/MioButton" target="_blank">{{$t("info.toGithub")}}</a></div>
                     <div class="text-left">{{$t("info.notOfficial")}}</div>
