@@ -1,35 +1,40 @@
 <template>
     <div class="container-fluid" >
         <div>
-            <div class="title"><img src="/resources/bg.gif" style="width:13%;height:auto;"/></div>
-            <div class="cate-header">{{ $t("action.control")}}</div>
-            <div class="cate-body">
-                <button class="btn btn-info" @click="random">{{ $t("action.randomplay") }}</button>
-                <button class="btn btn-info" @click="stopPlay">{{$t("action.stopvoice") }}</button>
-                <button class="btn btn-info" :class="{ 'disabled': autoCheck }" @click="overlap" :title="$t('info.overlapTips')">
-                    <input class="checkbox" type="checkbox" v-model="overlapCheck">
-                    <span>{{ $t("action.overlap") }}</span>
-                </button>
-                <button class="btn btn-info" :class="{ 'disabled': overlapCheck }" @click="autoPlay">
-                    <input class="checkbox" type="checkbox" v-model="autoCheck">
-                    <span>{{ $t("action.autoplay") }}</span>
-                </button>
+            <div class="btn-body-status">
+                <div>{{ voice.name ? $t("action.playing") + $t("voice." + voice.name ) : $t("action.noplay") }}</div>
+                <audio id="player" @ended="voiceEnd(false)"></audio>
             </div>
-            <div class="cate-body">
-                <span>{{ voice.name ? $t("action.playing") + $t("voice." + voice.name ) : $t("action.noplay") }}</span>
-            </div>
-            <audio id="player" @ended="voiceEnd(false)"></audio>
-        </div>
-        <div class="cate-header">{{$t("action.adtitle")}}</div>
-        <div class="cate-body">
-            <button class="btn btn-info" onclick="window.open('https://www.bilibili.com/read/readlist/rl210208')">{{$t("action.ad")}}</button>
-        </div>
-        <div v-for="category in voices" v-bind:key="category.categoryName">
-            <div class="cate-header">{{ $t("voicecategory." + category.categoryName) }}</div>
-            <div class="cate-body">
-                <button class="btn btn-new" v-for="voiceItem in category.voiceList" v-bind:key="voiceItem.name" @click="play(voiceItem)">
-                    {{ $t("voice." + voiceItem.name )}}
-                </button>
+            <div class="title">{{$t("info.title")}}<img src="/resources/bg.gif" style="width:63px;height:auto;margin-bottom: 3px;"></div>
+                <div class="cate-header-panel">{{ $t("action.control")}}
+                        <div class="cate-body-function">
+                            <button class="btn btn-info" @click="stopPlay" style="margin-left: 0px;">{{$t("action.stopvoice") }}</button>
+                            <button class="btn btn-info" :class="{ 'disabled': overlapCheck }" @click="autoPlay">
+                                <input class="checkbox" type="checkbox" v-model="autoCheck">
+                                <span>{{ $t("action.autoplay") }}</span>
+                            </button>
+                        </div> 
+                        <div class="cate-body-function" style="margin-bottom: 2px;">    
+                            <button class="btn btn-info" @click="random" style="margin-left: 0px;">{{ $t("action.randomplay") }}</button>
+                            <button class="btn btn-info" :class="{ 'disabled': autoCheck }" @click="overlap" :title="$t('info.overlapTips')">
+                                <input class="checkbox" type="checkbox" v-model="overlapCheck">
+                                <span>{{ $t("action.overlap") }}</span>
+                            </button>
+                        </div>
+                </div>
+                <div class="cate-header-panel">{{$t("action.adtitle")}}
+                    <button class="btn btn-info-ad" onclick="window.open('https://www.bilibili.com/read/readlist/rl210208')">{{$t("action.ad")}}</button>
+                </div>
+                <div class="cate-header-panel">{{$t("action.random")}}
+                        <input id="share" class="btn btn-random" style="width: 190px;" type="text" name="u" value :placeholder="$t('action.placeholder')">
+                        <button class="btn btn-info" @click="randomshare">{{$t("action.share")}}</button>
+                </div>
+            <div v-for="category in voices" v-bind:key="category.categoryName">
+                <div class="cate-header">{{ $t("voicecategory." + category.categoryName) }} 
+                    <div class="cate-body">
+                        <button class="btn btn-new" v-for="voiceItem in category.voiceList" v-bind:key="voiceItem.name" @click="play(voiceItem)">{{ $t("voice." + voiceItem.name )}}</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -37,40 +42,126 @@
 
 <style lang="scss" scoped>
 .title{
-    text-align: center;
-    margin-top: 62px;
+    text-align: left;
+    margin-top: 65px;
+    border-radius: 30px;
+    text-align: left;
+    color: #fff;
+    font-size: 35px;
+    padding-top: 10px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    max-width: max-content;
+}
+.btn:hover, .btn:focus, .btn.focus{
+    color: #ffffff;
+}
+.btn-random{/*控制中心按钮*/
+    background-color: #FFACAC;/*背景颜色*/
+    border: 0px; /*边框去除*/
+    border-radius: 17px;/*边框圆角*/
+    padding-top: 3px;
+    font-weight: 600;
+    padding-bottom: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    word-warp: break-word !important;
+    word-break: break-all !important;
+    white-space: normal !important;
 }
 .btn-info{/*控制中心按钮*/
     background-color: #FFACAC;/*背景颜色*/
-    border: 2px solid #FF9696;/*边框粗细以及颜色*/
+    border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
+    margin: 5px;
+    padding-top: 3px;
+    font-weight: 600;
+    padding-bottom: 3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     word-warp: break-word !important;
     word-break: break-all !important;
     white-space: normal !important;
 }
 .btn-info:hover{/*控制中心按钮选定*/
     background-color: #FF9696;/*背景颜色*/
-    border: 2px solid #FF7878;/*边框颜色和粗细*/
 }
 .btn-info:focus{/*控制中心按钮选定*/
     background-color: #FF9696;/*背景颜色*/
-    border: 2px solid #FF7878;/*边框颜色和粗细*/
+}
+.btn-info-ad{/*宣传中心按钮*/
+    background-color: #FFACAC;/*背景颜色*/
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: 600;
+    border-radius: 17px;/*边框圆角*/
+    max-width: 100%;
+    word-warp: break-word !important;
+    word-break: break-all !important;
+    white-space: normal !important;
+}
+.btn-info-ad:hover{/*宣传中心按钮选定*/
+    background-color: #FF9696;/*背景颜色*/
+}
+.btn-info-ad:focus{/*宣传中心按钮选定*/
+    background-color: #FF9696;/*背景颜色*/
 }
 .cate-header{/*分类标题*/
-    background-color: rgba(255, 122, 124, 0.8);
-    border: 3px solid rgba(199, 53, 52, 0.5);
-    border-radius: 15px;
-    text-align: center;
+    background-color: rgb(66, 66, 66);
+    border-radius: 30px;
+    text-align: left;
+    font-weight: 600;
     color: #fff;
+    padding-top: 18px;
+    padding-left: 20px;
     font-size: 20px;
     margin-top: 12px;
     margin-bottom: 12px;
 }
+.btn-body-status{/*播放状态分类标题*/
+    background-color: #ff7d7db7;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 300px;
+    color: #fff;
+    text-align: left;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin-left: 25%;
+    font-size: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-weight: 600;
+}
+.cate-header-panel{/*控制中心分类标题*/
+    background-color: rgba(255, 122, 124, 0.8);
+    border-radius: 30px;
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 14px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-weight: 600;
+    padding-bottom: 14px;
+    margin-bottom: 12px;
+    max-width: max-content;
+}
 .cate-body{
     margin-top: 12px;
-    margin-bottom: 12px;
-    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    margin-right: 12px;
+    margin-left: -8px;
+    text-align: left;
+    color: #aaaaaa;
+}
+.cate-body-function{/*功能分类内容*/
+    margin-top: 10px;
+    text-align: left;
     color: #aaaaaa;
 }
 .cate-body button{
@@ -79,9 +170,9 @@
 .btn-new {
     color: #fff;
     background-color: rgba(199, 53, 52, 0.8);
-    border: 2px solid rgba(146, 221, 101, 0.8);
     border-radius: 15px;
     max-width: 100%;
+    font-weight: 600;
     word-warp: break-word !important;
     word-break: break-all !important;
     white-space: normal !important;
@@ -137,6 +228,16 @@ class HomePage extends Vue {
     random() {
         let tempList = this.voices[this._randomNum(0, this.voices.length - 1)];
         this.play(tempList.voiceList[this._randomNum(0, tempList.voiceList.length - 1)]);
+    }
+    randomshare() {
+        let tempList = this.voices[this._randomNum(0, this.voices.length - 1)];
+        var title=this.$t("voice."+ tempList.voiceList[this._randomNum(0, tempList.voiceList.length - 1)].name);
+        var res=document.getElementById('share').value;
+        if(this.$i18n.locale === 'ja-JP'){
+            window.open("https://twitter.com/intent/tweet?text="+"今日、「"+res+"」のランダムオーディオは「"+title+"」です！ より多くのオーディオを聞くには、「ミオボタン」のWebサイトにアクセスしてください~ https://t.co/TLdj8E9Rct");
+        } else {
+            window.open("https://twitter.com/intent/tweet?text="+"今天，“"+res+"”的随机音频是“"+title+"”！ 访问狼按钮网站聆听更多音频 https://t.co/TLdj8E9Rct");
+        }
     }
     autoPlay(){
         if (this.overlapCheck) {
