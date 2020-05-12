@@ -26,7 +26,7 @@
                     <button class="btn btn-info-ad" onclick="window.open('https://www.bilibili.com/read/readlist/rl210208')">{{$t("action.ad")}}</button>
                 </div>
                 <div class="cate-header-panel">{{$t("action.random")}}
-                        <input id="share" class="btn btn-random" style="width: 190px;" type="text" name="u" value :placeholder="$t('action.placeholder')">
+                        <input id="share" class="btn btn-random" style="width: 190px;-webkit-user-select:text !important;" type="text" name="u" value :placeholder="$t('action.placeholder')">
                         <button class="btn btn-info" @click="randomshare">{{$t("action.share")}}</button>
                 </div>
             <div v-for="category in voices" v-bind:key="category.categoryName">
@@ -192,9 +192,11 @@
 import Vue from 'vue'
 import Component from 'vue-class-component'
 import VoiceList from '../voices.json'
+import axios from 'axios'
 
 @Component
 class HomePage extends Vue {
+    live_data = null;
     voices = VoiceList.voices;
     autoCheck = false;
     overlapCheck = false;
@@ -244,6 +246,11 @@ class HomePage extends Vue {
             return;
         }
         this.autoCheck = !this.autoCheck;
+    }
+    mounted(){
+        axios.get('https://cors-ion.herokuapp.com/https://storage.googleapis.com/vthell-data/live.json')
+        .then(function (response) { this.live_data = response;console.log(this.live_data); })
+        .catch(function (error) { console.log(error); })
     }
     overlap() {
         if (this.autoCheck) {
