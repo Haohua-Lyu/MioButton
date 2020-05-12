@@ -201,6 +201,16 @@ class HomePage extends Vue {
     autoCheck = false;
     overlapCheck = false;
     voice = {};
+    live_data = {};
+    live_data_loading = true;
+
+    mounted() {
+        axios.get('https://cors-ion.herokuapp.com/https://storage.googleapis.com/vthell-data/live.json')
+        .then(response => { 
+            this.live_data = response.data['UCp-5t9SrOQwXMU7iIjQfARg'];
+            this.live_data_loading = false;
+        })
+    }
 
     play(item){
         if (this.overlapCheck) {
