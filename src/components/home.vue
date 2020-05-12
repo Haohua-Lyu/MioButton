@@ -257,11 +257,6 @@ class HomePage extends Vue {
         }
         this.autoCheck = !this.autoCheck;
     }
-    mounted(){
-        axios.get('https://cors-ion.herokuapp.com/https://storage.googleapis.com/vthell-data/live.json')
-        .then(function (response) { this.live_data = response;console.log(this.live_data); })
-        .catch(function (error) { console.log(error); })
-    }
     overlap() {
         if (this.autoCheck) {
             return;
