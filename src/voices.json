@@ -54,14 +54,6 @@
                       "zh-CN": "咱呢！那个！把眼睛闭上的话...",
                       "ja-JP": "あのね！あの、おめめね！ギューッてつぶてんねぇ..."
                   }
-              },
-              {
-                  "name": "mio-35",
-                  "path": "mio-35.mp3",
-                  "description": {
-                      "zh-CN": "动物之森的未知音乐",
-                      "ja-JP": "あつ森の不明なトラック"
-                  }
               }
             ]
         },
@@ -394,6 +386,14 @@
                       "zh-CN": "讨厌广告",
                       "ja-JP": "ポスター嫌だ"
                   }
+              },
+              {
+                "name": "mio-81",
+                "path": "mio-81.mp3",
+                "description": {
+                   "zh-CN": "螺丝拧呀拧呀",
+                   "ja-JP": "ネージーまきまき！"
+                 }
               },
               {
                   "name": "mio-87",
@@ -736,31 +736,6 @@
                 }
             }
           ]
-        },
-        {
-            "categoryName": "song",
-            "categoryDescription": {
-              "zh-CN": "| 狼乐器",
-              "ja-JP": "| 狼楽器"
-            },
-            "voiceList": [
-                {
-                   "name": "mio-81",
-                   "path": "mio-81.mp3",
-                   "description": {
-                      "zh-CN": "螺丝拧呀拧呀",
-                      "ja-JP": "ネージーまきまき！"
-                    }
-                },
-                {
-                    "name": "mio-9",
-                    "path": "mio-9.mp3",
-                    "description": {
-                        "zh-CN": "桑巴",
-                        "ja-JP": "すずめがサンバ"
-                    }
-                }
-            ]
         }
     ]
 }
