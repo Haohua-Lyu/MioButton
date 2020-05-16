@@ -14,6 +14,7 @@ const zh_CN = {
         random: "| 今日随机",
         share: "分享到Twitter查看",
         placeholder: "请输入昵称",
+        live: "| 直播预告",
         close: "关闭",
         copy: "复制",
         control: "| 操作控制",

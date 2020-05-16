@@ -29,6 +29,7 @@
                         <input id="share" class="btn btn-random" style="width: 190px;-webkit-user-select:text !important;" type="text" name="u" value :placeholder="$t('action.placeholder')">
                         <button class="btn btn-info" @click="randomshare">{{$t("action.share")}}</button>
                 </div>
+                
             <div v-for="category in voices" v-bind:key="category.categoryName">
                 <div class="cate-header">{{ $t("voicecategory." + category.categoryName) }} 
                     <div class="cate-body">
@@ -211,7 +212,12 @@ class HomePage extends Vue {
             this.live_data_loading = false;
         })
     }
-
+    format_time(){
+        var ts = arguments[0] || 0;
+        var t,y,m,d,h,i,s;
+        t = ts ? new Date(ts*1000) : new Date();y = t.getFullYear();m = t.getMonth()+1;d = t.getDate();h = t.getHours();i = t.getMinutes();s = t.getSeconds();
+        return y+'-'+(m<10?'0'+m:m)+'-'+(d<10?'0'+d:d)+' '+(h<10?'0'+h:h)+':'+(i<10?'0'+i:i)+':'+(s<10?'0'+s:s);
+    }
     play(item){
         if (this.overlapCheck) {
             let audio = new Audio("voices/" + item.path);
