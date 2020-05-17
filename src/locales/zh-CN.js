@@ -25,7 +25,10 @@ const zh_CN = {
         playing: "正在播放：",
         noplay: "暂无播放",
         adtitle: "| 联动项目",
-        ad: "澪雀之森的神社周报"
+        weekly: "澪雀之森的神社周报",
+        sticker: "狼贴图",
+        plan: "计划日期",
+        ing: "正在直播"
     },
     lang: {
         'zh-CN': "简体中文",

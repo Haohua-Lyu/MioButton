@@ -15,6 +15,7 @@ const ja_JP = {
         share: "Twitterで共有して結果を確認",
         placeholder: "すきな呼び方を入力下さい",
         close: "閉じる",
+        live: "| 配信の予告",
         copy: "コピー",
         control: "| コントロール",
         stopvoice: "停止",
@@ -24,7 +25,10 @@ const ja_JP = {
         playing: "現在再生：",
         noplay: "再生なし",
         adtitle: "| コラボレーションプロジェクト",
-        ad: "非公式翻訳と二次創作団体の週刊（中国語）"
+        weekly: "非公式翻訳と二次創作団体の週刊（中国語）",
+        sticker: "ミオのステッカー",
+        plan: "予定の期日",
+        ing: "ライブ配信中"
     },
     lang: {
         'zh-CN': "简体中文",

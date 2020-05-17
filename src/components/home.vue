@@ -23,13 +23,29 @@
                         </div>
                 </div>
                 <div class="cate-header-panel">{{$t("action.adtitle")}}
-                    <button class="btn btn-info-ad" onclick="window.open('https://www.bilibili.com/read/readlist/rl210208')">{{$t("action.ad")}}</button>
+                    <button class="btn btn-info-ad" onclick="window.open('https://www.bilibili.com/read/readlist/rl210208')">{{$t("action.weekly")}}</button>
+                    <button class="btn btn-info-ad" onclick="window.open('https://sticker.ookamimio.org')">{{$t("action.sticker")}}</button>
                 </div>
                 <div class="cate-header-panel">{{$t("action.random")}}
                         <input id="share" class="btn btn-random" style="width: 190px;-webkit-user-select:text !important;" type="text" name="u" value :placeholder="$t('action.placeholder')">
                         <button class="btn btn-info" @click="randomshare">{{$t("action.share")}}</button>
                 </div>
-                
+                <div class="cate-header-panel">{{$t("action.live")}}
+                    <div v-for="live in live_data" :key="live.startTime">
+                        <div v-if="live.title.length">
+                            <span v-if="live.type === 'upcoming'" style="font-size:17px;">{{$t("action.plan")}}{{ format_time(live.startTime) }}</span>
+                            <span v-if="live.type === 'live'" class="warning--text" style="font-size:17px;">{{$t("action.ing")}}</span>
+                            <button class="btn btn-info"><a 
+                                :href="'https://www.youtube.com/watch?v=' + live.id"
+                                target="_blank"
+                                style="text-decoration: none;color: #ffffff;"
+                                :class="live.type === 'live' ? 'error--text' : ''"
+                            >
+                              {{live.title}}
+                            </a></button>
+                        </div>
+                    </div>
+                </div>
             <div v-for="category in voices" v-bind:key="category.categoryName">
                 <div class="cate-header">{{ $t("voicecategory." + category.categoryName) }} 
                     <div class="cate-body">
@@ -94,6 +110,7 @@
 .btn-info-ad{/*宣传中心按钮*/
     background-color: #FFACAC;/*背景颜色*/
     padding-top: 3px;
+    margin: 0 5px;
     padding-bottom: 3px;
     font-weight: 600;
     border-radius: 17px;/*边框圆角*/

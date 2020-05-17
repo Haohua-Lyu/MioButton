@@ -65,6 +65,14 @@
             },
             "voiceList": [
                 {
+                    "name": "mio-103",
+                    "path": "mio-103.mp3",
+                    "description": {
+                        "zh-CN": "亚马逊真是博大精深呐",
+                        "ja-JP": "アマゾンは深いなぁ～"
+                    }
+                },
+                {
                     "name": "mio-4",
                     "path": "mio-4.mp3",
                     "description": {
@@ -295,6 +303,168 @@
                     "description": {
                         "zh-CN": "遗忘光波",
                         "ja-JP": "忘れるビーム"
+                    }
+                }
+            ]
+        },
+        {
+            "categoryName": "monsterwolf",
+            "categoryDescription": {
+                "zh-CN": "| 狼和怪物",
+                "ja-JP": "| 狼と怪物"
+            },
+            "voiceList": [
+                {
+                    "name": "mio-107",
+                    "path": "mio-107.mp3",
+                    "description": {
+                        "zh-CN": "无路赛！（好啰嗦啊）",
+                        "ja-JP": "うるさい！"
+                    }
+                },
+                {
+                    "name": "mio-105",
+                    "path": "mio-105.mp3",
+                    "description": {
+                        "zh-CN": "呀——！哇——！",
+                        "ja-JP": "やああああ！わああああ！"
+                    }
+                },
+                {
+                    "name": "mio-108",
+                    "path": "mio-108.mp3",
+                    "description": {
+                        "zh-CN": "啊哈哈哈哈哈哈，啊——",
+                        "ja-JP": "アハハハハハハハハ、あ～"
+                    }
+                },
+                {
+                    "name": "mio-90",
+                    "path": "mio-90.mp3",
+                    "description": {
+                        "zh-CN": "开门，请开下门。",
+                        "ja-JP": "開けで、開けでください。"
+                    }
+                },
+                {
+                    "name": "mio-95",
+                    "path": "mio-95.mp3",
+                    "description": {
+                        "zh-CN": "辛苦了mion——！",
+                        "ja-JP": "おつみぉーーーーーん！"
+                    }
+                },
+                {
+                    "name": "mio-96",
+                    "path": "mio-96.mp3",
+                    "description": {
+                        "zh-CN": "是水天使啊！",
+                        "ja-JP": "サキエルだー！"
+                    }
+                },
+                {
+                    "name": "mio-97",
+                    "path": "mio-97.mp3",
+                    "description": {
+                        "zh-CN": "咚咚咚，啊哈哈哈。",
+                        "ja-JP": "とんとんドン、あははは。"
+                    }
+                },
+                {
+                    "name": "mio-99",
+                    "path": "mio-99.mp3",
+                    "description": {
+                        "zh-CN": "真是够了、讨厌讨厌！别再来了!",
+                        "ja-JP": "もうやだ、もうやだもうやだ、もうやだよ！"
+                    }
+                },
+                {
+                    "name": "mio-98",
+                    "path": "mio-98.mp3",
+                    "description": {
+                        "zh-CN": "初号机它-哇啊啊啊啊啊！",
+                        "ja-JP": "初号機か、わあああ——！"
+                    }
+                }
+            ]
+        },
+        {
+            "categoryName": "cookwolf",
+            "categoryDescription": {
+                "zh-CN": "| 厨师狼",
+                "ja-JP": "| シェフウルフ"
+            },
+            "voiceList": [
+                {
+                    "name": "mio-100",
+                    "path": "mio-100.mp3",
+                    "description": {
+                        "zh-CN": "啊哈哈哈！朝垃圾桶里射击番茄！超刺激！",
+                        "ja-JP": "あははは！トマトをゴミ箱にシュート！超エキサイティン！！"
+                    }
+                },
+                {
+                    "name": "mio-106",
+                    "path": "mio-106.mp3",
+                    "description": {
+                        "zh-CN": "想要番茄啊啊啊啊",
+                        "ja-JP": "トマトかほしい―あはぁ－"
+                    }
+                },
+                {
+                    "name": "mio-104",
+                    "path": "mio-104.mp3",
+                    "description": {
+                        "zh-CN": "Nice!Thank you!",
+                        "ja-JP": "Nice!Thank you!"
+                    }
+                },
+                {
+                    "name": "mio-94",
+                    "path": "mio-94.mp3",
+                    "description": {
+                        "zh-CN": "我切-！我切----！",
+                        "ja-JP": "入刀―！入刀――！"
+                    }
+                },
+                {
+                    "name": "mio-91",
+                    "path": "mio-91.mp3",
+                    "description": {
+                        "zh-CN": "锵锵锵-稍微放点辣!",
+                        "ja-JP": "チョンチョンチョン―ちょっと辛めです！"
+                    }
+                },
+                {
+                    "name": "mio-92",
+                    "path": "mio-92.mp3",
+                    "description": {
+                        "zh-CN": "啊，有几个掉啦！",
+                        "ja-JP": "あっ、何個かないなしまたけども！"
+                    }
+                },
+                {
+                    "name": "mio-93",
+                    "path": "mio-93.mp3",
+                    "description": {
+                        "zh-CN": "啊啊啊啊哼哼——",
+                        "ja-JP": "あああああはんはん―"
+                    }
+                },
+                {
+                    "name": "mio-101",
+                    "path": "mio-101.mp3",
+                    "description": {
+                        "zh-CN": "这样就成了miofubu推了呢！完美！",
+                        "ja-JP": "これはミオフブに推しになりましたね！これは完璧にね！"
+                    }
+                },
+                {
+                    "name": "mio-102",
+                    "path": "mio-102.mp3",
+                    "description": {
+                        "zh-CN": "嘿呀！进攻——！",
+                        "ja-JP": "おりゃ！​ファイヤー――！！"
                     }
                 }
             ]
