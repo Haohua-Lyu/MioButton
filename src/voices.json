@@ -347,14 +347,6 @@
                     }
                 },
                 {
-                    "name": "mio-95",
-                    "path": "mio-95.mp3",
-                    "description": {
-                        "zh-CN": "辛苦了mion——！",
-                        "ja-JP": "おつみぉーーーーーん！"
-                    }
-                },
-                {
                     "name": "mio-96",
                     "path": "mio-96.mp3",
                     "description": {
@@ -895,6 +887,14 @@
                 "description": {
                     "zh-CN": "宇宙的大家晚上好",
                     "ja-JP": "宇宙の皆さん、こんばんみぉーん"
+                }
+            },
+            {
+                "name": "mio-95",
+                "path": "mio-95.mp3",
+                "description": {
+                    "zh-CN": "辛苦了mion——！",
+                    "ja-JP": "おつみぉーーーーーん！"
                 }
             },
             {
