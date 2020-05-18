@@ -223,9 +223,22 @@ class HomePage extends Vue {
     live_data_loading = true;
 
     mounted() {
-        axios.get('https://cors-ion.herokuapp.com/https://storage.googleapis.com/vthell-data/live.json')
+        axios.get('https://api.jetri.co/live')
         .then(response => { 
-            this.live_data = response.data['UCp-5t9SrOQwXMU7iIjQfARg'];
+            let fetched = response.data;
+            let mio_lives = [];
+            const channel_id = 'UCp-5t9SrOQwXMU7iIjQfARg';
+            fetched.live.forEach(function(item){
+                if (item.channel === channel_id){
+                    mio_lives.push(item);
+                }
+            });
+            fetched.upcoming.forEach(function(item){
+                if (item.channel === channel_id){
+                    mio_lives.push(item);
+                }
+            });
+            this.live_data = mio_lives;
             this.live_data_loading = false;
         })
     }
