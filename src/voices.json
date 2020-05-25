@@ -81,6 +81,14 @@
                     }
                 },
                 {
+                    "name": "mio-119",
+                    "path": "mio-119.mp3",
+                    "description": {
+                        "zh-CN": "真的吗——?",
+                        "ja-JP": "ほんまー？"
+                    }
+                },
+                {
                     "name": "mio-86",
                     "path": "mio-86.mp3",
                     "description": {
@@ -171,6 +179,87 @@
             ]
         },
         {
+            "categoryName": "wolfpkdisaster",
+            "categoryDescription": {
+                "zh-CN": "| 绝命绝体狼",
+                "ja-JP": "| 絶体絶命の狼"
+            },
+            "voiceList": [
+                {
+                    "name": "mio-116",
+                    "path": "mio-116.mp3",
+                    "description": {
+                        "zh-CN": "欸↗要去玛丽酱家吗↗→？感觉游乐园会更好玩啊↗~~欸怎么回事这个气氛~咋办呐~游乐园肯定很好玩啊↗→",
+                        "ja-JP": "えええ？マリちゃんうち行くくくくくく？遊園地楽しいそうだよよよ、え、何この雰囲気、どうする？？遊園地～～楽しいそうだな～～～"
+                    }
+                },
+                {
+                    "name": "mio-118",
+                    "path": "mio-118.mp3",
+                    "description": {
+                        "zh-CN": "喂、玛丽！看看我啊！为啥这么露骨地一副好感度下降的样子啊！为啥这么露—刚才救了你命的可是味王啊!人家刚救了你啊——！",
+                        "ja-JP": "うぇ、マリ、こうち見ろ、何ろうごぐつ好感度下がでんだよ、何ろうごぐつ好感度、助けてやったの、味王だぞ、助けでやったんだぞ、まったく。"
+                    }
+                },
+                {
+                    "name": "mio-112",
+                    "path": "mio-112.mp3",
+                    "description": {
+                        "zh-CN": "这是哪啊——啊!?啊-啊哈哈哈哈哈哈哈哈滑溜溜地掉下去了呢w",
+                        "ja-JP": "なんだここ、わわわわ、ああ、あああ！あはははははははは、あはははははははは、あははははははは、するするするするでいだね!"
+                    }
+                },
+                {
+                    "name": "mio-109",
+                    "path": "mio-109.mp3",
+                    "description": {
+                        "zh-CN": "哈哈哈哈哈哈，看看这个女主，哈哈哈哈哈哈",
+                        "ja-JP": "ハハハハハハハハ、見てこの主人公、ハハハハハハハハ。"
+                    }
+                },
+                {
+                    "name": "mio-117",
+                    "path": "mio-117.mp3",
+                    "description": {
+                        "zh-CN": "那还是选去游乐园吧↗~",
+                        "ja-JP": "じゃ～～遊園地にいっちゃおううかななななな~"
+                    }
+                },
+                {
+                    "name": "mio-115",
+                    "path": "mio-115.mp3",
+                    "description": {
+                        "zh-CN": "呜哇！！！",
+                        "ja-JP": "うわわわわ！！！"
+                    }
+                },
+                {
+                    "name": "mio-111",
+                    "path": "mio-111.mp3",
+                    "description": {
+                        "zh-CN": "不要啊，好可怕啊！！！",
+                        "ja-JP": "やだだだだ、怖いよ！！！"
+                    }
+                },
+                {
+                    "name": "mio-114",
+                    "path": "mio-114.mp3",
+                    "description": {
+                        "zh-CN": "ｗ＆p、我是柴田",
+                        "ja-JP": "ｗ＆ｐ、柴田です。"
+                    }
+                },
+                {
+                    "name": "mio-113",
+                    "path": "mio-113.mp3",
+                    "description": {
+                        "zh-CN": "啊↑↓↑→",
+                        "ja-JP": "ああああああああああ"
+                    }
+                }
+            ]
+        },
+        {
             "categoryName": "nakigoe",
             "categoryDescription": {
                 "zh-CN": "| 叫声",
@@ -183,6 +272,14 @@
                     "description": {
                         "zh-CN": "啦啦啦（哭腔）",
                         "ja-JP": "ラララ（涙声）"
+                    }
+                },
+                {
+                    "name": "mio-110",
+                    "path": "mio-110.mp3",
+                    "description": {
+                        "zh-CN": "咔嚓咔嚓",
+                        "ja-JP": "パシャパシャ"
                     }
                 },
                 {
