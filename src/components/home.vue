@@ -139,8 +139,8 @@
 }
 .btn-body-status{/*播放状态分类标题*/
     background-color: #ff7d7db7;
-    border-top-left-radius: 300px;
-    border-bottom-left-radius: 300px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
     color: #fff;
     text-align: left;
     position: fixed;
