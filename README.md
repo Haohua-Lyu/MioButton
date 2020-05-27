@@ -16,7 +16,7 @@ Mio Button [http://ookamimio.xyz](https://ookamimio.xyz)
 
 翻译/翻訳担当：Raphael丶丶 & AE曼珠沙华 & 恐怖眼神 & dr_winmer & Melon-Soda & 寒いもみじ雪
 
-素材建议/リソース提案者：狐霞桑 & 澪家狐萝卜 & 伪面Joker & 究极救世内海 & 大神暗 & 寒いもみじ雪
+素材建议/リソース提案者：狐霞桑 & ミミック_ギミック & 澪家狐萝卜 & 伪面Joker & 究极救世内海 & 大神暗 & 寒いもみじ雪
 
 This project is supported by MeowSound Idols.
 
