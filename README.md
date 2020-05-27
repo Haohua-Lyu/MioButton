@@ -1,6 +1,6 @@
 # 狼按钮/ミオボタン/Ookami Mio button
 
-Mio Button [http://ookamimio.xyz](https://ookamimio.xyz)
+Mio Button [http://ookamimio.org](https://ookamimio.org)
 
 ![MIO-BTN-CI/CD](https://github.com/MioButton/MioButton/workflows/MIO-BTN-CI/CD/badge.svg)
 
