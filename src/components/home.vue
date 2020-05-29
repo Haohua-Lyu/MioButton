@@ -5,6 +5,10 @@
                 <div>{{ voice.name ? $t("action.playing") + $t("voice." + voice.name ) : $t("action.noplay") }}</div>
                 <audio id="player" @ended="voiceEnd(false)"></audio>
             </div>
+            <button class="btn btn-control" style="right:15px;bottom:15px;"><img src="/resources/stop.svg"></button>
+            <button class="btn btn-control" style="right:15px;bottom:50px;"><img src="/resources/over.svg"></button>
+            <button class="btn btn-control" style="right:15px;bottom:85px;"><img src="/resources/choose.svg"></button>
+            <button class="btn btn-control" style="right:15px;bottom:120px;"><img src="/resources/stop.svg"></button>
             <div class="title">{{$t("info.title")}}<img src="/resources/bg.gif" style="width:63px;height:auto;margin-bottom: 3px;"></div>
                 <div class="cate-header-panel">{{ $t("action.control")}}
                         <div class="cate-body-function">
@@ -73,6 +77,20 @@
 .btn:hover, .btn:focus, .btn.focus{
     color: #ffffff;
 }
+.btn-control{
+    position: fixed;
+    background-color: #ff7d7db7;/*背景颜色*/
+    border: 0px; /*边框去除*/
+    border-radius: 10px;/*边框圆角*/
+    max-width: 100%;
+    padding: 3px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
 .btn-random{/*控制中心按钮*/
     background-color: #FFACAC;/*背景颜色*/
     border: 0px; /*边框去除*/
@@ -139,14 +157,14 @@
 }
 .btn-body-status{/*播放状态分类标题*/
     background-color: #ff7d7db7;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
     color: #fff;
     text-align: left;
     position: fixed;
     bottom: 0px;
-    right: 0px;
-    margin-left: 25%;
+    left: 0px;
+    margin-right: 25%;
     font-size: 14px;
     padding-top: 7px;
     padding-bottom: 7px;
