@@ -5,10 +5,10 @@
                 <div>{{ voice.name ? $t("action.playing") + $t("voice." + voice.name ) : $t("action.noplay") }}</div>
                 <audio id="player" @ended="voiceEnd(false)"></audio>
             </div>
-            <button class="btn btn-control" style="right:15px;bottom:15px;"><img src="/resources/stop.svg"></button>
-            <button class="btn btn-control" style="right:15px;bottom:50px;"><img src="/resources/over.svg"></button>
-            <button class="btn btn-control" style="right:15px;bottom:85px;"><img src="/resources/choose.svg"></button>
-            <button class="btn btn-control" style="right:15px;bottom:120px;"><img src="/resources/stop.svg"></button>
+            <button class="btn btn-control" style="right:15px;bottom:15px;"><img src="/resources/stop.svg" style="width: 30px;"></button>
+            <button class="btn btn-control" style="right:15px;bottom:60px;"><img src="/resources/over.svg" style="width: 30px;"></button>
+            <button class="btn btn-control" style="right:15px;bottom:105px;"><img src="/resources/choose.svg" style="width: 30px;"></button>
+            <button class="btn btn-control" style="right:15px;bottom:150px;"><img src="/resources/stop.svg" style="width: 30px;"></button>
             <div class="title">{{$t("info.title")}}<img src="/resources/bg.gif" style="width:63px;height:auto;margin-bottom: 3px;"></div>
                 <div class="cate-header-panel">{{ $t("action.control")}}
                         <div class="cate-body-function">
@@ -81,7 +81,7 @@
     position: fixed;
     background-color: #ff7d7db7;/*背景颜色*/
     border: 0px; /*边框去除*/
-    border-radius: 10px;/*边框圆角*/
+    border-radius: 13px;/*边框圆角*/
     max-width: 100%;
     padding: 3px;
     font-weight: 600;
