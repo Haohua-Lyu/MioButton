@@ -23,7 +23,7 @@ const ja_JP = {
         overlap: "声重なる可能",
         autoplay: "自動放送",
         playing: "現在再生：",
-        noplay: "再生なし",
+        noplay: "",
         adtitle: "| コラボレーションプロジェクト",
         weekly: "非公式翻訳と二次創作団体の週刊（中国語）",
         sticker: "ミオのステッカー",

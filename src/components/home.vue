@@ -5,35 +5,11 @@
                 <div>{{ voice.name ? $t("action.playing") + $t("voice." + voice.name ) : $t("action.noplay") }}</div>
                 <audio id="player" @ended="voiceEnd(false)"></audio>
             </div>
-            <button class="btn btn-control" style="right:15px;bottom:15px;"><img src="/resources/stop.svg" style="width: 30px;"></button>
-            <button class="btn btn-control" style="right:15px;bottom:60px;"><img src="/resources/over.svg" style="width: 30px;"></button>
-            <button class="btn btn-control" style="right:15px;bottom:105px;"><img src="/resources/choose.svg" style="width: 30px;"></button>
-            <button class="btn btn-control" style="right:15px;bottom:150px;"><img src="/resources/stop.svg" style="width: 30px;"></button>
+            <button class="btn btn-control" style="right:15px;bottom:15px;" @click="stopPlay"><img src="/resources/stop.svg" style="width: 30px;"></button>
+            <button class="btn btn-control" style="right:60px;bottom:15px;" @click="random"><img src="/resources/choose.svg" style="width: 30px;"></button>
+            <button class="btn btn-control" style="right:105px;bottom:15px;" :class="{ 'disabled': autoCheck }" @click="overlap" :title="$t('info.overlapTips')"><input class="checkbox" type="checkbox" v-model="overlapCheck"><img src="/resources/over.svg" style="width: 30px;"></button>
+            <button class="btn btn-control" style="right:164px;bottom:15px;" :class="{ 'disabled': overlapCheck }" @click="autoPlay"><input class="checkbox" type="checkbox" v-model="autoCheck"><img src="/resources/auto.svg" style="width: 30px;"></button>
             <div class="title">{{$t("info.title")}}<img src="/resources/bg.gif" style="width:63px;height:auto;margin-bottom: 3px;"></div>
-                <div class="cate-header-panel">{{ $t("action.control")}}
-                        <div class="cate-body-function">
-                            <button class="btn btn-info" @click="stopPlay" style="margin-left: 0px;">{{$t("action.stopvoice") }}</button>
-                            <button class="btn btn-info" :class="{ 'disabled': overlapCheck }" @click="autoPlay">
-                                <input class="checkbox" type="checkbox" v-model="autoCheck">
-                                <span>{{ $t("action.autoplay") }}</span>
-                            </button>
-                        </div> 
-                        <div class="cate-body-function" style="margin-bottom: 2px;">    
-                            <button class="btn btn-info" @click="random" style="margin-left: 0px;">{{ $t("action.randomplay") }}</button>
-                            <button class="btn btn-info" :class="{ 'disabled': autoCheck }" @click="overlap" :title="$t('info.overlapTips')">
-                                <input class="checkbox" type="checkbox" v-model="overlapCheck">
-                                <span>{{ $t("action.overlap") }}</span>
-                            </button>
-                        </div>
-                </div>
-                <div class="cate-header-panel">{{$t("action.adtitle")}}
-                    <button class="btn btn-info-ad" onclick="window.open('https://www.bilibili.com/read/readlist/rl210208')">{{$t("action.weekly")}}</button>
-                    <button class="btn btn-info-ad" onclick="window.open('https://sticker.ookamimio.org')">{{$t("action.sticker")}}</button>
-                </div>
-                <div class="cate-header-panel">{{$t("action.random")}}
-                        <input id="share" class="btn btn-random" style="width: 190px;-webkit-user-select:text !important;" type="text" name="u" value :placeholder="$t('action.placeholder')">
-                        <button class="btn btn-info" @click="randomshare">{{$t("action.share")}}</button>
-                </div>
                 <div class="cate-header-panel">{{$t("action.live")}}
                     <div v-for="live in live_data" :key="live.startTime">
                         <div v-if="live.title.length">
@@ -49,6 +25,14 @@
                             </a></button>
                         </div>
                     </div>
+                </div>
+                <div class="cate-header-panel">{{$t("action.random")}}
+                        <input id="share" class="btn btn-random" style="width: 190px;-webkit-user-select:text !important;" type="text" name="u" value :placeholder="$t('action.placeholder')">
+                        <button class="btn btn-info" @click="randomshare">{{$t("action.share")}}</button>
+                </div>
+                <div class="cate-header-panel">{{$t("action.adtitle")}}
+                    <button class="btn btn-info-ad" onclick="window.open('https://www.bilibili.com/read/readlist/rl210208')">{{$t("action.weekly")}}</button>
+                    <button class="btn btn-info-ad" onclick="window.open('https://sticker.ookamimio.org')">{{$t("action.sticker")}}</button>
                 </div>
             <div v-for="category in voices" v-bind:key="category.categoryName">
                 <div class="cate-header">{{ $t("voicecategory." + category.categoryName) }} 
@@ -81,7 +65,7 @@
     position: fixed;
     background-color: #ff7d7db7;/*背景颜色*/
     border: 0px; /*边框去除*/
-    border-radius: 13px;/*边框圆角*/
+    border-radius: 17px;/*边框圆角*/
     max-width: 100%;
     padding: 3px;
     font-weight: 600;
@@ -157,17 +141,15 @@
 }
 .btn-body-status{/*播放状态分类标题*/
     background-color: #ff7d7db7;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
     color: #fff;
-    text-align: left;
+    text-align: center;
     position: fixed;
-    bottom: 0px;
+    top: 0px;
     left: 0px;
-    margin-right: 25%;
+    right: 0px;
     font-size: 14px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     padding-left: 13px;
     padding-right: 13px;
     font-weight: 600;

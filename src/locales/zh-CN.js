@@ -23,7 +23,7 @@ const zh_CN = {
         overlap: "重叠播放",
         autoplay: "自动播放",
         playing: "正在播放：",
-        noplay: "暂无播放",
+        noplay: "",
         adtitle: "| 联动项目",
         weekly: "澪雀之森的神社周报",
         sticker: "狼贴图",
