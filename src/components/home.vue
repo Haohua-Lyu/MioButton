@@ -228,7 +228,6 @@ class HomePage extends Vue {
         }
     youtube() {
                 axios.get('https://api.jetri.co/channels').then(response => {
-                    console.log(response)
                     this.youtubeData = response.data
                 })
             }
