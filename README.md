@@ -14,9 +14,9 @@ Mio Button [http://ookamimio.org](https://ookamimio.org)
 
 音频剪辑/オーディオクリップ担当: 夜月赤 & 澪雀之森的神社 & 自闭的一只懒猫 & 寒いもみじ雪
 
-翻译/翻訳担当：Raphael丶丶 & AE曼珠沙华 & 恐怖眼神 & dr_winmer & Melon-Soda & 寒いもみじ雪
+翻译/翻訳担当：Raphael丶丶 & AE曼珠沙华 & 恐怖眼神 & dr_winmer & Melon-Soda & 巧白_猫耳控 & 寒いもみじ雪
 
-素材建议/リソース提案者：狐霞桑 & ミミック_ギミック & Genso & 澪家狐萝卜 & 伪面Joker & 究极救世内海 & 大神暗 & 寒いもみじ雪
+素材建议/リソース提案者：狐霞桑 & ミミック_ギミック & 银鸦- & Genso & 澪家狐萝卜 & 伪面Joker & 究极救世内海 & 大神暗 & 寒いもみじ雪
 
 This project is supported by MeowSound Idols.
 
