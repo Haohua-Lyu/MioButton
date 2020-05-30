@@ -20,7 +20,7 @@ Mio Button [http://ookamimio.org](https://ookamimio.org)
 
 This project is supported by MeowSound Idols.
 
-This project was greatly helped by [Lonely_ion](https://github.com/lonelyion)
+This project was greatly helped by [Lonely_ion](https://github.com/lonelyion) and [jetri.co](https://twitter.com/dragonjetmkii?s=09)
 
 This project is modified based on the [Aqua button](https://github.com/zyzsdy/aqua-button).
 
