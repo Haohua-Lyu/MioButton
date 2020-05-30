@@ -3,6 +3,7 @@ const ja_JP = {
         title: "ミオボタン",
         info: "通知",
         null: "空",
+        subscriber: "test",
         author: "ミオボタンチーム 2020",
         audioStaff: "感謝リストとウェブサイト情報",
         toGithub: "Githubに関する貴重なフィードバックを提供してください",
