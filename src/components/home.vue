@@ -11,7 +11,6 @@
             <button class="btn btn-control" style="right:164px;bottom:15px;" :class="{ 'disabled': overlapCheck }" @click="autoPlay"><input class="checkbox" type="checkbox" v-model="autoCheck"><img src="/resources/auto.svg" style="width: 30px;"></button>
             <div class="title">{{$t("info.title")}}<img src="/resources/bg.gif" style="width:63px;height:auto;margin-bottom: 3px;"></div>
                 <div class="cate-header-panel">{{$t("action.live")}}
-                    <button class="btn btn-info" v-if="youtubeData.channels">{{$t('info.subscriber')}}{{youtubeData.channels[19].subscriberCount}}</button>
                     <div v-for="live in live_data" :key="live.startTime">
                         <div v-if="live.title.length">
                             <span v-if="live.type === 'upcoming'" style="font-size:17px;">{{$t("action.plan")}}{{ format_time(live.startTime) }}</span>
