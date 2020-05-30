@@ -150,8 +150,8 @@
     font-size: 14px;
     padding-top: 0px;
     padding-bottom: 0px;
-    padding-left: 13px;
-    padding-right: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-weight: 600;
 }
 .cate-header-panel{/*控制中心分类标题*/
@@ -221,7 +221,7 @@ class HomePage extends Vue {
     voice = {};
     live_data = {};
     live_data_loading = true;
-    data = {youtubeData: {channels: null}};
+    youtubeData = {channels: null};
     created() {
             this.youtube()
         }
