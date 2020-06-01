@@ -43,8 +43,8 @@
                   "name": "mio-33",
                   "path": "mio-33.mp3",
                   "description": {
-                      "zh-CN": "打喷嚏",
-                      "ja-JP": "くしゃみ"
+                      "zh-CN": "打喷嚏 1",
+                      "ja-JP": "くしゃみ 1"
                   }
               },
               {
@@ -70,6 +70,30 @@
                     "description": {
                         "zh-CN": "亚马逊真是博大精深呐",
                         "ja-JP": "アマゾンは深いなぁ～"
+                    }
+                },
+                {
+                    "name": "mio-127",
+                    "path": "mio-127.mp3",
+                    "description": {
+                        "zh-CN": "打喷嚏 2",
+                        "ja-JP": "くしゃみ 2"
+                    }
+                },
+                {
+                    "name": "mio-126",
+                    "path": "mio-126.mp3",
+                    "description": {
+                        "zh-CN": "（咯吱咯吱）",
+                        "ja-JP": "(ボリボリ)"
+                    }
+                },
+                {
+                    "name": "mio-127",
+                    "path": "mio-127.mp3",
+                    "description": {
+                        "zh-CN": "打喷嚏 2",
+                        "ja-JP": "くしゃみ 2"
                     }
                 },
                 {
@@ -179,6 +203,55 @@
             ]
         },
         {
+            "categoryName": "emotion",
+            "categoryDescription": {
+                "zh-CN": "| 狼之感情",
+                "ja-JP": "| 狼の感情"
+            },
+            "voiceList": [
+                {
+                    "name": "mio-38",
+                    "path": "mio-38.mp3",
+                    "description": {
+                        "zh-CN": "愤怒的狼",
+                        "ja-JP": "怒っている狼"
+                    }
+                },
+                {
+                    "name": "mio-105",
+                    "path": "mio-105.mp3",
+                    "description": {
+                        "zh-CN": "惊讶的狼",
+                        "ja-JP": "驚いた狼"
+                    }
+                },
+                {
+                    "name": "mio-86",
+                    "path": "mio-86.mp3",
+                    "description": {
+                        "zh-CN": "高兴的狼",
+                        "ja-JP": "うれしそうな狼"
+                    }
+                },
+                {
+                    "name": "mio-32",
+                    "path": "mio-32.mp3",
+                    "description": {
+                        "zh-CN": "可爱的狼",
+                        "ja-JP": "かわいい狼"
+                    }
+                },
+                {
+                    "name": "mio-8",
+                    "path": "mio-8.mp3",
+                    "description": {
+                        "zh-CN": "哭哭狼",
+                        "ja-JP": "泣く狼"
+                    }
+                }
+            ]
+        },
+        {
             "categoryName": "wolfpkdisaster",
             "categoryDescription": {
                 "zh-CN": "| 绝命绝体狼",
@@ -191,6 +264,38 @@
                     "description": {
                         "zh-CN": "欸↗要去玛丽酱家吗↗→？感觉游乐园会更好玩啊↗~~欸怎么回事这个气氛~咋办呐~游乐园肯定很好玩啊↗→",
                         "ja-JP": "えええ？マリちゃんうち行くくくくくく？遊園地楽しいそうだよよよ、え、何この雰囲気、どうする？？遊園地～～楽しいそうだな～～～"
+                    }
+                },
+                {
+                    "name": "mio-120",
+                    "path": "mio-120.mp3",
+                    "description": {
+                        "zh-CN": "把水拿着，跑起来就会...死！跑起来就会死！!跑起来就要死啦!!!",
+                        "ja-JP": "お水を、取って、走ったら...死！走ったら死！！走ったら死！！！"
+                    }
+                },
+                {
+                    "name": "mio-121",
+                    "path": "mio-121.mp3",
+                    "description": {
+                        "zh-CN": "啊啊-归去罢！归去罢！退散罢！",
+                        "ja-JP": "ああー帰りたまへ！帰りたまへ！いなくなりたまへ！"
+                    }
+                },
+                {
+                    "name": "mio-123",
+                    "path": "mio-123.mp3",
+                    "description": {
+                        "zh-CN": "嘿咻--！唔喔喔喔喔——！fight————！一发入魂————！",
+                        "ja-JP": "ほぃよいしょー！うおおおおおおお！ファイトォォォォォォ！いっぱぁーーーつ！"
+                    }
+                },
+                {
+                    "name": "mio-122",
+                    "path": "mio-122.mp3",
+                    "description": {
+                        "zh-CN": "欸欸————！！",
+                        "ja-JP": "ええーーーーーーー！？"
                     }
                 },
                 {
@@ -559,6 +664,39 @@
             ]
         },
         {
+            "categoryName": "cat",
+            "categoryDescription": {
+              "zh-CN": "| Tiger的咆哮",
+              "ja-JP": "| タイガの鳴き声"
+            },
+            "voiceList": [
+                {
+                  "name": "mio-43",
+                  "path": "mio-43.mp3",
+                  "description": {
+                      "zh-CN": "Tiger的咆哮 1",
+                      "ja-JP": "タイガの鳴き声 1"
+                  }
+                },
+                {
+                  "name": "mio-124",
+                  "path": "mio-124.mp3",
+                  "description": {
+                      "zh-CN": "Tiger的咆哮 2",
+                      "ja-JP": "タイガの鳴き声 2"
+                  }
+                },
+              {
+                  "name": "mio-125",
+                  "path": "mio-125.mp3",
+                  "description": {
+                      "zh-CN": "Tiger的咆哮 3",
+                      "ja-JP": "タイガの鳴き声 3"
+                  }
+              }
+            ]
+        },
+        {
             "categoryName": "wolfcat",
             "categoryDescription": {
               "zh-CN": "| 狼和猫",
@@ -572,14 +710,6 @@
                       "zh-CN": "mooo~",
                       "ja-JP": "も～～～"
                   }
-              },
-              {
-                "name": "mio-43",
-                "path": "mio-43.mp3",
-                "description": {
-                    "zh-CN": "tiger的咆哮",
-                    "ja-JP": "tigerの鳴き声"
-                }
               },
               {
                   "name": "mio-41",
@@ -630,6 +760,23 @@
                   }
               }
             ]
+          },
+          {
+              "categoryName": "splatoon",
+              "categoryDescription": {
+                "zh-CN": "| 喷射战士",
+                "ja-JP": "| スプラトゥーン"
+              },
+              "voiceList": [
+                {
+                    "name": "mio-128",
+                    "path": "mio-128.mp3",
+                    "description": {
+                        "zh-CN": "呀啊——！",
+                        "ja-JP": "やぁーーーー！"
+                    }
+                }
+              ]
           },
           {
             "categoryName": "fuerwolf",
