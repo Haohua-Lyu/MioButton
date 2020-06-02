@@ -202,40 +202,40 @@
             },
             "voiceList": [
                 {
-                    "name": "mio-38",
-                    "path": "mio-38.mp3",
+                    "name": "mio-133",
+                    "path": "mio-133.mp3",
                     "description": {
                         "zh-CN": "愤怒的狼",
                         "ja-JP": "怒っている狼"
                     }
                 },
                 {
-                    "name": "mio-105",
-                    "path": "mio-105.mp3",
+                    "name": "mio-132",
+                    "path": "mio-132.mp3",
                     "description": {
                         "zh-CN": "惊讶的狼",
                         "ja-JP": "驚いた狼"
                     }
                 },
                 {
-                    "name": "mio-86",
-                    "path": "mio-86.mp3",
+                    "name": "mio-131",
+                    "path": "mio-131.mp3",
                     "description": {
                         "zh-CN": "高兴的狼",
                         "ja-JP": "うれしそうな狼"
                     }
                 },
                 {
-                    "name": "mio-32",
-                    "path": "mio-32.mp3",
+                    "name": "mio-130",
+                    "path": "mio-130.mp3",
                     "description": {
                         "zh-CN": "可爱的狼",
                         "ja-JP": "かわいい狼"
                     }
                 },
                 {
-                    "name": "mio-8",
-                    "path": "mio-8.mp3",
+                    "name": "mio-129",
+                    "path": "mio-129.mp3",
                     "description": {
                         "zh-CN": "哭哭狼",
                         "ja-JP": "泣く狼"
