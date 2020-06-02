@@ -267,14 +267,6 @@
                     }
                 },
                 {
-                    "name": "mio-121",
-                    "path": "mio-121.mp3",
-                    "description": {
-                        "zh-CN": "啊啊-归去罢！归去罢！退散罢！",
-                        "ja-JP": "ああー帰りたまへ！帰りたまへ！いなくなりたまへ！"
-                    }
-                },
-                {
                     "name": "mio-123",
                     "path": "mio-123.mp3",
                     "description": {
@@ -760,6 +752,14 @@
                 "ja-JP": "| スプラトゥーン"
               },
               "voiceList": [
+                {
+                    "name": "mio-121",
+                    "path": "mio-121.mp3",
+                    "description": {
+                        "zh-CN": "啊啊-归去罢！归去罢！退散罢！",
+                        "ja-JP": "ああー帰りたまへ！帰りたまへ！いなくなりたまへ！"
+                    }
+                },
                 {
                     "name": "mio-128",
                     "path": "mio-128.mp3",
