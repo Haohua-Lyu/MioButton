@@ -89,14 +89,6 @@
                     }
                 },
                 {
-                    "name": "mio-127",
-                    "path": "mio-127.mp3",
-                    "description": {
-                        "zh-CN": "打喷嚏 2",
-                        "ja-JP": "くしゃみ 2"
-                    }
-                },
-                {
                     "name": "mio-4",
                     "path": "mio-4.mp3",
                     "description": {
