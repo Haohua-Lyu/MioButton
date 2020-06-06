@@ -197,7 +197,7 @@
     white-space: normal !important;
 }
 .btn-new:focus{
-    color: rgba(255, 122, 124, 0.8);
+    color: rgba(255, 122, 124, 0.815);
 }
 .checkbox {
     display: inline-block;
