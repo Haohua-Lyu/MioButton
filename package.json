@@ -13,7 +13,6 @@
     "exiftool": "0.0.3",
     "fibers": "^4.0.2",
     "hls.js": "^0.13.1",
-    "html2canvas": "^1.0.0-rc.5",
     "jquery": "^3.4.1",
     "jsencrypt": "^3.0.0-rc.1",
     "popper.js": "^1.16.0",
