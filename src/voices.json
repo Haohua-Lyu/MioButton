@@ -40,14 +40,6 @@
                   }
               },
               {
-                  "name": "mio-33",
-                  "path": "mio-33.mp3",
-                  "description": {
-                      "zh-CN": "打喷嚏 1",
-                      "ja-JP": "くしゃみ 1"
-                  }
-              },
-              {
                   "name": "mio-34",
                   "path": "mio-34.mp3",
                   "description": {
@@ -57,6 +49,72 @@
               }
             ]
         },
+        {
+          "categoryName": "greeting",
+          "categoryDescription": {
+            "zh-CN": "| 打招呼",
+            "ja-JP": "| 挨拶"
+          },
+          "voiceList": [
+            {
+                "name": "mio-74",
+                "path": "mio-74.mp3",
+                "description": {
+                    "zh-CN": "宇宙的大家晚上好",
+                    "ja-JP": "宇宙の皆さん、こんばんみぉーん"
+                }
+            },
+            {
+                "name": "mio-95",
+                "path": "mio-95.mp3",
+                "description": {
+                    "zh-CN": "辛苦了mion——！",
+                    "ja-JP": "おつみぉーーーーーん！"
+                }
+            },
+            {
+                "name": "mio-2",
+                "path": "mio-2.mp3",
+                "description": {
+                    "zh-CN": "晚上好mion~我是大神澪~",
+                    "ja-JP": "こんばんみぉーん~大神ミオです~"
+                }
+            }
+          ]
+        },
+        {
+            "categoryName": "aqiu",
+            "categoryDescription": {
+              "zh-CN": "| 狼喷嚏",
+              "ja-JP": "| 狼のくしゃみ"
+            },
+            "voiceList": [
+                {
+                    "name": "mio-33",
+                    "path": "mio-33.mp3",
+                    "description": {
+                        "zh-CN": "打喷嚏 1",
+                        "ja-JP": "くしゃみ 1"
+                    }
+                },
+                {
+                    "name": "mio-127",
+                    "path": "mio-127.mp3",
+                    "description": {
+                        "zh-CN": "打喷嚏 2",
+                        "ja-JP": "くしゃみ 2"
+                    }
+                },
+              {
+                  "name": "mio-150",
+                  "path": "mio-150.mp3",
+                  "description": {
+                      "zh-CN": "打喷嚏 3",
+                      "ja-JP": "くしゃみ 3"
+                  }
+              }
+            ]
+          },
         {
             "categoryName": "daily",
             "categoryDescription": {
@@ -70,14 +128,6 @@
                     "description": {
                         "zh-CN": "亚马逊真是博大精深呐",
                         "ja-JP": "アマゾンは深いなぁ～"
-                    }
-                },
-                {
-                    "name": "mio-127",
-                    "path": "mio-127.mp3",
-                    "description": {
-                        "zh-CN": "打喷嚏 2",
-                        "ja-JP": "くしゃみ 2"
                     }
                 },
                 {
@@ -244,111 +294,6 @@
             ]
         },
         {
-            "categoryName": "wolfpkdisaster",
-            "categoryDescription": {
-                "zh-CN": "| 绝命绝体狼",
-                "ja-JP": "| 絶体絶命の狼"
-            },
-            "voiceList": [
-                {
-                    "name": "mio-116",
-                    "path": "mio-116.mp3",
-                    "description": {
-                        "zh-CN": "欸↗要去玛丽酱家吗↗→？感觉游乐园会更好玩啊↗~~欸怎么回事这个气氛~咋办呐~游乐园肯定很好玩啊↗→",
-                        "ja-JP": "えええ？マリちゃんうち行くくくくくく？遊園地楽しいそうだよよよ、え、何この雰囲気、どうする？？遊園地～～楽しいそうだな～～～"
-                    }
-                },
-                {
-                    "name": "mio-120",
-                    "path": "mio-120.mp3",
-                    "description": {
-                        "zh-CN": "把水拿着，跑起来就会...死！跑起来就会死！!跑起来就要死啦!!!",
-                        "ja-JP": "お水を、取って、走ったら...死！走ったら死！！走ったら死！！！"
-                    }
-                },
-                {
-                    "name": "mio-123",
-                    "path": "mio-123.mp3",
-                    "description": {
-                        "zh-CN": "嘿咻--！唔喔喔喔喔——！fight————！一发入魂————！",
-                        "ja-JP": "ほぃよいしょー！うおおおおおおお！ファイトォォォォォォ！いっぱぁーーーつ！"
-                    }
-                },
-                {
-                    "name": "mio-122",
-                    "path": "mio-122.mp3",
-                    "description": {
-                        "zh-CN": "欸欸————！！",
-                        "ja-JP": "ええーーーーーーー！？"
-                    }
-                },
-                {
-                    "name": "mio-118",
-                    "path": "mio-118.mp3",
-                    "description": {
-                        "zh-CN": "喂、玛丽！看看我啊！为啥这么露骨地一副好感度下降的样子啊！为啥这么露—刚才救了你命的可是味王啊!人家刚救了你啊——！",
-                        "ja-JP": "うぇ、マリ、こうち見ろ、何ろうごぐつ好感度下がでんだよ、何ろうごぐつ好感度、助けてやったの、味王だぞ、助けでやったんだぞ、まったく。"
-                    }
-                },
-                {
-                    "name": "mio-112",
-                    "path": "mio-112.mp3",
-                    "description": {
-                        "zh-CN": "这是哪啊——啊!?啊-啊哈哈哈哈哈哈哈哈滑溜溜地掉下去了呢w",
-                        "ja-JP": "なんだここ、わわわわ、ああ、あああ！あはははははははは、あはははははははは、あははははははは、するするするするでいだね!"
-                    }
-                },
-                {
-                    "name": "mio-109",
-                    "path": "mio-109.mp3",
-                    "description": {
-                        "zh-CN": "哈哈哈哈哈哈，看看这个女主，哈哈哈哈哈哈",
-                        "ja-JP": "ハハハハハハハハ、見てこの主人公、ハハハハハハハハ。"
-                    }
-                },
-                {
-                    "name": "mio-117",
-                    "path": "mio-117.mp3",
-                    "description": {
-                        "zh-CN": "那还是选去游乐园吧↗~",
-                        "ja-JP": "じゃ～～遊園地にいっちゃおううかななななな~"
-                    }
-                },
-                {
-                    "name": "mio-115",
-                    "path": "mio-115.mp3",
-                    "description": {
-                        "zh-CN": "呜哇！！！",
-                        "ja-JP": "うわわわわ！！！"
-                    }
-                },
-                {
-                    "name": "mio-111",
-                    "path": "mio-111.mp3",
-                    "description": {
-                        "zh-CN": "不要啊，好可怕啊！！！",
-                        "ja-JP": "やだだだだ、怖いよ！！！"
-                    }
-                },
-                {
-                    "name": "mio-114",
-                    "path": "mio-114.mp3",
-                    "description": {
-                        "zh-CN": "ｗ＆p、我是柴田",
-                        "ja-JP": "ｗ＆ｐ、柴田です。"
-                    }
-                },
-                {
-                    "name": "mio-113",
-                    "path": "mio-113.mp3",
-                    "description": {
-                        "zh-CN": "啊↑↓↑→",
-                        "ja-JP": "ああああああああああ"
-                    }
-                }
-            ]
-        },
-        {
             "categoryName": "nakigoe",
             "categoryDescription": {
                 "zh-CN": "| 叫声",
@@ -494,157 +439,140 @@
             ]
         },
         {
-            "categoryName": "monsterwolf",
+            "categoryName": "wolffox",
             "categoryDescription": {
-                "zh-CN": "| 狼和怪物",
-                "ja-JP": "| 狼と怪物"
+              "zh-CN": "| 拼字游戏",
+              "ja-JP": "| もじぴったん"
             },
             "voiceList": [
                 {
-                    "name": "mio-107",
-                    "path": "mio-107.mp3",
-                    "description": {
-                        "zh-CN": "无路赛！（好啰嗦啊）",
-                        "ja-JP": "うるさい！"
-                    }
+                  "name": "mio-140",
+                  "path": "mio-140.mp3",
+                  "description": {
+                      "zh-CN": "啊啊！按了pass了！真是的，等下嘛...呜哼哼...好伤心哟...",
+                      "ja-JP": "ああ！パスを押すよ！もう！ちょっと待ってよ...ふんふん...悲しいよ..."
+                  }
                 },
                 {
-                    "name": "mio-105",
-                    "path": "mio-105.mp3",
-                    "description": {
-                        "zh-CN": "呀——！哇——！",
-                        "ja-JP": "やああああ！わああああ！"
-                    }
+                  "name": "mio-142",
+                  "path": "mio-142.mp3",
+                  "description": {
+                      "zh-CN": "哈-！太棒啦——！第一次赢啦！哈哈哈哈！",
+                      "ja-JP": "はー！祝ったーー！初めて勝った！！！！ハハハハ！"
+                  }
                 },
                 {
-                    "name": "mio-108",
-                    "path": "mio-108.mp3",
-                    "description": {
-                        "zh-CN": "啊哈哈哈哈哈哈，啊——",
-                        "ja-JP": "アハハハハハハハハ、あ～"
-                    }
+                  "name": "mio-136",
+                  "path": "mio-136.mp3",
+                  "description": {
+                      "zh-CN": "诶~是什么呢？不知道啦——",
+                      "ja-JP": "ええなんだろう？分かんないよーー"
+                  }
                 },
                 {
-                    "name": "mio-90",
-                    "path": "mio-90.mp3",
-                    "description": {
-                        "zh-CN": "开门，请开下门。",
-                        "ja-JP": "開けで、開けでください。"
-                    }
+                  "name": "mio-147",
+                  "path": "mio-147.mp3",
+                  "description": {
+                      "zh-CN": "Tiger的“大概”吗——",
+                      "ja-JP": "タイガの大概がーーー"
+                  }
                 },
                 {
-                    "name": "mio-96",
-                    "path": "mio-96.mp3",
-                    "description": {
-                        "zh-CN": "是水天使啊！",
-                        "ja-JP": "サキエルだー！"
-                    }
+                  "name": "mio-138",
+                  "path": "mio-138.mp3",
+                  "description": {
+                      "zh-CN": "哈哈，哈啊啊啊啊啊哈，啊啊啊-！",
+                      "ja-JP": "ハッハ、ハアアアアハ、アアアー！"
+                  }
                 },
                 {
-                    "name": "mio-97",
-                    "path": "mio-97.mp3",
-                    "description": {
-                        "zh-CN": "咚咚咚，啊哈哈哈。",
-                        "ja-JP": "とんとんドン、あははは。"
-                    }
+                  "name": "mio-149",
+                  "path": "mio-149.mp3",
+                  "description": {
+                      "zh-CN": "结↑果↓发表！！！",
+                      "ja-JP": "結果発表おおおおお！！！！"
+                  }
                 },
                 {
-                    "name": "mio-99",
-                    "path": "mio-99.mp3",
-                    "description": {
-                        "zh-CN": "真是够了、讨厌讨厌！别再来了!",
-                        "ja-JP": "もうやだ、もうやだもうやだ、もうやだよ！"
-                    }
+                  "name": "mio-139",
+                  "path": "mio-139.mp3",
+                  "description": {
+                      "zh-CN": "唔哦哦哦...哈哈哈哈哈",
+                      "ja-JP": "うおおお...ハハハハハ"
+                  }
                 },
                 {
-                    "name": "mio-98",
-                    "path": "mio-98.mp3",
-                    "description": {
-                        "zh-CN": "初号机它-哇啊啊啊啊啊！",
-                        "ja-JP": "初号機か、わあああ——！"
-                    }
-                }
-            ]
-        },
-        {
-            "categoryName": "cookwolf",
-            "categoryDescription": {
-                "zh-CN": "| 厨师狼",
-                "ja-JP": "| シェフウルフ"
-            },
-            "voiceList": [
-                {
-                    "name": "mio-100",
-                    "path": "mio-100.mp3",
-                    "description": {
-                        "zh-CN": "啊哈哈哈！朝垃圾桶里射击番茄！超刺激！",
-                        "ja-JP": "あははは！トマトをゴミ箱にシュート！超エキサイティン！！"
-                    }
+                  "name": "mio-141",
+                  "path": "mio-141.mp3",
+                  "description": {
+                      "zh-CN": "被小看了啊-！",
+                      "ja-JP": "なめくさりやがってぇ-!"
+                  }
                 },
                 {
-                    "name": "mio-106",
-                    "path": "mio-106.mp3",
-                    "description": {
-                        "zh-CN": "想要番茄啊啊啊啊",
-                        "ja-JP": "トマトかほしい―あはぁ－"
-                    }
+                  "name": "mio-144",
+                  "path": "mio-144.mp3",
+                  "description": {
+                      "zh-CN": "“然也”是什么？",
+                      "ja-JP": "『さなり』てだに？"
+                  }
                 },
                 {
-                    "name": "mio-104",
-                    "path": "mio-104.mp3",
-                    "description": {
-                        "zh-CN": "Nice!Thank you!",
-                        "ja-JP": "Nice!Thank you!"
-                    }
+                  "name": "mio-134",
+                  "path": "mio-134.mp3",
+                  "description": {
+                      "zh-CN": "『ぜぎ』!没这个词啊...",
+                      "ja-JP": "ぜ、ぜぎー！ないな…"
+                  }
                 },
                 {
-                    "name": "mio-94",
-                    "path": "mio-94.mp3",
-                    "description": {
-                        "zh-CN": "我切-！我切----！",
-                        "ja-JP": "入刀―！入刀――！"
-                    }
+                  "name": "mio-145",
+                  "path": "mio-145.mp3",
+                  "description": {
+                      "zh-CN": "啊啊！太好啦!",
+                      "ja-JP": "ああー！やったぁー！"
+                  }
                 },
                 {
-                    "name": "mio-91",
-                    "path": "mio-91.mp3",
-                    "description": {
-                        "zh-CN": "锵锵锵-稍微放点辣!",
-                        "ja-JP": "チョンチョンチョン―ちょっと辛めです！"
-                    }
+                  "name": "mio-143",
+                  "path": "mio-143.mp3",
+                  "description": {
+                      "zh-CN": "“欧派次”是什么呢...",
+                      "ja-JP": "『おぱいつ』は何なんだろう"
+                  }
                 },
                 {
-                    "name": "mio-92",
-                    "path": "mio-92.mp3",
-                    "description": {
-                        "zh-CN": "啊，有几个掉啦！",
-                        "ja-JP": "あっ、何個かないなしまたけども！"
-                    }
+                  "name": "mio-135",
+                  "path": "mio-135.mp3",
+                  "description": {
+                      "zh-CN": "he-li!he-li!",
+                      "ja-JP": "へーり！へーり！へーり！"
+                  }
                 },
                 {
-                    "name": "mio-93",
-                    "path": "mio-93.mp3",
-                    "description": {
-                        "zh-CN": "啊啊啊啊哼哼——",
-                        "ja-JP": "あああああはんはん―"
-                    }
+                  "name": "mio-148",
+                  "path": "mio-148.mp3",
+                  "description": {
+                      "zh-CN": "欸哼哼哼呜呜呜",
+                      "ja-JP": "えふんふん..."
+                  }
                 },
                 {
-                    "name": "mio-101",
-                    "path": "mio-101.mp3",
-                    "description": {
-                        "zh-CN": "这样就成了miofubu推了呢！完美！",
-                        "ja-JP": "これはミオフブに推しになりましたね！これは完璧にね！"
-                    }
+                  "name": "mio-146",
+                  "path": "mio-146.mp3",
+                  "description": {
+                      "zh-CN": "“大概”-“tiger!”",
+                      "ja-JP": "『たいがい』ー『タイガ』！"
+                  }
                 },
-                {
-                    "name": "mio-102",
-                    "path": "mio-102.mp3",
-                    "description": {
-                        "zh-CN": "嘿呀！进攻——！",
-                        "ja-JP": "おりゃ！​ファイヤー――！！"
-                    }
-                }
+              {
+                  "name": "mio-137",
+                  "path": "mio-137.mp3",
+                  "description": {
+                      "zh-CN": "呃，那个!那个！",
+                      "ja-JP": "ええと、ええと！ええと！"
+                  }
+              }
             ]
         },
         {
@@ -744,6 +672,160 @@
                   }
               }
             ]
+          },
+          {
+              "categoryName": "monsterwolf",
+              "categoryDescription": {
+                  "zh-CN": "| 狼和怪物",
+                  "ja-JP": "| 狼と怪物"
+              },
+              "voiceList": [
+                  {
+                      "name": "mio-107",
+                      "path": "mio-107.mp3",
+                      "description": {
+                          "zh-CN": "无路赛！（好啰嗦啊）",
+                          "ja-JP": "うるさい！"
+                      }
+                  },
+                  {
+                      "name": "mio-105",
+                      "path": "mio-105.mp3",
+                      "description": {
+                          "zh-CN": "呀——！哇——！",
+                          "ja-JP": "やああああ！わああああ！"
+                      }
+                  },
+                  {
+                      "name": "mio-108",
+                      "path": "mio-108.mp3",
+                      "description": {
+                          "zh-CN": "啊哈哈哈哈哈哈，啊——",
+                          "ja-JP": "アハハハハハハハハ、あ～"
+                      }
+                  },
+                  {
+                      "name": "mio-90",
+                      "path": "mio-90.mp3",
+                      "description": {
+                          "zh-CN": "开门，请开下门。",
+                          "ja-JP": "開けで、開けでください。"
+                      }
+                  },
+                  {
+                      "name": "mio-96",
+                      "path": "mio-96.mp3",
+                      "description": {
+                          "zh-CN": "是水天使啊！",
+                          "ja-JP": "サキエルだー！"
+                      }
+                  },
+                  {
+                      "name": "mio-97",
+                      "path": "mio-97.mp3",
+                      "description": {
+                          "zh-CN": "咚咚咚，啊哈哈哈。",
+                          "ja-JP": "とんとんドン、あははは。"
+                      }
+                  },
+                  {
+                      "name": "mio-99",
+                      "path": "mio-99.mp3",
+                      "description": {
+                          "zh-CN": "真是够了、讨厌讨厌！别再来了!",
+                          "ja-JP": "もうやだ、もうやだもうやだ、もうやだよ！"
+                      }
+                  },
+                  {
+                      "name": "mio-98",
+                      "path": "mio-98.mp3",
+                      "description": {
+                          "zh-CN": "初号机它-哇啊啊啊啊啊！",
+                          "ja-JP": "初号機か、わあああ——！"
+                      }
+                  }
+              ]
+          },
+          {
+              "categoryName": "cookwolf",
+              "categoryDescription": {
+                  "zh-CN": "| 厨师狼",
+                  "ja-JP": "| シェフウルフ"
+              },
+              "voiceList": [
+                  {
+                      "name": "mio-100",
+                      "path": "mio-100.mp3",
+                      "description": {
+                          "zh-CN": "啊哈哈哈！朝垃圾桶里射击番茄！超刺激！",
+                          "ja-JP": "あははは！トマトをゴミ箱にシュート！超エキサイティン！！"
+                      }
+                  },
+                  {
+                      "name": "mio-106",
+                      "path": "mio-106.mp3",
+                      "description": {
+                          "zh-CN": "想要番茄啊啊啊啊",
+                          "ja-JP": "トマトかほしい―あはぁ－"
+                      }
+                  },
+                  {
+                      "name": "mio-104",
+                      "path": "mio-104.mp3",
+                      "description": {
+                          "zh-CN": "Nice!Thank you!",
+                          "ja-JP": "Nice!Thank you!"
+                      }
+                  },
+                  {
+                      "name": "mio-94",
+                      "path": "mio-94.mp3",
+                      "description": {
+                          "zh-CN": "我切-！我切----！",
+                          "ja-JP": "入刀―！入刀――！"
+                      }
+                  },
+                  {
+                      "name": "mio-91",
+                      "path": "mio-91.mp3",
+                      "description": {
+                          "zh-CN": "锵锵锵-稍微放点辣!",
+                          "ja-JP": "チョンチョンチョン―ちょっと辛めです！"
+                      }
+                  },
+                  {
+                      "name": "mio-92",
+                      "path": "mio-92.mp3",
+                      "description": {
+                          "zh-CN": "啊，有几个掉啦！",
+                          "ja-JP": "あっ、何個かないなしまたけども！"
+                      }
+                  },
+                  {
+                      "name": "mio-93",
+                      "path": "mio-93.mp3",
+                      "description": {
+                          "zh-CN": "啊啊啊啊哼哼——",
+                          "ja-JP": "あああああはんはん―"
+                      }
+                  },
+                  {
+                      "name": "mio-101",
+                      "path": "mio-101.mp3",
+                      "description": {
+                          "zh-CN": "这样就成了miofubu推了呢！完美！",
+                          "ja-JP": "これはミオフブに推しになりましたね！これは完璧にね！"
+                      }
+                  },
+                  {
+                      "name": "mio-102",
+                      "path": "mio-102.mp3",
+                      "description": {
+                          "zh-CN": "嘿呀！进攻——！",
+                          "ja-JP": "おりゃ！​ファイヤー――！！"
+                      }
+                  }
+              ]
           },
           {
               "categoryName": "splatoon",
@@ -866,6 +948,111 @@
                   }
               }
             ]
+          },
+          {
+              "categoryName": "wolfpkdisaster",
+              "categoryDescription": {
+                  "zh-CN": "| 绝命绝体狼",
+                  "ja-JP": "| 絶体絶命の狼"
+              },
+              "voiceList": [
+                  {
+                      "name": "mio-116",
+                      "path": "mio-116.mp3",
+                      "description": {
+                          "zh-CN": "欸↗要去玛丽酱家吗↗→？感觉游乐园会更好玩啊↗~~欸怎么回事这个气氛~咋办呐~游乐园肯定很好玩啊↗→",
+                          "ja-JP": "えええ？マリちゃんうち行くくくくくく？遊園地楽しいそうだよよよ、え、何この雰囲気、どうする？？遊園地～～楽しいそうだな～～～"
+                      }
+                  },
+                  {
+                      "name": "mio-120",
+                      "path": "mio-120.mp3",
+                      "description": {
+                          "zh-CN": "把水拿着，跑起来就会...死！跑起来就会死！!跑起来就要死啦!!!",
+                          "ja-JP": "お水を、取って、走ったら...死！走ったら死！！走ったら死！！！"
+                      }
+                  },
+                  {
+                      "name": "mio-123",
+                      "path": "mio-123.mp3",
+                      "description": {
+                          "zh-CN": "嘿咻--！唔喔喔喔喔——！fight————！一发入魂————！",
+                          "ja-JP": "ほぃよいしょー！うおおおおおおお！ファイトォォォォォォ！いっぱぁーーーつ！"
+                      }
+                  },
+                  {
+                      "name": "mio-122",
+                      "path": "mio-122.mp3",
+                      "description": {
+                          "zh-CN": "欸欸————！！",
+                          "ja-JP": "ええーーーーーーー！？"
+                      }
+                  },
+                  {
+                      "name": "mio-118",
+                      "path": "mio-118.mp3",
+                      "description": {
+                          "zh-CN": "喂、玛丽！看看我啊！为啥这么露骨地一副好感度下降的样子啊！为啥这么露—刚才救了你命的可是味王啊!人家刚救了你啊——！",
+                          "ja-JP": "うぇ、マリ、こうち見ろ、何ろうごぐつ好感度下がでんだよ、何ろうごぐつ好感度、助けてやったの、味王だぞ、助けでやったんだぞ、まったく。"
+                      }
+                  },
+                  {
+                      "name": "mio-112",
+                      "path": "mio-112.mp3",
+                      "description": {
+                          "zh-CN": "这是哪啊——啊!?啊-啊哈哈哈哈哈哈哈哈滑溜溜地掉下去了呢w",
+                          "ja-JP": "なんだここ、わわわわ、ああ、あああ！あはははははははは、あはははははははは、あははははははは、するするするするでいだね!"
+                      }
+                  },
+                  {
+                      "name": "mio-109",
+                      "path": "mio-109.mp3",
+                      "description": {
+                          "zh-CN": "哈哈哈哈哈哈，看看这个女主，哈哈哈哈哈哈",
+                          "ja-JP": "ハハハハハハハハ、見てこの主人公、ハハハハハハハハ。"
+                      }
+                  },
+                  {
+                      "name": "mio-117",
+                      "path": "mio-117.mp3",
+                      "description": {
+                          "zh-CN": "那还是选去游乐园吧↗~",
+                          "ja-JP": "じゃ～～遊園地にいっちゃおううかななななな~"
+                      }
+                  },
+                  {
+                      "name": "mio-115",
+                      "path": "mio-115.mp3",
+                      "description": {
+                          "zh-CN": "呜哇！！！",
+                          "ja-JP": "うわわわわ！！！"
+                      }
+                  },
+                  {
+                      "name": "mio-111",
+                      "path": "mio-111.mp3",
+                      "description": {
+                          "zh-CN": "不要啊，好可怕啊！！！",
+                          "ja-JP": "やだだだだ、怖いよ！！！"
+                      }
+                  },
+                  {
+                      "name": "mio-114",
+                      "path": "mio-114.mp3",
+                      "description": {
+                          "zh-CN": "ｗ＆p、我是柴田",
+                          "ja-JP": "ｗ＆ｐ、柴田です。"
+                      }
+                  },
+                  {
+                      "name": "mio-113",
+                      "path": "mio-113.mp3",
+                      "description": {
+                          "zh-CN": "啊↑↓↑→",
+                          "ja-JP": "ああああああああああ"
+                      }
+                  }
+              ]
           },
           {
             "categoryName": "goosemio",
@@ -1106,39 +1293,6 @@
                 "description": {
                     "zh-CN": "咕喵",
                     "ja-JP": "ぐにゃ"
-                }
-            }
-          ]
-        },
-        {
-          "categoryName": "greeting",
-          "categoryDescription": {
-            "zh-CN": "| 打招呼",
-            "ja-JP": "| 挨拶"
-          },
-          "voiceList": [
-            {
-                "name": "mio-74",
-                "path": "mio-74.mp3",
-                "description": {
-                    "zh-CN": "宇宙的大家晚上好",
-                    "ja-JP": "宇宙の皆さん、こんばんみぉーん"
-                }
-            },
-            {
-                "name": "mio-95",
-                "path": "mio-95.mp3",
-                "description": {
-                    "zh-CN": "辛苦了mion——！",
-                    "ja-JP": "おつみぉーーーーーん！"
-                }
-            },
-            {
-                "name": "mio-2",
-                "path": "mio-2.mp3",
-                "description": {
-                    "zh-CN": "晚上好mion~我是大神澪~",
-                    "ja-JP": "こんばんみぉーん~大神ミオです~"
                 }
             }
           ]

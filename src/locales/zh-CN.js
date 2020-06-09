@@ -16,6 +16,7 @@ const zh_CN = {
         share: "分享到Twitter查看",
         placeholder: "请输入昵称",
         live: "| 信息面板",
+        vtbbtn: "VTuber按钮合集",
         close: "关闭",
         copy: "复制",
         control: "| 操作控制",

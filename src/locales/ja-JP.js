@@ -25,6 +25,7 @@ const ja_JP = {
         autoplay: "自動放送",
         playing: "現在再生：",
         noplay: "",
+        vtbbtn: "VTuberの音声ボタンコレクション",
         adtitle: "| コラボレーションプロジェクト",
         weekly: "非公式翻訳と二次創作団体の週刊（中国語）",
         sticker: "ミオのステッカー",
