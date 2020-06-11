@@ -44,7 +44,7 @@
         </div>
         <footer class="footer">
             <div class="container-fluid footer-content">
-                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" style="color: #eeeeee;text-decoration: none">Round Wolf 1.2.6 Alpha</a></button>
+                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" style="color: #eeeeee;text-decoration: none">Round Wolf 1.2.6</a></button>
                 <div class="pull-left">
                     <div class="text-left" style="color: rgba(255, 166, 102,0.8);">{{$t("info.author")}}</div>
                     <div class="text-left"><a href="https://github.com/MioButton/MioButton" target="_blank">{{$t("info.toGithub")}}</a></div>
