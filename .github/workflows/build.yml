@@ -23,10 +23,11 @@ jobs:
     - name: Deploy to Coding.net branch
       working-directory: dist
       run: |
+        git config --global user.email "samuimomijiyuki%40qq.com"
+        git config --global user.name "MioButton"
+        git remote set-url origin https://github.com/MioButton/MioButtonDepot.git
         git init
-        git config user.name "GitHub Actions Bot"
-        git config user.email "samuimomijiyuki@qq.com"
-        git add --all .
+        git add --all
         git commit -m "Deploy from GitHub: $GITHUB_SHA"
-        git push --force --quiet "https://COXIIIaLVD:${{ secrets.CODING_TOKEN }}@e.coding.net/miobutton/MioButton.github.io.git" master:master
+        git push -u --force https://${{ secrets.USERNAME }}:${{ secrets.PASSWORD }}@github.com/MioButton/MioButtonDepot.git master:master
     
