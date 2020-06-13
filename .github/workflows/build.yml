@@ -23,7 +23,7 @@ jobs:
     - name: Deploy to Coding.net branch
       working-directory: dist
       run: |
-        git config --global user.email "samuimomijiyuki%40qq.com"
+        git config --global user.email "samuimomijiyuki@qq.com"
         git config --global user.name "MioButton"
         git remote set-url origin https://github.com/MioButton/MioButtonDepot.git
         git init
