@@ -7,16 +7,16 @@
             </div>
             <button class="btn btn-control" style="right:15px;bottom:15px;" @click="stopPlay"><img src="/resources/stop.svg" style="width: 30px;"></button>
             <button class="btn btn-control" style="right:60px;bottom:15px;" @click="random"><img src="/resources/choose.svg" style="width: 30px;"></button>
-            <button class="btn btn-control" style="right:105px;bottom:15px;" :class="{ 'disabled': autoCheck }" @click="overlap" :title="$t('info.overlapTips')"><input class="checkbox" type="checkbox" v-model="overlapCheck"><img src="/resources/over.svg" style="width: 30px;"></button>
-            <button class="btn btn-control" style="right:164px;bottom:15px;" :class="{ 'disabled': overlapCheck }" @click="autoPlay"><input class="checkbox" type="checkbox" v-model="autoCheck"><img src="/resources/auto.svg" style="width: 30px;"></button>
+            <button class="btn btn-control" style="right:105px;bottom:15px;padding:5.5px;" :class="{ 'disabled': autoCheck }" @click="overlap" :title="$t('info.overlapTips')"><input class="checkbox" type="checkbox" v-model="overlapCheck"><img src="/resources/over.svg" style="width: 25px;"></button>
+            <button class="btn btn-control" style="right:163px;bottom:15px;" :class="{ 'disabled': overlapCheck }" @click="autoPlay"><input class="checkbox" type="checkbox" v-model="autoCheck"><img src="/resources/auto.svg" style="width: 30px;"></button>
             <div class="title">{{$t("info.title")}}<img src="/resources/bg.gif" style="width:63px;height:auto;margin-bottom: 3px;"></div>
-                <div class="cate-header-panel">{{$t("action.live")}}
-                    <div v-for="(item) in youtubeData.channels" :key="item.id"><button class="btn btn-info" v-if="item.id === 'UCp-5t9SrOQwXMU7iIjQfARg'">{{$t('info.subscriber')}}{{item.subscriberCount}}</button></div>
+                <div class="cate-ctrldft">{{$t("action.live")}}
+                    <div v-for="(item) in youtubeData.channels" :key="item.id"><button class="btn btn-ctrldft" v-if="item.id === 'UCp-5t9SrOQwXMU7iIjQfARg'">{{$t('info.subscriber')}}{{item.subscriberCount}}</button></div>
                     <div v-for="live in live_data" :key="live.startTime">
                         <div v-if="live.title.length">
                             <span v-if="live.type === 'upcoming'" style="font-size:17px;">{{$t("action.plan")}}{{ format_time(live.startTime) }}</span>
                             <span v-if="live.type === 'live'" class="warning--text" style="font-size:17px;">{{$t("action.ing")}}</span>
-                            <button class="btn btn-info"><a 
+                            <button class="btn btn-ctrldft"><a 
                                 :href="'https://www.youtube.com/watch?v=' + live.id"
                                 target="_blank"
                                 style="text-decoration: none;color: #ffffff;"
@@ -27,14 +27,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="cate-header-panel">{{$t("action.random")}}
-                        <input id="share" class="btn btn-random" style="width: 190px;-webkit-user-select:text !important;" type="text" name="u" value :placeholder="$t('action.placeholder')">
-                        <button class="btn btn-info" @click="randomshare">{{$t("action.share")}}</button>
+                <div class="cate-ctrldft">{{$t("action.random")}}
+                        <input id="share" class="btn btn-ctrldft" style="width: 190px;-webkit-user-select:text !important;" type="text" name="u" value :placeholder="$t('action.placeholder')">
+                        <button class="btn btn-ctrldft" @click="randomshare">{{$t("action.share")}}</button>
                 </div>
-                <div class="cate-header-panel">{{$t("action.adtitle")}}
-                    <button class="btn btn-info-ad" onclick="window.open('https://www.bilibili.com/read/readlist/rl210208')">{{$t("action.weekly")}}</button>
-                    <button class="btn btn-info-ad" onclick="window.open('https://vtbbtn.org')">{{$t("action.vtbbtn")}}</button>
-                    <button class="btn btn-info-ad" onclick="window.open('https://sticker.ookamimio.org')">{{$t("action.sticker")}}</button>
+                <div class="cate-ctrldft">{{$t("action.adtitle")}}
+                    <button class="btn btn-ctrldft" onclick="window.open('https://www.bilibili.com/read/readlist/rl210208')">{{$t("action.weekly")}}</button>
+                    <button class="btn btn-ctrldft" onclick="window.open('https://vtbbtn.org')">{{$t("action.vtbbtn")}}</button>
+                    <button class="btn btn-ctrldft" onclick="window.open('https://sticker.ookamimio.org')">{{$t("action.sticker")}}</button>
                 </div>
             <div v-for="category in voices" v-bind:key="category.categoryName">
                 <div class="cate-header">{{ $t("voicecategory." + category.categoryName) }} 
@@ -53,19 +53,20 @@
     margin-top: 65px;
     border-radius: 30px;
     text-align: left;
-    color: #fff;
+    color: #fff;    
+    text-shadow:rgba(0, 0, 0, 0.308) 5px 6px 10px;
+    font-family:'jphuaifangti2156d662b421f12';
     font-size: 35px;
     padding-top: 10px;
-    font-weight: 700;
     padding-bottom: 30px;
     max-width: max-content;
 }
-.btn:hover, .btn:focus, .btn.focus{
+.btn:hover, .btn:active, .btn.focus{
     color: #ffffff;
 }
 .btn-control{
     position: fixed;
-    background-color: #ff7d7db7;/*背景颜色*/
+    background-color: #ff7b7bc2;/*背景颜色*/
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
@@ -77,11 +78,16 @@
     font-size: 15px;
     text-align: center;
 }
-.btn-random{/*控制中心按钮*/
-    background-color: #FFACAC;/*背景颜色*/
+.btn-control:hover,.btn-control:focus{
+    background-color:#ff7b7be5
+}
+.btn-ctrldft{/*今日随机按钮*/
+    background-image: linear-gradient(to bottom right,rgb(255, 184, 184),rgb(255, 156, 156)) ;
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     padding-top: 3px;
+    box-shadow: 0 8px 16px 0px rgba(184, 88, 88, 0.26);
+    text-align: center;
     font-weight: 600;
     padding-bottom: 3px;
     margin-left: 5px;
@@ -90,49 +96,19 @@
     word-break: break-all !important;
     white-space: normal !important;
 }
-.btn-info{/*控制中心按钮*/
-    background-color: #FFACAC;/*背景颜色*/
-    border: 0px; /*边框去除*/
-    border-radius: 17px;/*边框圆角*/
-    max-width: 100%;
-    margin: 5px;
-    padding-top: 3px;
-    font-weight: 600;
-    padding-bottom: 3px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    word-warp: break-word !important;
-    word-break: break-all !important;
-    white-space: normal !important;
+.btn-ctrldft:active,.btn-ctrldft:focus{/*宣传中心按钮选定*/
+    background-image: linear-gradient(to top left,rgb(255, 184, 184),rgb(255, 156, 156)) ;
+    color: rgb(255, 228, 228);
 }
-.btn-info:hover{/*控制中心按钮选定*/
-    background-color: #FF9696;/*背景颜色*/
-}
-.btn-info:focus{/*控制中心按钮选定*/
-    background-color: #FF9696;/*背景颜色*/
-}
-.btn-info-ad{/*宣传中心按钮*/
-    background-color: #FFACAC;/*背景颜色*/
-    padding-top: 3px;
-    margin: 0 5px;
-    padding-bottom: 3px;
-    font-weight: 600;
-    border-radius: 17px;/*边框圆角*/
-    max-width: 100%;
-    word-warp: break-word !important;
-    word-break: break-all !important;
-    white-space: normal !important;
-}
-.btn-info-ad:hover{/*宣传中心按钮选定*/
-    background-color: #FF9696;/*背景颜色*/
-}
-.btn-info-ad:focus{/*宣传中心按钮选定*/
-    background-color: #FF9696;/*背景颜色*/
+.btn-ctrldft:hover{
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.397);
 }
 .cate-header{/*分类标题*/
-    background-color: rgb(66, 66, 66);
+    background-image: linear-gradient(to bottom right,rgb(78, 78, 78),rgb(58, 58, 58)) ;
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.151);
     border-radius: 30px;
     text-align: left;
+    text-shadow:rgba(0, 0, 0, 0.2) 5px 6px 10px;
     font-weight: 600;
     color: #fff;
     padding-top: 18px;
@@ -142,7 +118,7 @@
     margin-bottom: 12px;
 }
 .btn-body-status{/*播放状态分类标题*/
-    background-color: #ff7d7db7;
+    background-color: #ff7d7d;
     color: #fff;
     text-align: center;
     position: fixed;
@@ -156,10 +132,12 @@
     padding-right: 30px;
     font-weight: 600;
 }
-.cate-header-panel{/*控制中心分类标题*/
-    background-color: rgba(255, 122, 124, 0.8);
+.cate-ctrldft{/*控制中心分类标题*/
+    background-image: linear-gradient(to bottom right,rgb(255, 153, 153),rgb(255, 125, 125));
     border-radius: 30px;
     text-align: left;
+    text-shadow: rgba(184, 88, 88, 0.281) 5px 6px 10px;
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.151);
     color: #fff;
     font-size: 20px;
     padding-top: 14px;
@@ -179,17 +157,14 @@
     text-align: left;
     color: #aaaaaa;
 }
-.cate-body-function{/*功能分类内容*/
-    margin-top: 10px;
-    text-align: left;
-    color: #aaaaaa;
-}
 .cate-body button{
     margin: 5px;
 }
 .btn-new {
     color: #fff;
-    background-color: rgba(199, 53, 52, 0.8);
+    max-height: max-content;
+    background-image: linear-gradient(to bottom right,rgba(255, 120, 120, 0.836),rgba(255, 71, 71, 0.836));
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     border-radius: 15px;
     max-width: 100%;
     font-weight: 600;
@@ -197,8 +172,12 @@
     word-break: break-all !important;
     white-space: normal !important;
 }
-.btn-new:focus{
-    color: rgba(255, 122, 124, 0.815);
+.btn-new:active,.btn-new:focus{
+    color: rgb(255, 204, 204);
+    background-image: linear-gradient(to top left,rgba(255, 120, 120, 0.836),rgba(255, 71, 71, 0.836));
+}
+.btn-new:hover{
+    box-shadow: 0px 0px 5px 5px rgba(252, 120, 120, 0.322);
 }
 .checkbox {
     display: inline-block;
