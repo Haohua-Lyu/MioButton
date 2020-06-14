@@ -166,6 +166,7 @@
     background-image: linear-gradient(to bottom right,rgba(255, 120, 120, 0.836),rgba(255, 71, 71, 0.836));
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     border-radius: 15px;
+    border: 0px;
     max-width: 100%;
     font-weight: 600;
     word-warp: break-word !important;
