@@ -112,9 +112,82 @@
                       "zh-CN": "打喷嚏 3",
                       "ja-JP": "くしゃみ 3"
                   }
+              },
+              {
+                  "name": "mio-156",
+                  "path": "mio-156.mp3",
+                  "description": {
+                      "zh-CN": "打喷嚏 4",
+                      "ja-JP": "くしゃみ 4"
+                  }
               }
             ]
           },
+          {
+              "categoryName": "english",
+              "categoryDescription": {
+                "zh-CN": "| 英语课堂",
+                "ja-JP": "| 英語教室"
+              },
+              "voiceList": [
+                  {
+                      "name": "mio-167",
+                      "path": "mio-167.mp3",
+                      "description": {
+                          "zh-CN": "S H I T 屑忒~",
+                          "ja-JP": "S H I T...しつ~"
+                      }
+                  },
+                  {
+                      "name": "mio-176",
+                      "path": "mio-176.mp3",
+                      "description": {
+                          "zh-CN": "想知道呢...“法克”！？",
+                          "ja-JP": "知りたいですね...ファック！？"
+                      }
+                  },
+                  {
+                      "name": "mio-178",
+                      "path": "mio-178.mp3",
+                      "description": {
+                          "zh-CN": "哈！funny-!",
+                          "ja-JP": "はぁ、ファニー！"
+                      }
+                  },
+                  {
+                      "name": "mio-171",
+                      "path": "mio-171.mp3",
+                      "description": {
+                          "zh-CN": "fucking funny！",
+                          "ja-JP": "ファッキンファニー！"
+                      }
+                  },
+                  {
+                      "name": "mio-172",
+                      "path": "mio-172.mp3",
+                      "description": {
+                          "zh-CN": "啊哈哈哈哈！mio真特么可爱！",
+                          "ja-JP": "あははははっ！ミオファッキンキュートー！"
+                      }
+                  },
+                  {
+                      "name": "mio-173",
+                      "path": "mio-173.mp3",
+                      "description": {
+                          "zh-CN": "“哦，我懂了”，I...C?",
+                          "ja-JP": "Oh,I see...I...C?"
+                      }
+                  },
+                  {
+                      "name": "mio-175",
+                      "path": "mio-175.mp3",
+                      "description": {
+                          "zh-CN": "“责任”——！",
+                          "ja-JP": "リスパンスィビリティー！"
+                      }
+                  }
+              ]
+            },
         {
             "categoryName": "daily",
             "categoryDescription": {
@@ -438,6 +511,183 @@
                 }
             ]
         },
+        {
+            "categoryName": "shiguwujian",
+            "categoryDescription": {
+              "zh-CN": "| 事故物件",
+              "ja-JP": "| 事故物件"
+            },
+            "voiceList": [
+                {
+                    "name": "mio-164",
+                    "path": "mio-164.mp3",
+                    "description": {
+                        "zh-CN": "哈啊找到了！啊等下不见了！？等等！？",
+                        "ja-JP": "はあいた！あ待っていないのにもちょっと待って！？"
+                    }
+                },
+                {
+                    "name": "mio-161",
+                    "path": "mio-161.mp3",
+                    "description": {
+                        "zh-CN": "好像俊子（咬舌头）转-镜子转-啊！什么东西！？等下！！！",
+                        "ja-JP": "なんがかきふーかがみふーえ、なに！？ちょっと待って！！！"
+                    }
+                },
+                {
+                    "name": "mio-166",
+                    "path": "mio-166.mp3",
+                    "description": {
+                        "zh-CN": "哈啊哈啊、昴酱！好像有什么不吓人的-不吓人的东西！好像！好像（在那）！",
+                        "ja-JP": "はぁはぁ、スバちゃん！なんが怖くないー怖くないやつなんが！なんが！"
+                    }
+                },
+                {
+                    "name": "mio-160",
+                    "path": "mio-160.mp3",
+                    "description": {
+                        "zh-CN": "真是的讨厌!呜呜呜...",
+                        "ja-JP": "もおお嫌だよ！ううう..."
+                    }
+                },
+                {
+                    "name": "mio-162",
+                    "path": "mio-162.mp3",
+                    "description": {
+                        "zh-CN": "啊啊...呜呜呜...真是讨厌...",
+                        "ja-JP": "ああー！うう...もぉ嫌だよ..."
+                    }
+                },
+                {
+                    "name": "mio-157",
+                    "path": "mio-157.mp3",
+                    "description": {
+                        "zh-CN": "讨厌、讨厌!不要啊！讨厌别再来了哟...",
+                        "ja-JP": "嫌だ、嫌だ！やめて！嫌だやめてよ..."
+                    }
+                },
+                {
+                    "name": "mio-163",
+                    "path": "mio-163.mp3",
+                    "description": {
+                        "zh-CN": "啊啊啊啊啊哈啊！",
+                        "ja-JP": "ああああはあーー"
+                    }
+                },
+                {
+                    "name": "mio-159",
+                    "path": "mio-159.mp3",
+                    "description": {
+                        "zh-CN": "啊啊啊啊啊啊！！！！",
+                        "ja-JP": "あああああああ！！！！"
+                    }
+                },
+                {
+                    "name": "mio-169",
+                    "path": "mio-169.mp3",
+                    "description": {
+                        "zh-CN": "变、变得模糊不清了！",
+                        "ja-JP": "が、がびがびしているけど"
+                    }
+                },
+                {
+                    "name": "mio-170",
+                    "path": "mio-170.mp3",
+                    "description": {
+                        "zh-CN": "唔啊啊啊啊！什么东西！？",
+                        "ja-JP": "うあああああ！なに！？"
+                    }
+                },
+                {
+                    "name": "mio-151",
+                    "path": "mio-151.mp3",
+                    "description": {
+                        "zh-CN": "告白！？",
+                        "ja-JP": "告白！？"
+                    }
+                },
+                {
+                    "name": "mio-155",
+                    "path": "mio-155.mp3",
+                    "description": {
+                        "zh-CN": "（这里也）开不起来所以是减分项！",
+                        "ja-JP": "（ここも）開かないのでマイナスポイントです！"
+                    }
+                },
+                {
+                    "name": "mio-158",
+                    "path": "mio-158.mp3",
+                    "description": {
+                        "zh-CN": "鼠、鼠标不灵了",
+                        "ja-JP": "マ、マウスか利かない"
+                    }
+                },
+                {
+                    "name": "mio-168",
+                    "path": "mio-168.mp3",
+                    "description": {
+                        "zh-CN": "呜呜呜...",
+                        "ja-JP": "ううううう..."
+                    }
+                },
+                {
+                    "name": "mio-177",
+                    "path": "mio-177.mp3",
+                    "description": {
+                        "zh-CN": "meli-meli...啊啊啊啊啊啊！",
+                        "ja-JP": "メリ、メリ...あああああああああ！"
+                    }
+                },
+                {
+                    "name": "mio-174",
+                    "path": "mio-174.mp3",
+                    "description": {
+                        "zh-CN": "啊啊啊啊有人在里面！",
+                        "ja-JP": "あああだれかいる！"
+                    }
+                },
+                {
+                    "name": "mio-179",
+                    "path": "mio-179.mp3",
+                    "description": {
+                        "zh-CN": "囚犯吗！？",
+                        "ja-JP": "囚人だったの！？"
+                    }
+                },
+                {
+                    "name": "mio-152",
+                    "path": "mio-152.mp3",
+                    "description": {
+                        "zh-CN": "我回来了...",
+                        "ja-JP": "ただいま..."
+                    }
+                },
+                {
+                    "name": "mio-153",
+                    "path": "mio-153.mp3",
+                    "description": {
+                        "zh-CN": "那是小强吧！？",
+                        "ja-JP": "ゴキブリませんか！？"
+                    }
+                },
+                {
+                    "name": "mio-154",
+                    "path": "mio-154.mp3",
+                    "description": {
+                        "zh-CN": "这个能用来通刚才那个洞吧？",
+                        "ja-JP": "これで先のやつ通るんじゃない？"
+                    }
+                },
+              {
+                  "name": "mio-165",
+                  "path": "mio-165.mp3",
+                  "description": {
+                      "zh-CN": "你看吧-！",
+                      "ja-JP": "ほらーー！"
+                  }
+              }
+            ]
+          },
         {
             "categoryName": "wolffox",
             "categoryDescription": {
