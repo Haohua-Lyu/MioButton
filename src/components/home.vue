@@ -213,18 +213,20 @@ class HomePage extends Vue {
         })
     }
     mounted() {
-        axios.get('https://api.jetri.co/live')
+        axios.get('https://api.jetri.co/live/1.1')
         .then(response => { 
             let fetched = response.data;
             let mio_lives = [];
             const channel_id = 'UCp-5t9SrOQwXMU7iIjQfARg';
             fetched.live.forEach(function(item){
                 if (item.channel === channel_id){
+                    item.type = 'live';
                     mio_lives.push(item);
                 }
             });
             fetched.upcoming.forEach(function(item){
                 if (item.channel === channel_id){
+                    item.type = 'upcoming';
                     mio_lives.push(item);
                 }
             });
