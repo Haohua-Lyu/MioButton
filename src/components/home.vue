@@ -5,10 +5,13 @@
                 <div>{{ voice.name ? $t("action.playing") + $t("voice." + voice.name ) : $t("action.noplay") }}</div>
                 <audio id="player" @ended="voiceEnd(false)"></audio>
             </div>
-            <button class="btn btn-control" style="right:15px;bottom:15px;" @click="stopPlay"><img src="/resources/stop.svg" style="width: 30px;"></button>
-            <button class="btn btn-control" style="right:60px;bottom:15px;" @click="random"><img src="/resources/choose.svg" style="width: 30px;"></button>
-            <button class="btn btn-control" style="right:105px;bottom:15px;padding:5.5px;" :class="{ 'disabled': autoCheck }" @click="overlap" :title="$t('info.overlapTips')"><input class="checkbox" type="checkbox" v-model="overlapCheck"><img src="/resources/over.svg" style="width: 25px;"></button>
-            <button class="btn btn-control" style="right:163px;bottom:15px;" :class="{ 'disabled': overlapCheck }" @click="autoPlay"><input class="checkbox" type="checkbox" v-model="autoCheck"><img src="/resources/auto.svg" style="width: 30px;"></button>
+            <button @click="control" class="btn btn-control-main" style="right:15px;bottom:15px;"><img src="/resources/menu.svg" style="margin: 0px 9px;width:30px"></button>
+            <div id="btn" style="display:none;">
+                <button id="small" class="btn btn-control" style="right:78px;bottom:15px;" @click="stopPlay"><img src="/resources/stop.svg" style="width: 30px;"></button>
+                <button id="small" class="btn btn-control" style="right:123px;bottom:15px;" @click="random"><img src="/resources/choose.svg" style="width: 30px;"></button>
+                <button id="small" class="btn btn-control" style="right:168px;bottom:15px;padding:5.5px;" :class="{ 'disabled': autoCheck }" @click="overlap" :title="$t('info.overlapTips')"><input class="checkbox" type="checkbox" v-model="overlapCheck"><img src="/resources/over.svg" style="width: 25px;"></button>
+                <button id="small" class="btn btn-control" style="right:226px;bottom:15px;" :class="{ 'disabled': overlapCheck }" @click="autoPlay"><input class="checkbox" type="checkbox" v-model="autoCheck"><img src="/resources/auto.svg" style="width: 30px;"></button>
+            </div>
             <div class="title">{{$t("info.title")}}<img src="/resources/bg.gif" style="width:63px;height:auto;margin-bottom: 3px;"></div>
                 <div class="cate-ctrldft">{{$t("action.live")}}
                     <div v-for="(item) in youtubeData.channels" :key="item.id"><button class="btn btn-ctrldft" v-if="item.id === 'UCp-5t9SrOQwXMU7iIjQfARg'">{{$t('info.subscriber')}}{{item.subscriberCount}}</button></div>
@@ -64,19 +67,43 @@
 .btn:hover, .btn:active, .btn.focus{
     color: #ffffff;
 }
-.btn-control{
+.btn-control-main{
     position: fixed;
     background-color: #ff7b7bc2;/*背景颜色*/
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
     padding: 3px;
+    transition-property: all;
+    transition-duration: 400ms;
     font-weight: 600;
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: 700;
     font-size: 15px;
     text-align: center;
+}
+.btn-control-main:hover,.btn-control:focus{
+    background-color:#ff7b7be5;    
+
+}
+.btn-control{
+    position: absolute;
+    background-color: #ff7b7bc2;/*背景颜色*/
+    border: 0px; /*边框去除*/
+    border-radius: 17px;/*边框圆角*/
+    max-width: 100%;
+    padding: 3px;
+    animation: mymove 1s;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+@keyframes mymove{
+    0%{right:15px;}
 }
 .btn-control:hover,.btn-control:focus{
     background-color:#ff7b7be5
@@ -91,6 +118,8 @@
     font-weight: 600;
     padding-bottom: 3px;
     margin-left: 5px;
+    transition-property: all;
+    transition-duration: 300ms;
     margin-right: 5px;
     word-warp: break-word !important;
     word-break: break-all !important;
@@ -168,6 +197,8 @@
     border: 0px;
     max-width: 100%;
     font-weight: 600;
+    transition-property: all;
+    transition-duration: 300ms;
     word-warp: break-word !important;
     word-break: break-all !important;
     white-space: normal !important;
@@ -177,7 +208,7 @@
     background-image: linear-gradient(to top left,rgba(255, 120, 120, 0.836),rgba(255, 71, 71, 0.836));
 }
 .btn-new:hover{
-    box-shadow: 0px 0px 5px 5px rgba(252, 120, 120, 0.322);
+   box-shadow: 0px 0px 5px 5px rgba(252, 120, 120, 0.322);
 }
 .checkbox {
     display: inline-block;
@@ -203,6 +234,13 @@ class HomePage extends Vue {
     live_data = {};
     live_data_loading = true;
     youtubeData = {channels: null};
+    control(){
+        var btn = document.getElementById('btn');
+            if(btn.style.display == "none"){
+                btn.style.display = "";
+            }else{
+                btn.style.display = "none";}
+    }
     created() { 
         this.youtube()
     }
