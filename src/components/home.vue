@@ -96,7 +96,7 @@
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
     padding: 3px;
-    animation: mymove 1s;
+    animation: mymove 800ms;
     font-weight: 600;
     margin-top: 0px;
     margin-bottom: 0px;
