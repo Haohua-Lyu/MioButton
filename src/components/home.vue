@@ -53,7 +53,7 @@
 <style lang="scss" scoped>
 .title{
     text-align: left;
-    margin-top: 65px;
+    margin-top: 75px;
     border-radius: 30px;
     font-weight: 900;
     text-align: left;
@@ -151,7 +151,7 @@
     margin-bottom: 12px;
 }
 .cate-header:hover{
-    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.3);
 }
 .btn-body-status{/*播放状态分类标题*/
     background-color: #ff7d7d;
@@ -187,7 +187,7 @@
     max-width: max-content;
 }
 .cate-ctrldft:hover{
-    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.3);
 }
 .cate-body{
     margin-top: 12px;
