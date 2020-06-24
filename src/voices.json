@@ -3,8 +3,8 @@
         {
             "categoryName": "cutewolf",
             "categoryDescription": {
-              "zh-CN": "| 萝莉狼",
-              "ja-JP": "| ロリミオ"
+              "zh-CN": "▌萝莉狼",
+              "ja-JP": "▌ロリミオ"
             },
             "voiceList": [
               {
@@ -52,8 +52,8 @@
         {
           "categoryName": "greeting",
           "categoryDescription": {
-            "zh-CN": "| 打招呼",
-            "ja-JP": "| 挨拶"
+            "zh-CN": "▌打招呼",
+            "ja-JP": "▌挨拶"
           },
           "voiceList": [
             {
@@ -85,8 +85,8 @@
         {
             "categoryName": "aqiu",
             "categoryDescription": {
-              "zh-CN": "| 狼喷嚏",
-              "ja-JP": "| 狼のくしゃみ"
+              "zh-CN": "▌狼喷嚏",
+              "ja-JP": "▌狼のくしゃみ"
             },
             "voiceList": [
                 {
@@ -126,8 +126,8 @@
           {
               "categoryName": "english",
               "categoryDescription": {
-                "zh-CN": "| 英语课堂",
-                "ja-JP": "| 英語教室"
+                "zh-CN": "▌英语课堂",
+                "ja-JP": "▌英語教室"
               },
               "voiceList": [
                   {
@@ -191,8 +191,8 @@
         {
             "categoryName": "daily",
             "categoryDescription": {
-                "zh-CN": "| 狼之日常",
-                "ja-JP": "| 狼の日常"
+                "zh-CN": "▌狼之日常",
+                "ja-JP": "▌狼の日常"
             },
             "voiceList": [
                 {
@@ -320,8 +320,8 @@
         {
             "categoryName": "emotion",
             "categoryDescription": {
-                "zh-CN": "| 狼之感情",
-                "ja-JP": "| 狼の感情"
+                "zh-CN": "▌狼之感情",
+                "ja-JP": "▌狼の感情"
             },
             "voiceList": [
                 {
@@ -369,8 +369,8 @@
         {
             "categoryName": "nakigoe",
             "categoryDescription": {
-                "zh-CN": "| 叫声",
-                "ja-JP": "| 変な鳴き声"
+                "zh-CN": "▌叫声",
+                "ja-JP": "▌変な鳴き声"
             },
             "voiceList": [
                 {
@@ -514,8 +514,8 @@
         {
             "categoryName": "shiguwujian",
             "categoryDescription": {
-              "zh-CN": "| 事故物件",
-              "ja-JP": "| 事故物件"
+              "zh-CN": "▌事故物件",
+              "ja-JP": "▌事故物件"
             },
             "voiceList": [
                 {
@@ -691,8 +691,8 @@
         {
             "categoryName": "wolffox",
             "categoryDescription": {
-              "zh-CN": "| 拼字游戏",
-              "ja-JP": "| もじぴったん"
+              "zh-CN": "▌拼字游戏",
+              "ja-JP": "▌もじぴったん"
             },
             "voiceList": [
                 {
@@ -828,8 +828,8 @@
         {
             "categoryName": "cat",
             "categoryDescription": {
-              "zh-CN": "| Tiger的咆哮",
-              "ja-JP": "| タイガの鳴き声"
+              "zh-CN": "▌Tiger的咆哮",
+              "ja-JP": "▌タイガの鳴き声"
             },
             "voiceList": [
                 {
@@ -861,8 +861,8 @@
         {
             "categoryName": "wolfcat",
             "categoryDescription": {
-              "zh-CN": "| 狼和猫",
-              "ja-JP": "| 狼と彼女の猫"
+              "zh-CN": "▌狼和猫",
+              "ja-JP": "▌狼と彼女の猫"
             },
             "voiceList": [
               {
@@ -926,8 +926,8 @@
           {
               "categoryName": "monsterwolf",
               "categoryDescription": {
-                  "zh-CN": "| 狼和怪物",
-                  "ja-JP": "| 狼と怪物"
+                  "zh-CN": "▌狼和怪物",
+                  "ja-JP": "▌狼と怪物"
               },
               "voiceList": [
                   {
@@ -999,8 +999,8 @@
           {
               "categoryName": "cookwolf",
               "categoryDescription": {
-                  "zh-CN": "| 厨师狼",
-                  "ja-JP": "| シェフウルフ"
+                  "zh-CN": "▌厨师狼",
+                  "ja-JP": "▌シェフウルフ"
               },
               "voiceList": [
                   {
@@ -1080,8 +1080,8 @@
           {
               "categoryName": "splatoon",
               "categoryDescription": {
-                "zh-CN": "| 喷射战士",
-                "ja-JP": "| スプラトゥーン"
+                "zh-CN": "▌喷射战士",
+                "ja-JP": "▌スプラトゥーン"
               },
               "voiceList": [
                 {
@@ -1105,8 +1105,8 @@
           {
             "categoryName": "fuerwolf",
             "categoryDescription": {
-              "zh-CN": "| 推理狼",
-              "ja-JP": "| 推理ウルフ"
+              "zh-CN": "▌推理狼",
+              "ja-JP": "▌推理ウルフ"
             },
             "voiceList": [
               {
@@ -1202,8 +1202,8 @@
           {
               "categoryName": "wolfpkdisaster",
               "categoryDescription": {
-                  "zh-CN": "| 绝命绝体狼",
-                  "ja-JP": "| 絶体絶命の狼"
+                  "zh-CN": "▌绝命绝体狼",
+                  "ja-JP": "▌絶体絶命の狼"
               },
               "voiceList": [
                   {
@@ -1307,8 +1307,8 @@
           {
             "categoryName": "goosemio",
             "categoryDescription": {
-              "zh-CN": "| 无名之鹅",
-              "ja-JP": "| 無題のガチョウ"
+              "zh-CN": "▌无名之鹅",
+              "ja-JP": "▌無題のガチョウ"
             },
             "voiceList": [
               {
@@ -1444,8 +1444,8 @@
           {
             "categoryName": "crowdmio",
             "categoryDescription": {
-              "zh-CN": "| 人群模拟器",
-              "ja-JP": "| 群衆シュミレーター"
+              "zh-CN": "▌人群模拟器",
+              "ja-JP": "▌群衆シュミレーター"
             },
             "voiceList": [
               {
@@ -1493,8 +1493,8 @@
         {
           "categoryName": "catchdolls",
           "categoryDescription": {
-            "zh-CN": "| 抓娃娃",
-            "ja-JP": "| 人形を捕まえる"
+            "zh-CN": "▌抓娃娃",
+            "ja-JP": "▌人形を捕まえる"
           },
           "voiceList": [
             {

@@ -19,7 +19,6 @@ const zh_CN = {
         vtbbtn: "VTuber按钮合集",
         close: "关闭",
         copy: "复制",
-        control: "| 操作控制",
         stopvoice: "停止",
         randomplay: "随机选择",
         overlap: "重叠播放",

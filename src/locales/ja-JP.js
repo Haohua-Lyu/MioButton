@@ -18,7 +18,6 @@ const ja_JP = {
         close: "閉じる",
         live: "● 情報パネル",
         copy: "コピー",
-        control: "| コントロール",
         stopvoice: "停止",
         randomplay: "ランダム",
         overlap: "声重なる可能",
