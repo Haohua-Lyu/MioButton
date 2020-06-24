@@ -5,7 +5,7 @@
                 <div>{{ voice.name ? $t("action.playing") + $t("voice." + voice.name ) : $t("action.noplay") }}</div>
                 <audio id="player" @ended="voiceEnd(false)"></audio>
             </div>
-            <button @click="control" class="btn btn-control-main" style="right:15px;bottom:15px;"><img src="/resources/menu.svg" style="margin: 0px 9px;width:30px"></button>
+            <button @click="control" class="btn btn-control-main" style="right:15px;bottom:15px;"><img id="img" src="/resources/menu.svg" style="margin: 0px 9px;width:30px"></button>
             <div id="btn" style="display:none;">
                 <button id="small" class="btn btn-control" style="right:78px;bottom:15px;" @click="stopPlay"><img src="/resources/stop.svg" style="width: 30px;"></button>
                 <button id="small" class="btn btn-control" style="right:123px;bottom:15px;" @click="random"><img src="/resources/choose.svg" style="width: 30px;"></button>
@@ -69,6 +69,7 @@
 }
 .btn-control-main{
     position: fixed;
+    z-index: 2;
     background-color: #ff7b7bc2;/*背景颜色*/
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
@@ -88,13 +89,14 @@
 
 }
 .btn-control{
-    position: absolute;
+    z-index: 1;
+    position: fixed;
     background-color: #ff7b7bc2;/*背景颜色*/
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
     padding: 3px;
-    animation: mymove 1s;
+    animation: mymoveback 1s;
     font-weight: 600;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -103,6 +105,9 @@
     text-align: center;
 }
 @keyframes mymove{
+    0%{right:15px;}
+}
+@keyframes mymoveback{
     0%{right:15px;}
 }
 .btn-control:hover,.btn-control:focus{
@@ -236,10 +241,14 @@ class HomePage extends Vue {
     youtubeData = {channels: null};
     control(){
         var btn = document.getElementById('btn');
+        var img = document.getElementById('img')
             if(btn.style.display == "none"){
                 btn.style.display = "";
+                img.src = "/resources/close.svg";
             }else{
-                btn.style.display = "none";}
+                btn.style.display = "none";
+                img.src = "/resources/menu.svg";
+            }
     }
     created() { 
         this.youtube()
