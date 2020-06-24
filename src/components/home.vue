@@ -96,7 +96,7 @@
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
     padding: 3px;
-    animation: mymoveback 1s;
+    animation: mymove 1s;
     font-weight: 600;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -105,9 +105,6 @@
     text-align: center;
 }
 @keyframes mymove{
-    0%{right:15px;}
-}
-@keyframes mymoveback{
     0%{right:15px;}
 }
 .btn-control:hover,.btn-control:focus{
@@ -143,6 +140,8 @@
     border-radius: 30px;
     text-align: left;
     text-shadow:rgba(0, 0, 0, 0.2) 5px 6px 10px;
+    transition-property: all;
+    transition-duration: 300ms;
     font-weight: 600;
     color: #fff;
     padding-top: 18px;
@@ -150,6 +149,9 @@
     font-size: 20px;
     margin-top: 12px;
     margin-bottom: 12px;
+}
+.cate-header:hover{
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.25);
 }
 .btn-body-status{/*播放状态分类标题*/
     background-color: #ff7d7d;
@@ -173,6 +175,8 @@
     text-shadow: rgba(184, 88, 88, 0.281) 5px 6px 10px;
     box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.151);
     color: #fff;
+    transition-property: all;
+    transition-duration: 300ms;
     font-size: 20px;
     padding-top: 14px;
     padding-left: 17px;
@@ -181,6 +185,9 @@
     padding-bottom: 14px;
     margin-bottom: 12px;
     max-width: max-content;
+}
+.cate-ctrldft:hover{
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.25);
 }
 .cate-body{
     margin-top: 12px;
