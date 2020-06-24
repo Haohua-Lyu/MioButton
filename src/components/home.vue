@@ -12,9 +12,9 @@
                 <button id="small" class="btn btn-control" style="right:168px;bottom:15px;padding:5.5px;" :class="{ 'disabled': autoCheck }" @click="overlap" :title="$t('info.overlapTips')"><input class="checkbox" type="checkbox" v-model="overlapCheck"><img src="/resources/over.svg" style="width: 25px;"></button>
                 <button id="small" class="btn btn-control" style="right:226px;bottom:15px;" :class="{ 'disabled': overlapCheck }" @click="autoPlay"><input class="checkbox" type="checkbox" v-model="autoCheck"><img src="/resources/auto.svg" style="width: 30px;"></button>
             </div>
-            <div class="title">{{$t("info.title")}}<img src="/resources/bg.gif" style="width:63px;height:auto;margin-bottom: 3px;"></div>
+            <div class="title">{{$t("info.title")}}<img src="/resources/bg.png" style="width:40px;height:auto;margin-left:5px;margin-bottom: 3px;"></div>
                 <div class="cate-ctrldft">{{$t("action.live")}}
-                    <div v-for="(item) in youtubeData.channels" :key="item.id"><button class="btn btn-ctrldft" v-if="item.id === 'UCp-5t9SrOQwXMU7iIjQfARg'">{{$t('info.subscriber')}}{{item.subscriberCount}}</button></div>
+                    <div v-for="(item) in youtubeData.vtubers" :key="item.ytChannelId"><button class="btn btn-ctrldft" v-if="item.ytChannelId === 'UCp-5t9SrOQwXMU7iIjQfARg'">{{$t('info.subscriber')}}{{item.subscriberCount}}</button></div>
                     <div v-for="live in live_data" :key="live.startTime">
                         <div v-if="live.title.length">
                             <span v-if="live.type === 'upcoming'" style="font-size:17px;">{{$t("action.plan")}}{{ format_time(live.startTime) }}</span>
@@ -154,18 +154,17 @@
     box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.3);
 }
 .btn-body-status{/*播放状态分类标题*/
-    background-color: #ff7d7d;
+    background-color: #585858d8;
+    border-radius: 150px;
     color: #fff;
     text-align: center;
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.2);
     position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
+    top: 10px;
     font-size: 14px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0px 20px;
+    margin-left: -15px;
+    margin-right: 15px;
     font-weight: 600;
 }
 .cate-ctrldft{/*控制中心分类标题*/
@@ -261,7 +260,7 @@ class HomePage extends Vue {
         this.youtube()
     }
     youtube() {
-        axios.get('https://api.jetri.co/channels')
+        axios.get('https://api.jetri.co/vtubers')
         .then(response => {
         this.youtubeData = response.data
         })
