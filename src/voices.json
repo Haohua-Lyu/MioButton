@@ -4,7 +4,8 @@
             "categoryName": "cutewolf",
             "categoryDescription": {
               "zh-CN": "▌萝莉狼",
-              "ja-JP": "▌ロリミオ"
+              "ja-JP": "▌ロリミオ",
+              "en-US": "▌Loli Mio"
             },
             "voiceList": [
               {
@@ -12,7 +13,8 @@
                   "path": "mio-31.mp3",
                   "description": {
                       "zh-CN": "那个...!啊！被表扬了！好开心！哈、哈、哈哈哈",
-                      "ja-JP": "ええと...！あのう！褒められてる！嬉しい！ハハハ..."
+                      "ja-JP": "ええと...！あのう！褒められてる！嬉しい！ハハハ...",
+                      "en-US": "Well...! Ah! I've been praised! I'm so glad! Hahaha..."
                   }
               },
               {
@@ -20,7 +22,8 @@
                   "path": "mio-76.mp3",
                   "description": {
                       "zh-CN": "咱才是大神澪呀",
-                      "ja-JP": "うちか大神ミオなんだよ"
+                      "ja-JP": "うちか大神ミオなんだよ",
+                      "en-US": "I'm the Ookami Mio!"
                   }
               },
               {
@@ -28,7 +31,8 @@
                   "path": "mio-75.mp3",
                   "description": {
                       "zh-CN": "幼狼喘",
-                      "ja-JP": "狼の喘息"
+                      "ja-JP": "狼の喘息",
+                      "en-US": "Wolf gasping"
                   }
               },
               {
@@ -36,7 +40,8 @@
                   "path": "mio-32.mp3",
                   "description": {
                       "zh-CN": "哇、哇哦———哇嗷———！",
-                      "ja-JP": "わ、わおーーーーわおーーーん！"
+                      "ja-JP": "わ、わおーーーーわおーーーん！",
+                      "en-US": "Wa wa oh----Waoh----"
                   }
               },
               {
@@ -44,7 +49,8 @@
                   "path": "mio-34.mp3",
                   "description": {
                       "zh-CN": "咱呢！那个！把眼睛闭上的话...",
-                      "ja-JP": "あのね！あの、おめめね！ギューッてつぶてんねぇ..."
+                      "ja-JP": "あのね！あの、おめめね！ギューッてつぶてんねぇ...",
+                      "en-US": "So, if I..! Well! If I close my eyes..."
                   }
               }
             ]
@@ -53,7 +59,8 @@
           "categoryName": "greeting",
           "categoryDescription": {
             "zh-CN": "▌打招呼",
-            "ja-JP": "▌挨拶"
+            "ja-JP": "▌挨拶",
+            "en-US": "▌Greetings"
           },
           "voiceList": [
             {
@@ -61,7 +68,8 @@
                 "path": "mio-74.mp3",
                 "description": {
                     "zh-CN": "宇宙的大家晚上好",
-                    "ja-JP": "宇宙の皆さん、こんばんみぉーん"
+                    "ja-JP": "宇宙の皆さん、こんばんみぉーん",
+                    "en-US": "Everyone from the universe, Good Evening Mion!"
                 }
             },
             {
@@ -69,7 +77,8 @@
                 "path": "mio-95.mp3",
                 "description": {
                     "zh-CN": "辛苦了mion——！",
-                    "ja-JP": "おつみぉーーーーーん！"
+                    "ja-JP": "おつみぉーーーーーん！",
+                    "en-US": "Otsu Miooon---!"
                 }
             },
             {
@@ -77,7 +86,8 @@
                 "path": "mio-2.mp3",
                 "description": {
                     "zh-CN": "晚上好mion~我是大神澪~",
-                    "ja-JP": "こんばんみぉーん~大神ミオです~"
+                    "ja-JP": "こんばんみぉーん~大神ミオです~",
+                    "en-US": "Good Evening Mion~ I'm Ookami Mio~"
                 }
             }
           ]
@@ -86,7 +96,8 @@
             "categoryName": "aqiu",
             "categoryDescription": {
               "zh-CN": "▌狼喷嚏",
-              "ja-JP": "▌狼のくしゃみ"
+              "ja-JP": "▌狼のくしゃみ",
+              "en-US": "▌Wolf Sneezing"
             },
             "voiceList": [
                 {
@@ -94,7 +105,8 @@
                     "path": "mio-33.mp3",
                     "description": {
                         "zh-CN": "打喷嚏 1",
-                        "ja-JP": "くしゃみ 1"
+                        "ja-JP": "くしゃみ 1",
+                        "en-US": "Sneeze 1"
                     }
                 },
                 {
@@ -102,7 +114,8 @@
                     "path": "mio-127.mp3",
                     "description": {
                         "zh-CN": "打喷嚏 2",
-                        "ja-JP": "くしゃみ 2"
+                        "ja-JP": "くしゃみ 2",
+                        "en-US": "Sneeze 2"
                     }
                 },
               {
@@ -110,7 +123,8 @@
                   "path": "mio-150.mp3",
                   "description": {
                       "zh-CN": "打喷嚏 3",
-                      "ja-JP": "くしゃみ 3"
+                      "ja-JP": "くしゃみ 3",
+                      "en-US": "Sneeze 3"
                   }
               },
               {
@@ -118,7 +132,8 @@
                   "path": "mio-156.mp3",
                   "description": {
                       "zh-CN": "打喷嚏 4",
-                      "ja-JP": "くしゃみ 4"
+                      "ja-JP": "くしゃみ 4",
+                      "en-US": "Sneeze 4"
                   }
               }
             ]
@@ -127,7 +142,8 @@
               "categoryName": "english",
               "categoryDescription": {
                 "zh-CN": "▌英语课堂",
-                "ja-JP": "▌英語教室"
+                "ja-JP": "▌英語教室",
+                "en-US": "▌English Lesson"
               },
               "voiceList": [
                   {
@@ -135,7 +151,8 @@
                       "path": "mio-167.mp3",
                       "description": {
                           "zh-CN": "S H I T 屑忒~",
-                          "ja-JP": "S H I T...しつ~"
+                          "ja-JP": "S H I T...しつ~",
+                          "en-US": "S H I T SHIT!"
                       }
                   },
                   {
@@ -143,7 +160,8 @@
                       "path": "mio-168.mp3",
                       "description": {
                           "zh-CN": "想知道呢...“法克”！？",
-                          "ja-JP": "知りたいですね...ファック！？"
+                          "ja-JP": "知りたいですね...ファック！？",
+                          "en-US": "I'd love to know...Fack!?"
                       }
                   },
                   {
@@ -151,7 +169,8 @@
                       "path": "mio-170.mp3",
                       "description": {
                           "zh-CN": "哈！funny-!",
-                          "ja-JP": "はぁ、ファニー！"
+                          "ja-JP": "はぁ、ファニー！",
+                          "en-US": "Ha! Funny!"
                       }
                   },
                   {
@@ -159,7 +178,8 @@
                       "path": "mio-171.mp3",
                       "description": {
                           "zh-CN": "fucking funny！",
-                          "ja-JP": "ファッキンファニー！"
+                          "ja-JP": "ファッキンファニー！",
+                          "en-US": "Facking funny!"
                       }
                   },
                   {
@@ -167,7 +187,8 @@
                       "path": "mio-172.mp3",
                       "description": {
                           "zh-CN": "啊哈哈哈哈！mio真特么可爱！",
-                          "ja-JP": "あははははっ！ミオファッキンキュートー！"
+                          "ja-JP": "あははははっ！ミオファッキンキュートー！",
+                          "en-US": "HAHAHA! Mio Facking Cuto!"
                       }
                   },
                   {
@@ -175,7 +196,8 @@
                       "path": "mio-173.mp3",
                       "description": {
                           "zh-CN": "“哦，我懂了”，I...C?",
-                          "ja-JP": "Oh,I see...I...C?"
+                          "ja-JP": "Oh,I see...I...C?",
+                          "en-US": "Oh, I see... I...C?"
                       }
                   },
                   {
@@ -183,7 +205,8 @@
                       "path": "mio-175.mp3",
                       "description": {
                           "zh-CN": "“责任”——！",
-                          "ja-JP": "リスパンスィビリティー！"
+                          "ja-JP": "リスパンスィビリティー！",
+                          "en-US": "Responsibility!"
                       }
                   }
               ]
@@ -192,7 +215,8 @@
             "categoryName": "daily",
             "categoryDescription": {
                 "zh-CN": "▌狼之日常",
-                "ja-JP": "▌狼の日常"
+                "ja-JP": "▌狼の日常",
+                "en-US": "▌Mio's Daily Life"
             },
             "voiceList": [
                 {
