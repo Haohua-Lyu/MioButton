@@ -224,7 +224,8 @@
                     "path": "mio-103.mp3",
                     "description": {
                         "zh-CN": "亚马逊真是博大精深呐",
-                        "ja-JP": "アマゾンは深いなぁ～"
+                        "ja-JP": "アマゾンは深いなぁ～",
+                        "en-US": "Amazon is so profound~"
                     }
                 },
                 {
@@ -232,7 +233,8 @@
                     "path": "mio-126.mp3",
                     "description": {
                         "zh-CN": "（咯吱咯吱）",
-                        "ja-JP": "(ボリボリ)"
+                        "ja-JP": "(ボリボリ)",
+                        "en-US": "(Chewing)"
                     }
                 },
                 {
@@ -240,7 +242,8 @@
                     "path": "mio-4.mp3",
                     "description": {
                         "zh-CN": "古神AllRight Mio笑",
-                        "ja-JP": "スバルのAll Right　ミオの笑う声"
+                        "ja-JP": "スバルのAll Right　ミオの笑う声",
+                        "en-US": "Mio laughing at Subaru's \"All Right!\""
                     }
                 },
                 {
@@ -248,7 +251,8 @@
                     "path": "mio-119.mp3",
                     "description": {
                         "zh-CN": "真的吗——?",
-                        "ja-JP": "ほんまー？"
+                        "ja-JP": "ほんまー？",
+                        "en-US": "Really--?"
                     }
                 },
                 {
@@ -256,7 +260,8 @@
                     "path": "mio-86.mp3",
                     "description": {
                         "zh-CN": "嘿嘿嘿嘿...嘿嘿嘿嘿~",
-                        "ja-JP": "えひひひひ...ひひひひｗ"
+                        "ja-JP": "えひひひひ...ひひひひｗ",
+                        "en-US": "Ehihihihi...Hihihihi~"
                     }
                 },
                 {
@@ -264,7 +269,8 @@
                     "path": "mio-77.mp3",
                     "description": {
                         "zh-CN": "狼饿了（请调高音量）",
-                        "ja-JP": "オオカミは空腹です(音量を上げてください)"
+                        "ja-JP": "オオカミは空腹です(音量を上げてください)",
+                        "en-US": "The wolf is hungry (Please turn up the volume)"
                     }
                 },
                 {
@@ -272,7 +278,8 @@
                     "path": "mio-67.mp3",
                     "description": {
                         "zh-CN": "狼之本能",
-                        "ja-JP": "狼の本能"
+                        "ja-JP": "狼の本能",
+                        "en-US": "Wolf's instinct"
                     }
                 },
                 {
@@ -280,7 +287,8 @@
                     "path": "mio-5.mp3",
                     "description": {
                         "zh-CN": "我肥肠开心(中文)",
-                        "ja-JP": "ウチはとても嬉しいです（中国語）"
+                        "ja-JP": "ウチはとても嬉しいです（中国語）",
+                        "en-US": "I'm really happy (Chinese)"
                     }
                 },
                 {
@@ -288,7 +296,8 @@
                     "path": "mio-6.mp3",
                     "description": {
                         "zh-CN": "谢↓谢↓(中文)",
-                        "ja-JP": "ありがとう（中国語）"
+                        "ja-JP": "ありがとう（中国語）",
+                        "en-US": "Thank you (Chinese)"
                     }
                 },
                 {
@@ -296,7 +305,8 @@
                     "path": "mio-7.mp3",
                     "description": {
                         "zh-CN": "可爱的笑声",
-                        "ja-JP": "かわいい笑い声"
+                        "ja-JP": "かわいい笑い声",
+                        "en-US": "Cute laughter"
                     }
                 },
                 {
@@ -304,7 +314,8 @@
                     "path": "mio-10.mp3",
                     "description": {
                         "zh-CN": "Tiger帮大忙了",
-                        "ja-JP": "タイガー助かる"
+                        "ja-JP": "タイガー助かる",
+                        "en-US": "Tiger helps a lot"
                     }
                 },
                 {
@@ -312,7 +323,8 @@
                     "path": "mio-17.mp3",
                     "description": {
                         "zh-CN": "把大家干掉",
-                        "ja-JP": "全員ぶっちぎってやろうと思います"
+                        "ja-JP": "全員ぶっちぎってやろうと思います",
+                        "en-US": "Gonna kill everyone out there"
                     }
                 },
                 {
@@ -320,7 +332,8 @@
                     "path": "mio-18.mp3",
                     "description": {
                         "zh-CN": "漆黑疾风 参上（帅哥音）",
-                        "ja-JP": "漆黑の疾風 参上(イケメンボイス)"
+                        "ja-JP": "漆黑の疾風 参上(イケメンボイス)",
+                        "en-US": "The Tempest of Darkness arrives! (Handsome Voice)"
                     }
                 },
                 {
@@ -328,7 +341,8 @@
                     "path": "mio-26.mp3",
                     "description": {
                         "zh-CN": "好！下一位~",
-                        "ja-JP": "はい!次のカタ〜"
+                        "ja-JP": "はい!次のカタ〜",
+                        "en-US": "Alright! Next one~"
                     }
                 },
                 {
@@ -336,7 +350,8 @@
                     "path": "mio-1.mp3",
                     "description": {
                         "zh-CN": "竟竟竟竟然",
-                        "ja-JP": "なななななんと"
+                        "ja-JP": "なななななんと",
+                        "en-US": "Suuuurprisingly!"
                     }
                 }
             ]
@@ -345,7 +360,8 @@
             "categoryName": "emotion",
             "categoryDescription": {
                 "zh-CN": "▌狼之感情",
-                "ja-JP": "▌狼の感情"
+                "ja-JP": "▌狼の感情",
+                "en-US": "▌Wolf's emotions"
             },
             "voiceList": [
                 {
@@ -353,7 +369,8 @@
                     "path": "mio-133.mp3",
                     "description": {
                         "zh-CN": "愤怒的狼",
-                        "ja-JP": "怒っている狼"
+                        "ja-JP": "怒っている狼",
+                        "en-US": "Angry wolf"
                     }
                 },
                 {
@@ -361,7 +378,8 @@
                     "path": "mio-132.mp3",
                     "description": {
                         "zh-CN": "惊讶的狼",
-                        "ja-JP": "驚いた狼"
+                        "ja-JP": "驚いた狼",
+                        "en-US": "Surprised wolf"
                     }
                 },
                 {
@@ -369,7 +387,8 @@
                     "path": "mio-131.mp3",
                     "description": {
                         "zh-CN": "高兴的狼",
-                        "ja-JP": "うれしそうな狼"
+                        "ja-JP": "うれしそうな狼",
+                        "en-US": "Happy wolf"
                     }
                 },
                 {
@@ -377,7 +396,8 @@
                     "path": "mio-130.mp3",
                     "description": {
                         "zh-CN": "可爱的狼",
-                        "ja-JP": "かわいい狼"
+                        "ja-JP": "かわいい狼",
+                        "en-US": "Cute wolf"
                     }
                 },
                 {
@@ -385,7 +405,8 @@
                     "path": "mio-129.mp3",
                     "description": {
                         "zh-CN": "哭哭狼",
-                        "ja-JP": "泣く狼"
+                        "ja-JP": "泣く狼",
+                        "en-US": "Crying wolf"
                     }
                 }
             ]
@@ -394,7 +415,8 @@
             "categoryName": "nakigoe",
             "categoryDescription": {
                 "zh-CN": "▌叫声",
-                "ja-JP": "▌変な鳴き声"
+                "ja-JP": "▌変な鳴き声",
+                "en-US": "▌Strange Howls"
             },
             "voiceList": [
                 {
@@ -402,7 +424,8 @@
                     "path": "mio-8.mp3",
                     "description": {
                         "zh-CN": "啦啦啦（哭腔）",
-                        "ja-JP": "ラララ（涙声）"
+                        "ja-JP": "ラララ（涙声）",
+                        "en-US": "Lalala (Crying)"
                     }
                 },
                 {
@@ -410,7 +433,8 @@
                     "path": "mio-110.mp3",
                     "description": {
                         "zh-CN": "咔嚓咔嚓",
-                        "ja-JP": "パシャパシャ"
+                        "ja-JP": "パシャパシャ",
+                        "en-US": "Pasha pasha"
                     }
                 },
                 {
@@ -418,7 +442,8 @@
                     "path": "mio-11.mp3",
                     "description": {
                         "zh-CN": "Kira~",
-                        "ja-JP": "Kira~"
+                        "ja-JP": "Kira~",
+                        "en-US": "Kira~"
                     }
                 },
                 {
@@ -426,7 +451,8 @@
                     "path": "mio-65.mp3",
                     "description": {
                         "zh-CN": "唔喔喔喔！",
-                        "ja-JP": "うおおお!"
+                        "ja-JP": "うおおお!",
+                        "en-US": "Wooooooo!"
                     }
                 },
                 {
@@ -434,7 +460,8 @@
                     "path": "mio-69.mp3",
                     "description": {
                         "zh-CN": "欧啦啦啦啦!",
-                        "ja-JP": "おらららららら！"
+                        "ja-JP": "おらららららら！",
+                        "en-US": "ORARARARARARA!"
                     }
                 },
                 {
@@ -442,7 +469,8 @@
                     "path": "mio-66.mp3",
                     "description": {
                         "zh-CN": "好啦，好嘞——",
-                        "ja-JP": "はい！はーい！"
+                        "ja-JP": "はい！はーい！",
+                        "en-US": "Alright! Alright-!"
                     }
                 },
                 {
@@ -450,7 +478,8 @@
                     "path": "mio-68.mp3",
                     "description": {
                         "zh-CN": "哇呜~",
-                        "ja-JP": "わううう~"
+                        "ja-JP": "わううう~",
+                        "en-US": "Wawooooo~"
                     }
                 },
                 {
@@ -458,7 +487,8 @@
                     "path": "mio-71.mp3",
                     "description": {
                         "zh-CN": "奇怪的叫声1",
-                        "ja-JP": "変な声1"
+                        "ja-JP": "変な声1",
+                        "en-US": "Weird sound 1"
                     }
                 },
                 {
@@ -466,7 +496,8 @@
                     "path": "mio-72.mp3",
                     "description": {
                         "zh-CN": "奇怪的声音2",
-                        "ja-JP": "変な声2"
+                        "ja-JP": "変な声2",
+                        "en-US": "Weird sound 2"
                     }
                 },
                 {
@@ -474,7 +505,8 @@
                     "path": "mio-73.mp3",
                     "description": {
                         "zh-CN": "奇怪的声音3",
-                        "ja-JP": "変な声3"
+                        "ja-JP": "変な声3",
+                        "en-US": "Weird sound 3"
                     }
                 },
                 {
@@ -482,7 +514,8 @@
                     "path": "mio-64.mp3",
                     "description": {
                         "zh-CN": "喵喵喵喵呜",
-                        "ja-JP": "にゃにゃにゃ～～～う"
+                        "ja-JP": "にゃにゃにゃ～～～う",
+                        "en-US": "Nya nya nya~~~"
                     }
                 },
                 {
@@ -490,7 +523,8 @@
                     "path": "mio-63.mp3",
                     "description": {
                         "zh-CN": "来啦啦啦啦啦～",
-                        "ja-JP": "きっちゃちゃちゃちゃー"
+                        "ja-JP": "きっちゃちゃちゃちゃー",
+                        "en-US": "Here it comes~"
                     }
                 },
                 {
@@ -498,7 +532,8 @@
                     "path": "mio-12.mp3",
                     "description": {
                         "zh-CN": "喵~",
-                        "ja-JP": "ニャア~"
+                        "ja-JP": "ニャア~",
+                        "en-US": "Nya~"
                     }
                 },
                 {
@@ -506,7 +541,8 @@
                     "path": "mio-13.mp3",
                     "description": {
                         "zh-CN": "啊~~",
-                        "ja-JP": "アブルブルアーー"
+                        "ja-JP": "アブルブルアーー",
+                        "en-US": "Ah &^#$ Ah~~"
                     }
                 },
                 {
@@ -514,7 +550,8 @@
                     "path": "mio-14.mp3",
                     "description": {
                         "zh-CN": "呱~",
-                        "ja-JP": "呱~"
+                        "ja-JP": "呱~",
+                        "en-US": "Croak"
                     }
                 },
                 {
@@ -522,7 +559,8 @@
                     "path": "mio-15.mp3",
                     "description": {
                         "zh-CN": "汪~",
-                        "ja-JP": "ワン~"
+                        "ja-JP": "ワン~",
+                        "en-US": "Woof~"
                     }
                 },
                 {
@@ -530,7 +568,8 @@
                     "path": "mio-16.mp3",
                     "description": {
                         "zh-CN": "遗忘光波",
-                        "ja-JP": "忘れるビーム"
+                        "ja-JP": "忘れるビーム",
+                        "en-US": "Forget Beam"
                     }
                 }
             ]
@@ -539,7 +578,8 @@
             "categoryName": "shiguwujian",
             "categoryDescription": {
               "zh-CN": "▌事故物件",
-              "ja-JP": "▌事故物件"
+              "ja-JP": "▌事故物件",
+              "en-US": "▌Stigmatized Property"
             },
             "voiceList": [
                 {
