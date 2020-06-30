@@ -31,7 +31,8 @@
                   "path": "mio-217.mp3",
                   "description": {
                       "zh-CN": "大、大家、晚上好mion-!",
-                      "ja-JP": "み、みんな、こんばんみぉーんです！"
+                      "ja-JP": "み、みんな、こんばんみぉーんです！",
+                      "en-US": "G..Guys, Good Evening Mion-!"
                   }
               },
               {
@@ -94,7 +95,8 @@
                 "path": "mio-208.mp3",
                 "description": {
                     "zh-CN": "大家——！咱是超特么可爱的狼—大神澪哟~~！",
-                    "ja-JP": "みんなー！ファキッンキュートウルフの～～大神ミオだよ～～！"
+                    "ja-JP": "みんなー！ファキッンキュートウルフの～～大神ミオだよ～～！",
+                    "en-US": "Guys-! I'm facking cute wolf~~ Ookami Mio~~!"
                 }
             },
             {
@@ -102,7 +104,8 @@
                 "path": "mio-206.mp3",
                 "description": {
                     "zh-CN": "大家~！晚上好mion!咱是大神澪哟~！谢谢大家今天来参加咱的演唱会~~！☆",
-                    "ja-JP": "みんなー！こんばんみぉーん！大神ミオだよ～！今日は、うちのライブに来てんで、どうもありがとう～～！☆"
+                    "ja-JP": "みんなー！こんばんみぉーん！大神ミオだよ～！今日は、うちのライブに来てんで、どうもありがとう～～！☆",
+                    "en-US": "Guys~ Good Evening Mion~ Ookami Mio here~! Thank you for showing up for my live concert today~~"
                 }
             },
             {
@@ -165,7 +168,8 @@
                   "path": "mio-216.mp3",
                   "description": {
                       "zh-CN": "打喷嚏 5",
-                      "ja-JP": "くしゃみ 5"
+                      "ja-JP": "くしゃみ 5",
+                      "en-US": "Sneeze 5"
                   }
               }
             ]
@@ -274,7 +278,8 @@
                     "path": "mio-205.mp3",
                     "description": {
                         "zh-CN": "“欸？难道说...已经睡着了嘛”这样稍微有点施压的感觉的",
-                        "ja-JP": "「え？もしかして...もう寝るの？」でちょっと圧みたいの感じ"
+                        "ja-JP": "「え？もしかして...もう寝るの？」でちょっと圧みたいの感じ",
+                        "en-US": "「Eh? By any chance...You already fell asleep?」Said with some pressure in it"
                     }
                 },
                 {
@@ -282,7 +287,8 @@
                     "path": "mio-200.mp3",
                     "description": {
                         "zh-CN": "有什么...恐怖的东西！？恐怖的东西在！可怕的大姐姐、有位可怕的大姐姐！",
-                        "ja-JP": "なんが、怖いのいるの！？怖いのいる！こわいのお姉ちゃん、怖いのいる！"
+                        "ja-JP": "なんが、怖いのいるの！？怖いのいる！こわいのお姉ちゃん、怖いのいる！",
+                        "en-US": "There's...something scary!? Something scary! A scary lady!!"
                     }
                 },
                 {
@@ -481,7 +487,8 @@
                     "path": "mio-185.mp3",
                     "description": {
                         "zh-CN": "惨叫 1",
-                        "ja-JP": "絶叫 1"
+                        "ja-JP": "絶叫 1",
+                        "en-US": "Scream 1"
                     }
                 },
                 {
@@ -489,7 +496,8 @@
                     "path": "mio-182.mp3",
                     "description": {
                         "zh-CN": "惨叫 2",
-                        "ja-JP": "絶叫 2"
+                        "ja-JP": "絶叫 2",
+                        "en-US": "Scream 2"
                     }
                 },
                 {
@@ -497,7 +505,8 @@
                     "path": "mio-214.mp3",
                     "description": {
                         "zh-CN": "惨叫 3",
-                        "ja-JP": "絶叫 3"
+                        "ja-JP": "絶叫 3",
+                        "en-US": "Scream 3"
                     }
                 },
                 {
