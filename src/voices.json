@@ -27,6 +27,14 @@
                   }
               },
               {
+                  "name": "mio-217",
+                  "path": "mio-217.mp3",
+                  "description": {
+                      "zh-CN": "大、大家、晚上好mion-!",
+                      "ja-JP": "み、みんな、こんばんみぉーんです！"
+                  }
+              },
+              {
                   "name": "mio-75",
                   "path": "mio-75.mp3",
                   "description": {
@@ -82,6 +90,22 @@
                 }
             },
             {
+                "name": "mio-208",
+                "path": "mio-208.mp3",
+                "description": {
+                    "zh-CN": "大家——！咱是超特么可爱的狼—大神澪哟~~！",
+                    "ja-JP": "みんなー！ファキッンキュートウルフの～～大神ミオだよ～～！"
+                }
+            },
+            {
+                "name": "mio-206",
+                "path": "mio-206.mp3",
+                "description": {
+                    "zh-CN": "大家~！晚上好mion!咱是大神澪哟~！谢谢大家今天来参加咱的演唱会~~！☆",
+                    "ja-JP": "みんなー！こんばんみぉーん！大神ミオだよ～！今日は、うちのライブに来てんで、どうもありがとう～～！☆"
+                }
+            },
+            {
                 "name": "mio-2",
                 "path": "mio-2.mp3",
                 "description": {
@@ -134,6 +158,14 @@
                       "zh-CN": "打喷嚏 4",
                       "ja-JP": "くしゃみ 4",
                       "en-US": "Sneeze 4"
+                  }
+              },
+              {
+                  "name": "mio-216",
+                  "path": "mio-216.mp3",
+                  "description": {
+                      "zh-CN": "打喷嚏 5",
+                      "ja-JP": "くしゃみ 5"
                   }
               }
             ]
@@ -235,6 +267,22 @@
                         "zh-CN": "（咯吱咯吱）",
                         "ja-JP": "(ボリボリ)",
                         "en-US": "(Chewing)"
+                    }
+                },
+                {
+                    "name": "mio-205",
+                    "path": "mio-205.mp3",
+                    "description": {
+                        "zh-CN": "“欸？难道说...已经睡着了嘛”这样稍微有点施压的感觉的",
+                        "ja-JP": "「え？もしかして...もう寝るの？」でちょっと圧みたいの感じ"
+                    }
+                },
+                {
+                    "name": "mio-200",
+                    "path": "mio-200.mp3",
+                    "description": {
+                        "zh-CN": "有什么...恐怖的东西！？恐怖的东西在！可怕的大姐姐、有位可怕的大姐姐！",
+                        "ja-JP": "なんが、怖いのいるの！？怖いのいる！こわいのお姉ちゃん、怖いのいる！"
                     }
                 },
                 {
@@ -429,6 +477,30 @@
                     }
                 },
                 {
+                    "name": "mio-185",
+                    "path": "mio-185.mp3",
+                    "description": {
+                        "zh-CN": "惨叫 1",
+                        "ja-JP": "絶叫 1"
+                    }
+                },
+                {
+                    "name": "mio-182",
+                    "path": "mio-182.mp3",
+                    "description": {
+                        "zh-CN": "惨叫 2",
+                        "ja-JP": "絶叫 2"
+                    }
+                },
+                {
+                    "name": "mio-214",
+                    "path": "mio-214.mp3",
+                    "description": {
+                        "zh-CN": "惨叫 3",
+                        "ja-JP": "絶叫 3"
+                    }
+                },
+                {
                     "name": "mio-110",
                     "path": "mio-110.mp3",
                     "description": {
@@ -574,6 +646,337 @@
                 }
             ]
         },
+        {
+            "categoryName": "cat",
+            "categoryDescription": {
+              "zh-CN": "▌Tiger的咆哮",
+              "ja-JP": "▌タイガの鳴き声"
+            },
+            "voiceList": [
+                {
+                  "name": "mio-43",
+                  "path": "mio-43.mp3",
+                  "description": {
+                      "zh-CN": "Tiger的咆哮 1",
+                      "ja-JP": "タイガの鳴き声 1"
+                  }
+                },
+                {
+                  "name": "mio-124",
+                  "path": "mio-124.mp3",
+                  "description": {
+                      "zh-CN": "Tiger的咆哮 2",
+                      "ja-JP": "タイガの鳴き声 2"
+                  }
+                },
+              {
+                  "name": "mio-125",
+                  "path": "mio-125.mp3",
+                  "description": {
+                      "zh-CN": "Tiger的咆哮 3",
+                      "ja-JP": "タイガの鳴き声 3"
+                  }
+              }
+            ]
+        },
+        {
+            "categoryName": "wolfcat",
+            "categoryDescription": {
+              "zh-CN": "▌狼和猫",
+              "ja-JP": "▌狼と彼女の猫"
+            },
+            "voiceList": [
+              {
+                  "name": "mio-25",
+                  "path": "mio-25.mp3",
+                  "description": {
+                      "zh-CN": "mooo~",
+                      "ja-JP": "も～～～"
+                  }
+              },
+              {
+                "name": "mio-203",
+                "path": "mio-203.mp3",
+                "description": {
+                    "zh-CN": "啊—tiger住口啊！拜托了别咬那边的手柄，别咬了——啊！！啊不行了！啊受不了了！",
+                    "ja-JP": "あータイガやめて！頼むからあそこのコードは噛らないて、噛らないーもう！もうダメ！もうダメ！"
+                }
+              },
+              {
+                  "name": "mio-41",
+                  "path": "mio-41.mp3",
+                  "description": {
+                      "zh-CN": "光 速 败 北",
+                      "ja-JP": "突然の敗北"
+                  }
+              },
+              {
+                  "name": "mio-42",
+                  "path": "mio-42.mp3",
+                  "description": {
+                      "zh-CN": "狼喘",
+                      "ja-JP": "過呼吸"
+                  }
+              },
+              {
+                  "name": "mio-27",
+                  "path": "mio-27.mp3",
+                  "description": {
+                      "zh-CN": "我受不了了！我要把你丢到走廊上去",
+                      "ja-JP": "廊下に追い出すぞ、もう我慢ならない"
+                  }
+              },
+              {
+                  "name": "mio-28",
+                  "path": "mio-28.mp3",
+                  "description": {
+                      "zh-CN": "还咬的话就又把你扔到走廊上去哦",
+                      "ja-JP": "またこうなことをしてると、もう一度廊下に追い出すぞ"
+                  }
+              },
+              {
+                  "name": "mio-29",
+                  "path": "mio-29.mp3",
+                  "description": {
+                      "zh-CN": "啊啊啊啊！Tiger！",
+                      "ja-JP": "あああああ、たいが"
+                  }
+              },
+              {
+                  "name": "mio-30",
+                  "path": "mio-30.mp3",
+                  "description": {
+                      "zh-CN": "疼疼疼",
+                      "ja-JP": "痛い痛い痛い"
+                  }
+              }
+            ]
+          },
+          {
+              "categoryName": "missingchild",
+              "categoryDescription": {
+                "zh-CN": "▌行方不明",
+                "ja-JP": "▌行方不明"
+              },
+              "voiceList": [
+                  {
+                    "name": "mio-215",
+                    "path": "mio-215.mp3",
+                    "description": {
+                        "zh-CN": "不妙！这儿有好多！不得了！啊，出来了——啊！不要啊！(狼嚎)",
+                        "ja-JP": "やばい！いっぱいいる！すごい！あ、外したーあ！やめて！（悲鳴）"
+                    }
+                  },
+                  {
+                    "name": "mio-199",
+                    "path": "mio-199.mp3",
+                    "description": {
+                        "zh-CN": "啊，住，住手啊！真是的，你刚才绝对是想着“吓吓她吧”才这么干的吧！",
+                        "ja-JP": "あ、や、やめろよ！もう今な絶対『驚かせよ！』としていただろう！！"
+                    }
+                  },
+                  {
+                    "name": "mio-197",
+                    "path": "mio-197.mp3",
+                    "description": {
+                        "zh-CN": "啊啊！吓死人了！不要啊！！！呜呜呜...吓死人了...",
+                        "ja-JP": "ああ！びっくりしたやめてぇぇぇぇ！ううう...びっくりした..."
+                    }
+                  },
+                  {
+                    "name": "mio-183",
+                    "path": "mio-183.mp3",
+                    "description": {
+                        "zh-CN": "哈哈哈哈哈哈 这样啊...",
+                        "ja-JP": "はははは、そうなんだ..."
+                    }
+                  },
+                  {
+                    "name": "mio-192",
+                    "path": "mio-192.mp3",
+                    "description": {
+                        "zh-CN": "！？哈、哈！？啊啊啊啊啊啊啊！！讨厌！讨厌！！呜呜...好可怕啊...",
+                        "ja-JP": "！？はっはは！？あああ！！嫌だ！嫌だ！！ううう...こわいよ..."
+                    }
+                  },
+                  {
+                    "name": "mio-195",
+                    "path": "mio-195.mp3",
+                    "description": {
+                        "zh-CN": "没带着呢",
+                        "ja-JP": "持っていないね"
+                    }
+                  },
+                  {
+                    "name": "mio-202",
+                    "path": "mio-202.mp3",
+                    "description": {
+                        "zh-CN": "没有呢—",
+                        "ja-JP": "ないねー"
+                    }
+                  },
+                  {
+                    "name": "mio-207",
+                    "path": "mio-207.mp3",
+                    "description": {
+                        "zh-CN": "啊、啊、啊、啊、啊、啊！",
+                        "ja-JP": "あっあっあっあっあっあっ！"
+                    }
+                  },
+                  {
+                    "name": "mio-198",
+                    "path": "mio-198.mp3",
+                    "description": {
+                        "zh-CN": "啊，突然不见了呀！",
+                        "ja-JP": "あ、急にいなくなるんだよ！"
+                    }
+                  },
+                  {
+                    "name": "mio-188",
+                    "path": "mio-188.mp3",
+                    "description": {
+                        "zh-CN": "哈啊啊！吓死人了！不要啊...",
+                        "ja-JP": "はああ！びっくりした！やめて..."
+                    }
+                  },
+                  {
+                    "name": "mio-180",
+                    "path": "mio-180.mp3",
+                    "description": {
+                        "zh-CN": "因为太可怕了嘛...",
+                        "ja-JP": "だって怖いんもう..."
+                    }
+                  },
+                  {
+                    "name": "mio-190",
+                    "path": "mio-190.mp3",
+                    "description": {
+                        "zh-CN": "呜呜~别突然冒出来呀川岛！",
+                        "ja-JP": "ううー川島急に出で来ないでよ！"
+                    }
+                  },
+                  {
+                    "name": "mio-212",
+                    "path": "mio-212.mp3",
+                    "description": {
+                        "zh-CN": "有什么在哪里哦!?",
+                        "ja-JP": "なんがいるよ！？！？"
+                    }
+                  },
+                  {
+                    "name": "mio-187",
+                    "path": "mio-187.mp3",
+                    "description": {
+                        "zh-CN": "呜呜呜~非法闯入者很可怕...",
+                        "ja-JP": "ううう～不法侵入者怖い..."
+                    }
+                  },
+                  {
+                    "name": "mio-193",
+                    "path": "mio-193.mp3",
+                    "description": {
+                        "zh-CN": "因为，灯它突然就、灭了呀!",
+                        "ja-JP": "だって、突然電気が、なくなったんだよ！"
+                    }
+                  },
+                  {
+                    "name": "mio-213",
+                    "path": "mio-213.mp3",
+                    "description": {
+                        "zh-CN": "好可怕好可怕好可怕！w",
+                        "ja-JP": "こわいこわいこわい！ｗ"
+                    }
+                  },
+                  {
+                    "name": "mio-181",
+                    "path": "mio-181.mp3",
+                    "description": {
+                        "zh-CN": "(那)就帮狗狗的美味狗粮做点宣传吧",
+                        "ja-JP": "（じゃあ）犬の美味しいご飯の宣伝しといて"
+                    }
+                  },
+                  {
+                    "name": "mio-189",
+                    "path": "mio-189.mp3",
+                    "description": {
+                        "zh-CN": "这是那什么呀！bad end（坏结局）和true end（真结局）的分歧点呀！",
+                        "ja-JP": "これあれだ！バッドエンドとトゥルーエンドがあるバターンだ！"
+                    }
+                  },
+                  {
+                    "name": "mio-211",
+                    "path": "mio-211.mp3",
+                    "description": {
+                        "zh-CN": "不知道啊!呐！呐！",
+                        "ja-JP": "知らないよ！ねえええ！ねええええ！！！"
+                    }
+                  },
+                  {
+                    "name": "mio-184",
+                    "path": "mio-184.mp3",
+                    "description": {
+                        "zh-CN": "喂这里也太吓人了呀！呜讨厌讨厌讨厌讨厌...",
+                        "ja-JP": "ねえここが怖すぎなんだけど！もうやだやだやだやだ..."
+                    }
+                  },
+                  {
+                    "name": "mio-191",
+                    "path": "mio-191.mp3",
+                    "description": {
+                        "zh-CN": "什么声音！？什么声音！？呜呜呜...",
+                        "ja-JP": "何の音！？何の音！？ううう..."
+                    }
+                  },
+                  {
+                    "name": "mio-201",
+                    "path": "mio-201.mp3",
+                    "description": {
+                        "zh-CN": "好恐怖的说！为啥谁家里都是这么暗啊！",
+                        "ja-JP": "怖すぎなんだけど！なんでどこの家もうす暗いのよ！"
+                    }
+                  },
+                  {
+                    "name": "mio-210",
+                    "path": "mio-210.mp3",
+                    "description": {
+                        "zh-CN": "啊、这车是不是太破了点？哈哈哈哈哈",
+                        "ja-JP": "あっ、車ボロボロじゃない？ははははははｗ"
+                    }
+                  },
+                  {
+                    "name": "mio-209",
+                    "path": "mio-209.mp3",
+                    "description": {
+                        "zh-CN": "哈哈哈哈哈哈w",
+                        "ja-JP": "はははははははｗ"
+                    }
+                  },
+                  {
+                    "name": "mio-186",
+                    "path": "mio-186.mp3",
+                    "description": {
+                        "zh-CN": "啊呜呜呜~等下呀，啊-不要啊！拜托了别咬那儿啊—",
+                        "ja-JP": "うう～ちょっと待って、あーーやめて！そこ噛じらないてくださいお願いしますー"
+                    }
+                  },
+                  {
+                    "name": "mio-196",
+                    "path": "mio-196.mp3",
+                    "description": {
+                        "zh-CN": "但是，总觉得也没有什么需要特别调查的地方，总之拿到护身符了",
+                        "ja-JP": "なんが、でも、特にお調べられる所もなさそう、取り合い御守はゲットしたけど"
+                    }
+                  },
+                  {
+                    "name": "mio-204",
+                    "path": "mio-204.mp3",
+                    "description": {
+                        "zh-CN": "刚才，刚才，刚才，啊！刚才！好像、咱听到那边的门自己开起来的声音了！！",
+                        "ja-JP": "今、今、今、あ！今！なんが、音が聞こえてあそこの扉が自動で切りしまった！"
+                    } 
+                }
+              ]
+          },
         {
             "categoryName": "shiguwujian",
             "categoryDescription": {
@@ -890,104 +1293,6 @@
             ]
         },
         {
-            "categoryName": "cat",
-            "categoryDescription": {
-              "zh-CN": "▌Tiger的咆哮",
-              "ja-JP": "▌タイガの鳴き声"
-            },
-            "voiceList": [
-                {
-                  "name": "mio-43",
-                  "path": "mio-43.mp3",
-                  "description": {
-                      "zh-CN": "Tiger的咆哮 1",
-                      "ja-JP": "タイガの鳴き声 1"
-                  }
-                },
-                {
-                  "name": "mio-124",
-                  "path": "mio-124.mp3",
-                  "description": {
-                      "zh-CN": "Tiger的咆哮 2",
-                      "ja-JP": "タイガの鳴き声 2"
-                  }
-                },
-              {
-                  "name": "mio-125",
-                  "path": "mio-125.mp3",
-                  "description": {
-                      "zh-CN": "Tiger的咆哮 3",
-                      "ja-JP": "タイガの鳴き声 3"
-                  }
-              }
-            ]
-        },
-        {
-            "categoryName": "wolfcat",
-            "categoryDescription": {
-              "zh-CN": "▌狼和猫",
-              "ja-JP": "▌狼と彼女の猫"
-            },
-            "voiceList": [
-              {
-                  "name": "mio-25",
-                  "path": "mio-25.mp3",
-                  "description": {
-                      "zh-CN": "mooo~",
-                      "ja-JP": "も～～～"
-                  }
-              },
-              {
-                  "name": "mio-41",
-                  "path": "mio-41.mp3",
-                  "description": {
-                      "zh-CN": "光 速 败 北",
-                      "ja-JP": "突然の敗北"
-                  }
-              },
-              {
-                  "name": "mio-42",
-                  "path": "mio-42.mp3",
-                  "description": {
-                      "zh-CN": "狼喘",
-                      "ja-JP": "過呼吸"
-                  }
-              },
-              {
-                  "name": "mio-27",
-                  "path": "mio-27.mp3",
-                  "description": {
-                      "zh-CN": "我受不了了！我要把你丢到走廊上去",
-                      "ja-JP": "廊下に追い出すぞ、もう我慢ならない"
-                  }
-              },
-              {
-                  "name": "mio-28",
-                  "path": "mio-28.mp3",
-                  "description": {
-                      "zh-CN": "还咬的话就又把你扔到走廊上去哦",
-                      "ja-JP": "またこうなことをしてると、もう一度廊下に追い出すぞ"
-                  }
-              },
-              {
-                  "name": "mio-29",
-                  "path": "mio-29.mp3",
-                  "description": {
-                      "zh-CN": "啊啊啊啊！Tiger！",
-                      "ja-JP": "あああああ、たいが"
-                  }
-              },
-              {
-                  "name": "mio-30",
-                  "path": "mio-30.mp3",
-                  "description": {
-                      "zh-CN": "疼疼疼",
-                      "ja-JP": "痛い痛い痛い"
-                  }
-              }
-            ]
-          },
-          {
               "categoryName": "monsterwolf",
               "categoryDescription": {
                   "zh-CN": "▌狼和怪物",
