@@ -751,7 +751,7 @@
                   "description": {
                       "zh-CN": "还咬的话就又把你扔到走廊上去哦",
                       "ja-JP": "またこうなことをしてると、もう一度廊下に追い出すぞ",
-                      "en-US": "If you dare bite me again, I'll throu you out to the aisle"
+                      "en-US": "If you dare bite me again, I'll throw you out to the aisle"
                   }
               },
               {
@@ -940,8 +940,8 @@
                     "path": "mio-189.mp3",
                     "description": {
                         "zh-CN": "这是那什么呀！bad end（坏结局）和true end（真结局）的分歧点呀！",
-                        "ja-JP": "これあれだ！バッドエンドとトゥルーエンドがあるバターンだ！",
-                        "en-US": "That's! That's the "
+                        "ja-JP": "これあれだ！バッドエンドとトゥルーエンドがあるパターンだ！",
+                        "en-US": "That's..! That's the pattern for Bad Ending and True Ending!"
                     }
                   },
                   {
@@ -949,7 +949,8 @@
                     "path": "mio-211.mp3",
                     "description": {
                         "zh-CN": "不知道啊!呐！呐！",
-                        "ja-JP": "知らないよ！ねえええ！ねええええ！！！"
+                        "ja-JP": "知らないよ！ねえええ！ねええええ！！！",
+                        "en-US": "I have no idea! Neeeee! Neeeee!!!"
                     }
                   },
                   {
@@ -957,7 +958,8 @@
                     "path": "mio-184.mp3",
                     "description": {
                         "zh-CN": "喂这里也太吓人了呀！呜讨厌讨厌讨厌讨厌...",
-                        "ja-JP": "ねえここが怖すぎなんだけど！もうやだやだやだやだ..."
+                        "ja-JP": "ねえここが怖すぎなんだけど！もうやだやだやだやだ...",
+                        "en-US": "Neeee it's so scary here! Mooo...No way no way..."
                     }
                   },
                   {
@@ -965,7 +967,8 @@
                     "path": "mio-191.mp3",
                     "description": {
                         "zh-CN": "什么声音！？什么声音！？呜呜呜...",
-                        "ja-JP": "何の音！？何の音！？ううう..."
+                        "ja-JP": "何の音！？何の音！？ううう...",
+                        "en-US": "What's that sound!? What's that sound!?"
                     }
                   },
                   {
@@ -973,7 +976,8 @@
                     "path": "mio-201.mp3",
                     "description": {
                         "zh-CN": "好恐怖的说！为啥谁家里都是这么暗啊！",
-                        "ja-JP": "怖すぎなんだけど！なんでどこの家もうす暗いのよ！"
+                        "ja-JP": "怖すぎなんだけど！なんでどこの家もうす暗いのよ！",
+                        "en-US": "That's so scary! Why is every house so dark!"
                     }
                   },
                   {
@@ -981,7 +985,8 @@
                     "path": "mio-210.mp3",
                     "description": {
                         "zh-CN": "啊、这车是不是太破了点？哈哈哈哈哈",
-                        "ja-JP": "あっ、車ボロボロじゃない？ははははははｗ"
+                        "ja-JP": "あっ、車ボロボロじゃない？ははははははｗ",
+                        "en-US": "Ah, that car is so ruptured, isn't it? Hahahaha"
                     }
                   },
                   {
@@ -989,7 +994,8 @@
                     "path": "mio-209.mp3",
                     "description": {
                         "zh-CN": "哈哈哈哈哈哈w",
-                        "ja-JP": "はははははははｗ"
+                        "ja-JP": "はははははははｗ",
+                        "en-US": "Hahahahaha w"
                     }
                   },
                   {
