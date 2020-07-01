@@ -886,7 +886,8 @@
                     "path": "mio-190.mp3",
                     "description": {
                         "zh-CN": "呜呜~别突然冒出来呀川岛！",
-                        "ja-JP": "ううー川島急に出で来ないでよ！"
+                        "ja-JP": "ううー川島急に出で来ないでよ！",
+                        "en-US": "Don't suddenly run out, Kawajima!"
                     }
                   },
                   {
@@ -894,7 +895,8 @@
                     "path": "mio-212.mp3",
                     "description": {
                         "zh-CN": "有什么在哪里哦!?",
-                        "ja-JP": "なんがいるよ！？！？"
+                        "ja-JP": "なんがいるよ！？！？",
+                        "en-US": "Something's there!?!?"
                     }
                   },
                   {
@@ -902,7 +904,8 @@
                     "path": "mio-187.mp3",
                     "description": {
                         "zh-CN": "呜呜呜~非法闯入者很可怕...",
-                        "ja-JP": "ううう～不法侵入者怖い..."
+                        "ja-JP": "ううう～不法侵入者怖い...",
+                        "en-US": "Intruders are horrifying..."
                     }
                   },
                   {
@@ -910,7 +913,8 @@
                     "path": "mio-193.mp3",
                     "description": {
                         "zh-CN": "因为，灯它突然就、灭了呀!",
-                        "ja-JP": "だって、突然電気が、なくなったんだよ！"
+                        "ja-JP": "だって、突然電気が、なくなったんだよ！",
+                        "en-US": "Because the light is suddenly out of power!"
                     }
                   },
                   {
@@ -918,7 +922,8 @@
                     "path": "mio-213.mp3",
                     "description": {
                         "zh-CN": "好可怕好可怕好可怕！w",
-                        "ja-JP": "こわいこわいこわい！ｗ"
+                        "ja-JP": "こわいこわいこわい！ｗ",
+                        "en-US": "Scary scary scary! w"
                     }
                   },
                   {
@@ -926,7 +931,8 @@
                     "path": "mio-181.mp3",
                     "description": {
                         "zh-CN": "(那)就帮狗狗的美味狗粮做点宣传吧",
-                        "ja-JP": "（じゃあ）犬の美味しいご飯の宣伝しといて"
+                        "ja-JP": "（じゃあ）犬の美味しいご飯の宣伝しといて",
+                        "en-US": "(Well) Let's advertise for the delicious doggo food!"
                     }
                   },
                   {
@@ -934,7 +940,8 @@
                     "path": "mio-189.mp3",
                     "description": {
                         "zh-CN": "这是那什么呀！bad end（坏结局）和true end（真结局）的分歧点呀！",
-                        "ja-JP": "これあれだ！バッドエンドとトゥルーエンドがあるバターンだ！"
+                        "ja-JP": "これあれだ！バッドエンドとトゥルーエンドがあるバターンだ！",
+                        "en-US": "That's! That's the "
                     }
                   },
                   {
