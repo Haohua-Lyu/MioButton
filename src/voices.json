@@ -1003,7 +1003,8 @@
                     "path": "mio-186.mp3",
                     "description": {
                         "zh-CN": "啊呜呜呜~等下呀，啊-不要啊！拜托了别咬那儿啊—",
-                        "ja-JP": "うう～ちょっと待って、あーーやめて！そこ噛じらないてくださいお願いしますー"
+                        "ja-JP": "うう～ちょっと待って、あーーやめて！そこ噛じらないてくださいお願いしますー",
+                        "en-US": "Ahhhh Wait stoooop! Please, don't bite there!!"
                     }
                   },
                   {
@@ -1011,7 +1012,8 @@
                     "path": "mio-196.mp3",
                     "description": {
                         "zh-CN": "但是，总觉得也没有什么需要特别调查的地方，总之拿到护身符了",
-                        "ja-JP": "なんが、でも、特にお調べられる所もなさそう、取り合い御守はゲットしたけど"
+                        "ja-JP": "なんが、でも、特にお調べられる所もなさそう、取り合い御守はゲットしたけど",
+                        "en-US": "But...seems like there's nothing special to investigate. Anyway, we already got the amulet."
                     }
                   },
                   {
@@ -1019,7 +1021,8 @@
                     "path": "mio-204.mp3",
                     "description": {
                         "zh-CN": "刚才，刚才，刚才，啊！刚才！好像、咱听到那边的门自己开起来的声音了！！",
-                        "ja-JP": "今、今、今、あ！今！なんが、音が聞こえてあそこの扉が自動で切りしまった！"
+                        "ja-JP": "今、今、今、あ！今！なんが、音が聞こえてあそこの扉が自動で切りしまった！",
+                        "en-US": "Just now... Just now! I think I heard the door moving by its own!"
                     } 
                 }
               ]
@@ -1037,7 +1040,8 @@
                     "path": "mio-164.mp3",
                     "description": {
                         "zh-CN": "哈啊找到了！啊等下不见了！？等等！？",
-                        "ja-JP": "はあいた！あ待っていないのにもちょっと待って！？"
+                        "ja-JP": "はあいた！あ待っていないのにもちょっと待って！？",
+                        "en-US": "Found it! AH wait it's gone! Wait what!?"
                     }
                 },
                 {
@@ -1045,7 +1049,8 @@
                     "path": "mio-161.mp3",
                     "description": {
                         "zh-CN": "好像俊子（咬舌头）转-镜子转-啊！什么东西！？等下！！！",
-                        "ja-JP": "なんがかきふーかがみふーえ、なに！？ちょっと待って！！！"
+                        "ja-JP": "なんがかきふーかがみふーえ、なに！？ちょっと待って！！！",
+                        "en-US": "Seems like the mirrar--the mirror is rotating... What's that!? Wait no!!!"
                     }
                 },
                 {
@@ -1053,7 +1058,8 @@
                     "path": "mio-166.mp3",
                     "description": {
                         "zh-CN": "哈啊哈啊、昴酱！好像有什么不吓人的-不吓人的东西！好像！好像（在那）！",
-                        "ja-JP": "はぁはぁ、スバちゃん！なんが怖くないー怖くないやつなんが！なんが！"
+                        "ja-JP": "はぁはぁ、スバちゃん！なんが怖くないー怖くないやつなんが！なんが！",
+                        "en-US": "Haahaa...Suba-chan! Seems like something not scary...something not scary is over there!"
                     }
                 },
                 {
@@ -1061,7 +1067,8 @@
                     "path": "mio-160.mp3",
                     "description": {
                         "zh-CN": "真是的讨厌!呜呜呜...",
-                        "ja-JP": "もおお嫌だよ！ううう..."
+                        "ja-JP": "もおお嫌だよ！ううう...",
+                        "en-US": "Moooo no! *Crying*"
                     }
                 },
                 {
@@ -1069,7 +1076,8 @@
                     "path": "mio-162.mp3",
                     "description": {
                         "zh-CN": "啊啊...呜呜呜...真是讨厌...",
-                        "ja-JP": "ああー！うう...もぉ嫌だよ..."
+                        "ja-JP": "ああー！うう...もぉ嫌だよ...",
+                        "en-US": "Ahhhh...No...Moooo I hate this..."
                     }
                 },
                 {
@@ -1077,7 +1085,8 @@
                     "path": "mio-157.mp3",
                     "description": {
                         "zh-CN": "讨厌、讨厌!不要啊！讨厌别再来了哟...",
-                        "ja-JP": "嫌だ、嫌だ！やめて！嫌だやめてよ..."
+                        "ja-JP": "嫌だ、嫌だ！やめて！嫌だやめてよ...",
+                        "en-US": "No, no! I hate this! Don't do this again..."
                     }
                 },
                 {
@@ -1085,7 +1094,8 @@
                     "path": "mio-163.mp3",
                     "description": {
                         "zh-CN": "啊啊啊啊啊哈啊！",
-                        "ja-JP": "ああああはあーー"
+                        "ja-JP": "ああああはあーー",
+                        "en-US": "AHHHHHAHHH----"
                     }
                 },
                 {
@@ -1093,7 +1103,8 @@
                     "path": "mio-159.mp3",
                     "description": {
                         "zh-CN": "啊啊啊啊啊啊！！！！",
-                        "ja-JP": "あああああああ！！！！"
+                        "ja-JP": "あああああああ！！！！",
+                        "en-US": "AHHHHHHHHHHHH!!!!"
                     }
                 },
                 {
@@ -1101,7 +1112,8 @@
                     "path": "mio-178.mp3",
                     "description": {
                         "zh-CN": "变、变得模糊不清了！",
-                        "ja-JP": "が、がびがびしているけど"
+                        "ja-JP": "が、がびがびしているけど",
+                        "en-US": "It...it became blurred!"
                     }
                 },
                 {
@@ -1109,7 +1121,8 @@
                     "path": "mio-169.mp3",
                     "description": {
                         "zh-CN": "唔啊啊啊啊！什么东西！？",
-                        "ja-JP": "うあああああ！なに！？"
+                        "ja-JP": "うあああああ！なに！？",
+                        "en-US": "UAHHHHHHH! What's that!?"
                     }
                 },
                 {
@@ -1117,7 +1130,8 @@
                     "path": "mio-177.mp3",
                     "description": {
                         "zh-CN": "告白！？",
-                        "ja-JP": "告白！？"
+                        "ja-JP": "告白！？",
+                        "en-US": "Confess of love!?"
                     }
                 },
                 {
@@ -1125,7 +1139,8 @@
                     "path": "mio-151.mp3",
                     "description": {
                         "zh-CN": "（这里也）开不起来所以是减分项！",
-                        "ja-JP": "（ここも）開かないのでマイナスポイントです！"
+                        "ja-JP": "（ここも）開かないのでマイナスポイントです！",
+                        "en-US": "Can't open it, so this is minus point!"
                     }
                 },
                 {
@@ -1133,7 +1148,8 @@
                     "path": "mio-155.mp3",
                     "description": {
                         "zh-CN": "鼠、鼠标不灵了",
-                        "ja-JP": "マ、マウスか利かない"
+                        "ja-JP": "マ、マウスか利かない",
+                        "en-US": "M..mouse is not working"
                     }
                 },
                 {
@@ -1141,7 +1157,8 @@
                     "path": "mio-158.mp3",
                     "description": {
                         "zh-CN": "呜呜呜...",
-                        "ja-JP": "ううううう..."
+                        "ja-JP": "ううううう...",
+                        "en-US": "*Crying*"
                     }
                 },
                 {
@@ -1149,7 +1166,8 @@
                     "path": "mio-176.mp3",
                     "description": {
                         "zh-CN": "meli-meli...啊啊啊啊啊啊！",
-                        "ja-JP": "メリ、メリ...あああああああああ！"
+                        "ja-JP": "メリ、メリ...あああああああああ！",
+                        "en-US": "Merry, merry...AHHHHHHHHHHHHHH!"
                     }
                 },
                 {
@@ -1157,7 +1175,8 @@
                     "path": "mio-174.mp3",
                     "description": {
                         "zh-CN": "啊啊啊啊有人在里面！",
-                        "ja-JP": "あああだれかいる！"
+                        "ja-JP": "あああだれかいる！",
+                        "en-US": "AHHHHH Someone's inside!"
                     }
                 },
                 {
@@ -1165,7 +1184,8 @@
                     "path": "mio-179.mp3",
                     "description": {
                         "zh-CN": "囚犯吗！？",
-                        "ja-JP": "囚人だったの！？"
+                        "ja-JP": "囚人だったの！？",
+                        "en-US": "Prisoner!?"
                     }
                 },
                 {
@@ -1173,7 +1193,8 @@
                     "path": "mio-165.mp3",
                     "description": {
                         "zh-CN": "我回来了...",
-                        "ja-JP": "ただいま..."
+                        "ja-JP": "ただいま...",
+                        "en-US": "I'm home..."
                     }
                 },
                 {
@@ -1181,7 +1202,8 @@
                     "path": "mio-152.mp3",
                     "description": {
                         "zh-CN": "那是小强吧！？",
-                        "ja-JP": "ゴキブリませんか！？"
+                        "ja-JP": "ゴキブリませんか！？",
+                        "en-US": "That's a roach isn't it?"
                     }
                 },
                 {
@@ -1189,7 +1211,8 @@
                     "path": "mio-153.mp3",
                     "description": {
                         "zh-CN": "这个能用来通刚才那个洞吧？",
-                        "ja-JP": "これで先のやつ通るんじゃない？"
+                        "ja-JP": "これで先のやつ通るんじゃない？",
+                        "en-US": "This could be used to make through that hole, right?"
                     }
                 },
               {
@@ -1197,7 +1220,8 @@
                   "path": "mio-154.mp3",
                   "description": {
                       "zh-CN": "你看吧-！",
-                      "ja-JP": "ほらーー！"
+                      "ja-JP": "ほらーー！",
+                      "en-US": "See?"
                   }
               }
             ]
@@ -1206,7 +1230,8 @@
             "categoryName": "wolffox",
             "categoryDescription": {
               "zh-CN": "▌拼字游戏",
-              "ja-JP": "▌もじぴったん"
+              "ja-JP": "▌もじぴったん",
+              "en-US": "▌Word puzzle (Mojipittan)"
             },
             "voiceList": [
                 {
